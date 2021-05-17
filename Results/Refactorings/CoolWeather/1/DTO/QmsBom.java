@@ -1,0 +1,146 @@
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+import javax.persistence;
+import javax.validation.constraints;
+import java.io.Serializable;
+import java.time.ZonedDateTime;
+import java.util.Objects;
+public class QmsBom implements Serializable{
+
+ private  long serialVersionUID;
+
+ private  Long id;
+
+ private  Integer vehicleId;
+
+ private  Integer materielId;
+
+ private  Integer parentMaterielID;
+
+ private  Integer rootMaterielId;
+
+ private  Integer sequence;
+
+ private  Integer quantity;
+
+ private  String isMust;
+
+ private  String supplyType;
+
+ private  String flagStatus;
+
+ private  String compPkid;
+
+ private  String remark;
+
+ private  String reserveFirst;
+
+ private  String reserveSecond;
+
+ private  String reserveThird;
+
+ private  String makeUser;
+
+ private  ZonedDateTime makeTime;
+
+ private  String modifyUser;
+
+ private  ZonedDateTime modifyTime;
+
+
+public String getMakeUser(){
+    return makeUser;
+}
+
+
+public ZonedDateTime getMakeTime(){
+    return makeTime;
+}
+
+
+public String getRemark(){
+    return remark;
+}
+
+
+public Integer getVehicleId(){
+    return vehicleId;
+}
+
+
+public Integer getRootMaterielId(){
+    return rootMaterielId;
+}
+
+
+public Integer getParentMaterielID(){
+    return parentMaterielID;
+}
+
+
+public Integer getQuantity(){
+    return quantity;
+}
+
+
+public Integer getMaterielId(){
+    return materielId;
+}
+
+
+public Long getId(){
+    return id;
+}
+
+
+public String getReserveThird(){
+    return reserveThird;
+}
+
+
+public String getReserveFirst(){
+    return reserveFirst;
+}
+
+
+public String getSupplyType(){
+    return supplyType;
+}
+
+
+public String getReserveSecond(){
+    return reserveSecond;
+}
+
+
+public ZonedDateTime getModifyTime(){
+    return modifyTime;
+}
+
+
+public String getCompPkid(){
+    return compPkid;
+}
+
+
+public String getModifyUser(){
+    return modifyUser;
+}
+
+
+public String getIsMust(){
+    return isMust;
+}
+
+
+public Integer getSequence(){
+    return sequence;
+}
+
+
+public String getFlagStatus(){
+    return flagStatus;
+}
+
+
+}
