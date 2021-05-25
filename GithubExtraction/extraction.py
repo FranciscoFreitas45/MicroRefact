@@ -7,12 +7,12 @@ import subprocess
 from bs4 import BeautifulSoup
 
 # TODO: REVOKE TOKEN BEFORE GOING PUBLIC
-ACCESS_TOKEN = "e7efd34a919adcb98d680a47677d4968b5953a2b"
+ACCESS_TOKEN = "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"
 
 def find_repositories_containing_keyword(keyword, language='java'):
         # 35 is the max number of pages for the limit of 1000 results for a search established by GitHub
-        for i in range(1, 10):
-            url = f"https://api.github.com/search/code?q={keyword}+language:{language}&access_token={ACCESS_TOKEN}&page={i}"
+        for i in range(1, 35):
+            url = f"https://api.github.com/search/code?q={keyword}+language:{language}-&access_token={ACCESS_TOKEN}&page={i}"
             req = requests.get(url)
             print(f"Requesting {url}")
             if req.ok:
@@ -21,8 +21,8 @@ def find_repositories_containing_keyword(keyword, language='java'):
                 if len(data['items']) == 0:
                     break
                 yield req.json()
-            else:
-                break
+            #else:
+            #    break
 
 
 def get_repos(file_path):

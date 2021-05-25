@@ -45,8 +45,8 @@ class Cluster:
     def write_classes(self,puml):
         for classe in self.classes.values():
             classe.create(self.pathToDirectory)
-            puml.write("Class %s {\n}\n"%(".".join(self.pathToDirectory.split("/")) + "."+ classe.getFull_Name())) 
+            puml.write("Class %s {\n}\n"%(self.pathToDirectory.split("/")[-1] + "." +classe.getFull_Name().split(".")[-1])) 
         for classe in self.newClasses:
-            puml.write("Class %s {\n}\n"%(".".join(self.pathToDirectory.split("/")) + "." +classe.getFull_Name()))
+            puml.write("Class %s {\n}\n"%(self.pathToDirectory.split("/")[-1] + "."+ "/".join(classe.getFull_Name().split("."))))
             classe.create(self.pathToDirectory) 
             

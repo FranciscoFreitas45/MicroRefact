@@ -371,9 +371,10 @@ def read_json_clusters(path_to_clusters, pathOfProject):
 
 
 
-def extract_Info_AST(path_to_ast):
-    
-        with open(path_to_ast) as json_file: # ler a AST
+def extract_Info_AST():
+
+        temp_json_location = f'{Settings.DIRECTORY}/javaParser/output.json' 
+        with open(temp_json_location) as json_file: # ler a AST
             ast = json.load(json_file) # load da AST
 
             merge_of_clusters = [] # guardar a info dos merges do clusters  Array com um tuplo (cluster1 , cluster2)
@@ -692,8 +693,8 @@ def find_dependencies(ast):
 def main():
     
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ast", "-a",
-                        help="File with AST of project",required=True)
+    #parser.add_argument("--ast", "-a",
+    #                    help="File with AST of project",required=True)
     parser.add_argument("--instanceVariable", "-iv",
                         help="File with clusters")
     parser.add_argument("--clusters", "-c",
@@ -705,26 +706,30 @@ def main():
     if args.projectPath:
         Settings.PROJECT_PATH = args.projectPath
 
+    
+
+    print(args.projectPath)
+    Utils.execute_parser(args.projectPath)
+        
 
     clustersInfo = read_json_clusters(args.clusters,args.projectPath)
 
-    
 
-    
-    ast=extract_Info_AST(args.ast)
+        
+    ast=extract_Info_AST()
     find_implements(ast)
     find_dependencies(ast)
-
+    
+    
     Database.find_logic_schema(ast,Clusters)
-
     find_Instance_Variable_Dependency(ast)
 
     find_methods_var_dependency()
 
-    f = open("../Py2puml/py2puml/domain.puml", "w")
+    f = open("domain" + Settings.PROJECT_NAME+".puml", "w")
     f.write("@startuml\n")
     for x in Clusters:
-        f.write("package %s <<Folder>> {\n"%(x.getPathToDirectory()))
+        f.write("package %s <<Folder>> {\n"%(x.getPathToDirectory().split("/")[-1]))
         #print(x.printInformation())
         x.write_classes(f)
         f.write("}\n")
@@ -738,9 +743,11 @@ def main():
     #Utils.copyFile("/home/fracisco/Desktop/Dissertação/Dissertacao/GithubExtraction/ProjetosParaAnalisar/asledziewski__restaurantServer/src/main/java
     #/pl/edu/wat/wcy/pz/restaurantServer/controller/UserController.java", "Teste/UserController.java")
     
-    print(len(Clusters))
+    #print(len(Clusters))
     f.write("@enduml\n")
     f.close()
+    
+    
 main()           
 
 # TODO VERIFICAR DEPENDENCIAS DE HERANÇA PARA AGRUPAR ms 

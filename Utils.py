@@ -1,5 +1,6 @@
 from shutil import copyfile
 import os
+import subprocess
 
 #path = os.path.join(parent_dir, directory)
 from Settings import Settings
@@ -33,3 +34,15 @@ def find_Cluster_with_Name_Class(class_name,Clusters):
             return i
 
     return c
+
+
+def execute_parser(project_path):
+    symbol_solver_path = f"{Settings.DIRECTORY}/javaParser/target/"
+
+    command = f"java -cp symbolsolver-1.0.jar Main {Settings.PROJECT_PATH}"
+
+    print(command)
+    print(f"Invoking parsing: {command}")
+    subprocess.call(command, cwd=symbol_solver_path, shell=True)
+
+

@@ -245,13 +245,6 @@ class Class:
 
     def myInformation(self):
         print(self.full_name)
-        if len(self.methods_to_add_db) > 0:
-            print("metodos to add " + str(self.methods_to_add_db))
-        if len(self.methods_to_remove_db) > 0:
-            print("metodos to remove " + str(self.methods_to_remove_db))    
-        if len(self.methods_to_change_db) > 0:
-            print("metodos to change " + str(self.methods_to_change_db))
-        
         
         print("My full name is: " + self.full_name)
         print("My short name is: " + self.short_name)
