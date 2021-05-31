@@ -1,13 +1,9 @@
-
-import networkx as nx
 from random import randint
 from random import random
-import matplotlib.pyplot as plt
 import argparse
 import re
 import os
 import copy
-import plotly.graph_objects as go
 from shutil import copyfile
 import shutil
 
@@ -695,8 +691,6 @@ def main():
     parser = argparse.ArgumentParser()
     #parser.add_argument("--ast", "-a",
     #                    help="File with AST of project",required=True)
-    parser.add_argument("--instanceVariable", "-iv",
-                        help="File with clusters")
     parser.add_argument("--clusters", "-c",
                         help="File with clusters",required=True) 
     parser.add_argument("--projectPath","-pp",

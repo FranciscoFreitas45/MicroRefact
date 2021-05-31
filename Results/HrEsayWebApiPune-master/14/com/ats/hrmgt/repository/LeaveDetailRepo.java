@@ -1,0 +1,33 @@
+import com.ats.hrmgt.model.LeaveDetail;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import java.util.List;
+public interface LeaveDetailRepo extends JpaRepository<LeaveDetail, Integer> {
+
+
+@Query(value = " SELECT\n" + "l.*,\n" + "e.emp_fname,\n" + "e.emp_mname," + "e.emp_code," + "e.emp_sname,\n" + "e.emp_photo,\n" + "d.emp_dept_name,\n" + "lt.lv_title ,COALESCE((\n" + "        select\n" + "            concat(e.emp_fname,\n" + "            \" \",\n" + "            e.emp_mname,\n" + "            \" \",\n" + "            e.emp_sname) as user_name \n" + "        from\n" + "            emp_info as e,\n" + "            m_user u \n" + "        where\n" + "            u.user_id=l.maker_user_id \n" + "            and e.emp_id=u.emp_id),null) as user_name\n" + "FROM\n" + "leave_apply AS l,\n" + "emp_info AS e,\n" + "m_emp_department d,\n" + "leave_type AS lt  \n" + "WHERE \n" + "l.emp_id =:empId AND  l.emp_id =e.emp_id AND l.del_status=1 AND d.emp_dept_id = e.emp_dept_id AND lt.lv_type_id = l.lv_type_id ORDER BY l.leave_id DESC ", nativeQuery = true)
+public List<LeaveDetail> getLeaveListByEmp(int empId)
+
+
+@Query(value = "SELECT\n" + "        l.*,\n" + "        e.first_name as emp_fname,\n" + "        e.middle_name as emp_mname,\n" + "        e.surname as emp_sname,\n" + "        e.emp_code, \n" + "        i.ex_var1 as emp_photo,\n" + "        ' 'as emp_dept_name,\n" + "        lt.lv_title ,\n" + "        COALESCE(         (         SELECT\n" + "            DISTINCT             CONCAT(                 e.first_name,\n" + "            \" \",\n" + "            e.middle_name,\n" + "            \" \",\n" + "            e.surname             ) AS user_name                           \n" + "        FROM\n" + "            m_employees AS e,\n" + "            m_user u,\n" + "            leave_apply l                           \n" + "        WHERE\n" + "            u.user_id = l.maker_user_id                           \n" + "            AND e.emp_id = u.emp_id   AND e.emp_id =:empId  ),\n" + "        NULL     ) AS user_name \n" + "    FROM\n" + "        leave_apply AS l,\n" + "        m_employees AS e, \n" + "        leave_type AS lt,tbl_emp_info i \n" + "    WHERE\n" + "        l.emp_id =:empId \n" + "        AND l.ex_int1 IN(:status) \n" + "        AND l.emp_id = e.emp_id \n" + "        AND l.del_status = 1  \n" + "        AND lt.lv_type_id = l.lv_type_id \n" + "        and l.cal_yr_id=:curYrId and i.emp_id=e.emp_id\n" + "    order by\n" + "        leave_id desc", nativeQuery = true)
+public List<LeaveDetail> getLeaveStatus1(int empId,List<Integer> status,int curYrId)
+
+
+@Query(value = " SELECT\n" + "l.*,\n" + "e.emp_fname,\n" + "e.emp_mname,\n" + "e.emp_sname,e.emp_code,\n" + "e.emp_photo,\n" + "d.emp_dept_name,\n" + "lt.lv_title ,COALESCE((\n" + "        select\n" + "            concat(e.emp_fname,\n" + "            \" \",\n" + "            e.emp_mname,\n" + "            \" \",\n" + "            e.emp_sname) as user_name \n" + "        from\n" + "            emp_info as e,\n" + "            m_user u \n" + "        where\n" + "            u.user_id=l.maker_user_id \n" + "            and e.emp_id=u.emp_id),null) as user_name \n" + "FROM\n" + "leave_apply AS l,\n" + "emp_info AS e,\n" + "m_emp_department d,\n" + "leave_type AS lt  \n" + "WHERE \n" + "l.emp_id =:empId AND l.emp_id = e.emp_id AND l.del_status = 1 AND d.emp_dept_id = e.emp_dept_id AND lt.lv_type_id = l.lv_type_id and l.maker_user_id = u.user_id", nativeQuery = true)
+public List<LeaveDetail> getLeaveStatusByEmpId(int empId)
+
+
+@Query(value = " SELECT l.*,e.emp_fname,e.emp_mname,e.emp_sname,e.emp_code, e.emp_photo,d.emp_dept_name,lt.lv_title,COALESCE((\n" + "        select\n" + "            concat(e.emp_fname,\n" + "            \" \",\n" + "            e.emp_mname,\n" + "            \" \",\n" + "            e.emp_sname) as user_name \n" + "        from\n" + "            emp_info as e,\n" + "            m_user u \n" + "        where\n" + "            u.user_id=l.maker_user_id \n" + "            and e.emp_id=u.emp_id),null) as user_name FROM leave_apply as l, emp_info as e ,m_emp_department d,leave_type lt \n" + "  WHERE  l.del_status=1 and l.ex_int1=1 and l.emp_id=e.emp_id and d.emp_dept_id=e.emp_dept_id and lt.lv_type_id=l.lv_type_id  \n" + "  and l.emp_id IN(SELECT emp_id FROM `leave_authority` WHERE ini_auth_emp_id=:empId OR fin_auth_emp_id=:empId) and  l.maker_user_id = u.user_id", nativeQuery = true)
+public List<LeaveDetail> getLeaveDetailByEmpId(int empId)
+
+
+@Query(value = " SELECT\n" + "l.*,\n" + "e.emp_fname,\n" + "e.emp_mname," + "e.emp_code," + "e.emp_sname,\n" + "e.emp_photo,\n" + "d.emp_dept_name,\n" + "lt.lv_title ,COALESCE((\n" + "        select\n" + "            concat(e.emp_fname,\n" + "            \" \",\n" + "            e.emp_mname,\n" + "            \" \",\n" + "            e.emp_sname) as user_name \n" + "        from\n" + "            emp_info as e,\n" + "            m_user u \n" + "        where\n" + "            u.user_id=l.maker_user_id \n" + "            and e.emp_id=u.emp_id),null) as user_name\n" + "FROM\n" + "leave_apply AS l,\n" + "emp_info AS e,\n" + "m_emp_department d,\n" + "leave_type AS lt  \n" + "WHERE \n" + "l.emp_id =:empId AND  l.emp_id = e.emp_id AND l.del_status=:i and l.cal_yr_id=:calYrId  AND d.emp_dept_id = e.emp_dept_id AND lt.lv_type_id = l.lv_type_id ", nativeQuery = true)
+public List<LeaveDetail> getLeaveListByLocIdAndEmp(int empId,int calYrId,int i)
+
+
+@Query(value = " SELECT\n" + "l.*,\n" + "e.emp_fname,\n" + "e.emp_mname," + "e.emp_code," + "e.emp_sname,\n" + "e.emp_photo,\n" + "d.emp_dept_name,\n" + "lt.lv_title ,COALESCE((\n" + "        select\n" + "            concat(e.emp_fname,\n" + "            \" \",\n" + "            e.emp_mname,\n" + "            \" \",\n" + "            e.emp_sname) as user_name \n" + "        from\n" + "            emp_info as e,\n" + "            m_user u \n" + "        where\n" + "            u.user_id=l.maker_user_id \n" + "            and e.emp_id=u.emp_id),null) as user_name\n" + "FROM\n" + "leave_apply AS l,\n" + "emp_info AS e,\n" + "m_emp_department d,\n" + "leave_type AS lt \n" + "WHERE \n" + "l.emp_id =:empId AND l.ex_int1 IN (:statusList) AND l.emp_id = e.emp_id AND l.del_status=1 and l.cal_yr_id=:currYrId  AND d.emp_dept_id = e.emp_dept_id AND lt.lv_type_id = l.lv_type_id and  l.maker_user_id = u.user_id", nativeQuery = true)
+public LeaveDetail getLeaveStatus(int empId,List<Integer> statusList,int currYrId)
+
+
+}
