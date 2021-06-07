@@ -1,0 +1,180 @@
+@startuml
+package 0 <<Folder>> {
+Class 0.WebSecurityConfiguration {
+}
+Class 0.JwtAuthEntryPoint {
+}
+Class 0.JwtAuthTokenFilter {
+}
+Class 0.JwtProvider {
+}
+Class 0.Interface/UserDetailsServiceImplImpl {
+}
+Class 0.Interface/UserDetailsServiceImplImpl {
+}
+Class 0.NEWInstance/JwtProviderController {
+}
+Class 0./DTO/UserPrinciple {
+}
+}
+package 1 <<Folder>> {
+Class 1.UserDetailsServiceImpl {
+}
+Class 1.UserPrinciple {
+}
+Class 1.UserService {
+}
+Class 1.UserController {
+}
+Class 1.NEWInstance/UserDetailsServiceImplController {
+}
+Class 1.NEWInstance/UserDetailsServiceImplController {
+}
+Class 1./DTO/User {
+}
+Class 1.Interface/UserRepositoryImpl {
+}
+Class 1.Interface/UserRepositoryImpl {
+}
+Class 1.Interface/MailServiceImpl {
+}
+Class 1.NEWInstance/UserServiceController {
+}
+}
+package 2 <<Folder>> {
+Class 2.Bill {
+}
+Class 2.BillPosition {
+}
+Class 2.BillService {
+}
+Class 2.BillController {
+}
+Class 2.BillPositionService {
+}
+Class 2.BillPositionController {
+}
+Class 2.BillPositionRepository {
+}
+Class 2.BillRepository {
+}
+Class 2./DTO/Dish {
+}
+Class 2.Request/Impl/DishRequestImpl {
+}
+Class 2.Interface/RTableRepositoryImpl {
+}
+Class 2.Interface/RTableRepositoryImpl {
+}
+Class 2.Interface/DishServiceImpl {
+}
+Class 2./DTO/RTable {
+}
+}
+package 3 <<Folder>> {
+Class 3.RTableService {
+}
+Class 3.RTable {
+}
+Class 3.RTableController {
+}
+Class 3.RTableRepository {
+}
+Class 3./DTO/Reservation {
+}
+Class 3.Request/Impl/ReservationRequestImpl {
+}
+Class 3./DTO/Bill {
+}
+Class 3.Request/Impl/BillRequestImpl {
+}
+Class 3.NEWInstance/RTableRepositoryController {
+}
+Class 3.NEWInstance/RTableRepositoryController {
+}
+Class 3.NEWInstance/RTableServiceController {
+}
+}
+package 4 <<Folder>> {
+Class 4.Dish {
+}
+Class 4.RestaurantServerApplication {
+}
+Class 4.DishRepository {
+}
+Class 4.DishService {
+}
+Class 4.DishController {
+}
+Class 4.NEWInstance/DishServiceController {
+}
+}
+package 5 <<Folder>> {
+Class 5.ReservationRepository {
+}
+Class 5.Reservation {
+}
+Class 5.ReservationService {
+}
+Class 5.ReservationController {
+}
+Class 5./DTO/User {
+}
+Class 5.Interface/UserServiceImpl {
+}
+Class 5.Interface/MailServiceImpl {
+}
+Class 5./DTO/RTable {
+}
+Class 5.Interface/RTableServiceImpl {
+}
+}
+package 6 <<Folder>> {
+Class 6.JwtResponse {
+}
+Class 6.MailService {
+}
+Class 6.AuthController {
+}
+Class 6.LoginForm {
+}
+Class 6.SignUpForm {
+}
+Class 6.NEWInstance/MailServiceController {
+}
+Class 6.NEWInstance/MailServiceController {
+}
+Class 6./DTO/User {
+}
+Class 6.Interface/UserRepositoryImpl {
+}
+Class 6./DTO/Role {
+}
+Class 6.Interface/RoleRepositoryImpl {
+}
+Class 6.Interface/JwtProviderImpl {
+}
+}
+package ERoleUser <<Folder>> {
+Class ERoleUser.RoleRepository {
+}
+Class ERoleUser.UserRepository {
+}
+Class ERoleUser.User {
+}
+Class ERoleUser.Role {
+}
+Class ERoleUser./DTO/Reservation {
+}
+Class ERoleUser.Request/Impl/ReservationRequestImpl {
+}
+Class ERoleUser.NEWInstance/UserRepositoryController {
+}
+Class ERoleUser.NEWInstance/UserRepositoryController {
+}
+Class ERoleUser.NEWInstance/UserRepositoryController {
+}
+Class ERoleUser.NEWInstance/RoleRepositoryController {
+}
+}
+@enduml

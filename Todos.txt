@@ -1,0 +1,40 @@
+hierarquia ao nivel dos micro-serviços
+drag classes ?
+classes main
+pom xml
+testes
+
+
+bugs a resolver
+classes DTO ----> Indicação do package que pertencem
+            ----> remover as variaveis de instancia que fazem as chamadas remotas porque sao herdadas na classes original e no dto nao  ----> done
+
+
+fazem sentido
+            ----> acrescentar o localhost no url
+            ----> retirar dos metodos GET a referencia a clasess IMPL --> done
+            ---> criar os metodos com outro nome que fazem remote calls( conflito na desseriaçização)
+            --->  retirar virgula no fim do UriComponentsBuilder --> done
+
+
+classes do package Interface ---> colocar autowired no restTemplate --> done
+                             ---> indicação do package
+                             ---> import org.springframework.beans.factory.annotation.Autowired; --> done
+
+
+classes do packge NEW  --> indicação do package
+                        --> returns --> done
+                    
+
+classes do packge newInstance --> falta uma classe para responder a pedidos
+
+
+classes orginais  --> package
+                  --> entity --> instanciar as classes Request  --> done
+
+classe do package request --> package 
+                            --> autowired --> done
+
+
+maven 
+application properties e pom.xml                            
