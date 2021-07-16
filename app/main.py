@@ -73,8 +73,8 @@ def checkReturnType(ast,method,dependencieClass):
     
     for classe in cluster:
         if returnType == classe.split(".")[-1]:
-            #print("type of another cluster and the Type is " + returnType )
-            #print ("ANNOTATIONS OF CLASS : " +  str(ast[classe]["annotations"]))
+            ##print("type of another cluster and the Type is " + returnType )
+            ##print ("ANNOTATIONS OF CLASS : " +  str(ast[classe]["annotations"]))
             annotations = ast[classe]["annotations"]
             if "Entity" in annotations:
                    for instance_variable in ast[classe]["instance_variables"]:
@@ -105,7 +105,7 @@ def find_Instance_Variable_Dependency(ast):
     
     for cluster in Clusters:
         for i,classe in cluster.getClasses().items(): # iterar sobre as classes para encontrar as variaveis de instancia 
-            print(classe.getFull_Name())
+            #print(classe.getFull_Name())
             if "@Entity" in classe.getAnnotations():
                 continue
             instanceVariable = classe.getInstance_variable() # get das variaveis de instancia da classes
@@ -113,7 +113,8 @@ def find_Instance_Variable_Dependency(ast):
             for variable in instanceVariable: # iterar sobre as variaveis de instancia 
                 typeAux =  variable["type"] # get do tipo da variavel de instancia 
                 for dependencie in classe.getDependencies(): # iterar sobre as classes que a classe em questao depende
-                    if(re.search(typeAux+'$',dependencie)): # verificar se o tipo da variavel de instancia é do tipo de uma classe de que depende
+                    #print(typeAux)
+                    if(re.search(re.escape(typeAux)+'$',dependencie)): # verificar se o tipo da variavel de instancia é do tipo de uma classe de que depende
                     
                         methodsInvocations=findMethodsInvocationsToInterface(classe,dependencie) # procura o nome dos metodos invocados da variavel                   if(len(methodsInvocations)>0):
                         methods = []
@@ -125,28 +126,45 @@ def find_Instance_Variable_Dependency(ast):
                                
                                 methods.append(classDependent["myMethods"][met]) # adiciono ao array dos metodos declarados na interface
                                 if len(classDependent["myMethods"][met]["identifier"]) == 2:
-                                    print(classDependent["myMethods"][met]["identifier"])
+                                    #print(classDependent["myMethods"][met]["identifier"])
                                     for dependency in classe.getDependencies(): # iterar sobre as classes que a classe em questao depende
                                         try:
                                             if(re.search(classDependent["myMethods"][met]["identifier"][1]+'$',dependency)):
-                                                print("********* %s ********"%(classDependent["myMethods"][met]["identifier"][1]) )
+                                                #print("********* %s ********"%(classDependent["myMethods"][met]["identifier"][1]) )
                                                 index = Utils.find_Cluster_with_Name_Class(dependency,Clusters)
-                                                print(index)
+                                                #print(index)
                                                 classDepend = copy.deepcopy(Clusters[index].getClasses()[dependency])
                                                 name_depend = "DTO." + classDepend.getFull_Name().split(".")[-1]
                                                 if  name_depend  not in  [x.getFull_Name() for x in cluster.getNewClasses()]:
                                                     classDepend.setFull_Name(name_depend)
                                                     classDepend.setShort_Name(classDepend.getShort_Name())
                                                     classDepend.setInstance_variables(ast[dependency]["instance_variables"])
-                                                    print("--"+classDepend.getInstance_variable())
+                                                    #print("--"+classDepend.getInstance_variable())
                                                     #apagar anotaçoes da classe
                                                     classDepend.setAnnotation([])
                                                     # apagar anotaçoes das variaveis
                                                     for instance_variable in list(classDepend.getInstance_variable()):
                                                         if "add" in  instance_variable:
-                                                            print("true3")
+                                                            #print("true3")
                                                             classDepend.getInstance_variable().remove(instance_variable)                                                         
-    
+                                                        #print("INSTANCE VARIABLE " + str(instance_variable["identifier"]))
+                                                        if len(instance_variable["identifier"]) > 0:
+                                                            for dep in classDepend.getDependencies():
+                                                                if re.search("\."+ instance_variable["identifier"][1] +'$',dep):
+                                                                    #print("DTO need")
+                                                                    i = Utils.find_Cluster_with_Name_Class(dep, Clusters)
+                                                                    dragClasse = copy.deepcopy(Clusters[i].getClasses()[dep])
+                                                                    name_dependAux = "DTO." + dragClasse.getFull_Name().split(".")[-1]
+                                                                    dragClasse.setFull_Name(name_dependAux)
+                                                                    dragClasse.setShort_Name(dragClasse.getShort_Name())
+                                                                    dragClasse.setAnnotation([])
+
+                                                                    for instance_variableAux in list(dragClasse.getInstance_variable()):
+                                                                        if "add" in  instance_variable:
+                                                                            dragClasse.getInstance_variable().remove(instance_variable) 
+                                                                        instance_variableAux["annotations"] = []
+
+                                                                    classDepend.addClassDrag(dragClasse)
                                                         instance_variable["annotations"] = []                                                   
                                                     #apagar os metodos que nao sao gets
                                                     myMethods = list()
@@ -161,10 +179,10 @@ def find_Instance_Variable_Dependency(ast):
 
                                                         if  not re.search("^get",met_name) or met_returnType == "void":
                                                             classDepend.removeMyMethod(met)   
-                                                    print(name_depend)
+                                                    #print(name_depend)
                                                     cluster.addNewClasses(classDepend)
-                                                else:
-                                                    print("JA TEM")    
+                                                #else:
+                                                #    print("JA TEM")    
                                                 break
                                         except:
                                             print("UnsuportedCharacter")             
@@ -188,15 +206,29 @@ def find_Instance_Variable_Dependency(ast):
                         new_Interfaces.append(i1)
                         index = Utils.find_Cluster_with_Name_Class(dependencie,Clusters)
                         call = createCallInterface(i1,str(index))
-                        controller = ControllerClass.createClass_Controller(i1)
-                       
                         cluster.addNewClasses(call)
-
-                        index =Utils.find_Cluster_with_Name_Class(dependencie,Clusters)
-                        
-                        Clusters[index].addNewClasses(controller)
-                        
                         classe.addMyInterfaces(i1)
+                        exists =False
+                        for newClass in Clusters[index].getNewClasses():
+                            if re.search("NEWInstance."+Utils.lastWordOfString(dependencie)+ "Controller"+'$',newClass.getFull_Name()):
+                                exists= True
+                                #print("JÁ EXISTE")
+                                for meth in methods:
+                                    if meth["name"] not in [ x.getName() for x in newClass.getMyMethods()]:
+                                        #print("Não tem metodo")
+                                        #print(meth["name"])
+                                        m = Clusters[index].getClasses()[dependencie].findMyMethod(meth["name"])
+                                        ControllerClass.addMethod_to_Controller(newClass, meth)
+                                    #else:
+                                        #print("ja tem metodo")    
+
+
+
+                        if not exists:        
+                            controller = ControllerClass.createClass_Controller(i1)
+                            Clusters[index].addNewClasses(controller)
+                        
+                       
                         
                                                 
 
@@ -206,16 +238,22 @@ def find_methods_var_dependency(ast):
         for i,classe in cluster.getClasses().items():
             if "@Entity" in classe.getAnnotations():
                 continue
+            print("------" + classe.getFull_Name())
+            #print(type(classe.getMethods()))
+            #print(classe.getMethods())
             for i,met in classe.getMethods().items():
+                print("METHOD NAME" + met["name"])
                 for metInvocations in met["methodInvocations"]:
+                    print(metInvocations)
                     if metInvocations["targetClassName"] in classe.getDependencies():
                         lastWordClass = Utils.lastWordOfString(metInvocations["targetClassName"])
                         index = Utils.find_Cluster_with_Name_Class(metInvocations["targetClassName"],Clusters)
+                        print("INDEXXXXXX" + str(index))
                         classeDep = Clusters[index].getClasses()[metInvocations["targetClassName"]]  
                         instance_variables = [x["variable"] for x in classe.getInstance_variable()]
                         
                         if metInvocations["methodName"] in classeDep.getMethods() and metInvocations["scopeName"] not in instance_variables :
-                            print( str(index) + "    " + metInvocations["targetClassName"] + "   " + metInvocations["methodName"] )
+                            #print( str(index) + "    " + metInvocations["targetClassName"] + "   " + metInvocations["methodName"] )
                             
                           
                             needDTO = True
@@ -224,9 +262,10 @@ def find_methods_var_dependency(ast):
                                 if re.search("DTO."+lastWordClass+'$',newClAux.getFull_Name()):
                                     needDTO = False
                                     newCl = newClAux 
-                                    break            
+                                    break 
+                            m= None           
                             if(needDTO):
-                                print("need dto")
+                                #print("need dto")
                                 index = Utils.find_Cluster_with_Name_Class(metInvocations["targetClassName"],Clusters)
                                 classDepend = copy.deepcopy(Clusters[index].getClasses()[metInvocations["targetClassName"]])
                                 name_depend = "DTO." + classDepend.getFull_Name().split(".")[-1]
@@ -236,11 +275,33 @@ def find_methods_var_dependency(ast):
                                 classDepend.setAnnotation([])
                                 #classDepend.setInstance_variables(ast[metInvocations["targetClassName"]]["instance_variables"])
                                 # apagar anotaçoes das variaveis
+                                #print(classDepend.getDependencies())
                                 for instance_variable in  list(classDepend.getInstance_variable()):
-                                    #print(instance_variable)
+                                    ##print(instance_variable)
                                     if "add" in  instance_variable:
                                         classDepend.getInstance_variable().remove(instance_variable) 
-                                        print("true2")
+                                        #print("true2")
+                                        continue
+                                    
+                                    ##print("INSTANCE VARIABLE " + str(instance_variable["identifier"]))
+                                    if "identifier" in instance_variable and  len(instance_variable["identifier"]) > 0:
+                                        for dep in classDepend.getDependencies():
+                                            if re.search("\."+ instance_variable["identifier"][1] +'$',dep):
+                                                #print("DTO need")
+                                                i = Utils.find_Cluster_with_Name_Class(dep, Clusters)
+                                                dragClasse = copy.deepcopy(Clusters[i].getClasses()[dep])
+                                                name_dependAux = "DTO." + dragClasse.getFull_Name().split(".")[-1]
+                                                dragClasse.setFull_Name(name_dependAux)
+                                                dragClasse.setShort_Name(dragClasse.getShort_Name())
+                                                dragClasse.setAnnotation([])
+                                                
+                                                for instance_variableAux in list(dragClasse.getInstance_variable()):
+                                                    if "add" in  instance_variable:
+                                                        dragClasse.getInstance_variable().remove(instance_variable) 
+                                                    instance_variableAux["annotations"] = []
+
+                                                classDepend.addClassDrag(dragClasse)
+                                                            
                                     instance_variable["annotations"] = []    
                                     
 
@@ -250,7 +311,7 @@ def find_methods_var_dependency(ast):
                                         method = structural.create_MyMethod(meth)
                                         myMethods.append(method)
                                     classDepend.setMyMethods(myMethods)
-                                    print(classDepend.getFull_Name())
+                                    #print(classDepend.getFull_Name())
                                     for met in list(myMethods):
                                        
                                         met_name = met.getName()
@@ -274,7 +335,7 @@ def find_methods_var_dependency(ast):
                                         exist = False
                                         if m[0].getName() not in [ x.getName() for x in classes.getMyMethods()]:
                                             #adicionar so a função
-                                            print("NAO TEMMMMMMMMMM")
+                                            print("INDEX " + str(index))
                                             ControllerClass().createVARrequestController(classes,lastWordClass, m,metInvocations["targetClassName"],Clusters[index],False)  
                                 if exist:
                                     controller,repo = ControllerClass.createVARrequestController(lastWordClass, lastWordClass, m,metInvocations["targetClassName"],Clusters[index])
@@ -285,6 +346,8 @@ def find_methods_var_dependency(ast):
 
 
 def add_Method_To_Class(orgClasse,classe,metInvocations,index):
+ print(str(orgClasse.getFull_Name()))
+ print(classe.getFull_Name())   
  if metInvocations["methodName"]not in [x.getName() for x in classe.getMyMethods()]:
     if "RestTemplate"  not in [x["type"] for x in classe.getInstance_variable()]:
         instance_variable = {
@@ -301,13 +364,13 @@ def add_Method_To_Class(orgClasse,classe,metInvocations,index):
             }
         classe.addInstance_Variable(instance_variable)
         classe.addInstance_Variable(url)
-    print(metInvocations["methodName"])
+    #print(metInvocations["methodName"])
     mymethod = copy.deepcopy(orgClasse.findMyMethod(metInvocations["methodName"]))
-    print(mymethod.getBody())
+    #print(mymethod.getBody())
     pk = orgClasse.primaryKeyVariableType(Clusters[index])
-    print(str(orgClasse.getFull_Name()))
-    print(orgClasse.getInstance_variable())
-    print("                    "+ str(pk))
+    #print(str(orgClasse.getFull_Name()))
+    #print(orgClasse.getInstance_variable())
+    #print("                    "+ str(pk))
     body = mymethod.getBody()
     newBody = body[-1].replace("}"," ")
     del(body[-1])
@@ -365,7 +428,7 @@ def read_json_clusters(path_to_clusters, pathOfProject):
                     x = Classe.split(".")
 
                     classShortName =  x[-1]
-                    print(Classe)
+                    #print(Classe)
                     c=Class(Classe,classShortName)
 
                     clus.setClass(c)
@@ -402,7 +465,7 @@ def find_Cluster(Class):
 
 def createCallInterface(interface,endpoint):
 
-        name = interface.getName() + "Impl" 
+        name = interface.getFull_Name() + "Impl" 
         c = Class("Interface." + name,name)
         url = "\"http://"+endpoint+"\""
 
@@ -448,7 +511,7 @@ def createCallInterface(interface,endpoint):
             
         c.setImports(["org.springframework.web.client.RestTemplate","org.springframework.web.util.UriComponentsBuilder","org.springframework.beans.factory.annotation.Autowired"])    
         c.setInstance_variables(instance_variables)
-        c.setImplements([interface.getName()])
+        c.setImplements([interface.getFull_Name()])
 
         return c
 
@@ -468,7 +531,7 @@ def main():
 
     
 
-    print(args.projectPath)
+    #print(args.projectPath)
     Utils.execute_parser(args.projectPath)
         
 
@@ -483,13 +546,14 @@ def main():
     Database.find_logic_schema(ast,Clusters)
     find_Instance_Variable_Dependency(ast)
 
+
     find_methods_var_dependency(ast)
 
     f = open("domain" + Settings.PROJECT_NAME+".puml", "w")
     f.write("@startuml\n")
     for x in Clusters:
         f.write("package %s <<Folder>> {\n"%(x.getPathToDirectory().split("/")[-1]))
-        #print(x.printInformation())
+        ##print(x.#printInformation())
         x.write_classes(f)
         f.write("}\n")
         
@@ -502,7 +566,7 @@ def main():
     #Utils.copyFile("/home/fracisco/Desktop/Dissertação/Dissertacao/GithubExtraction/ProjetosParaAnalisar/asledziewski__restaurantServer/src/main/java
     #/pl/edu/wat/wcy/pz/restaurantServer/controller/UserController.java", "Teste/UserController.java")
     
-    #print(len(Clusters))
+    ##print(len(Clusters))
     f.write("@enduml\n")
     f.close()
     
@@ -518,8 +582,8 @@ main()
 
 '''
  if metInvocations["methodName"]not in [x.getName() for x in newClAux.getMyMethods()]:
-                                        print("NOT IN CLASSE "+ metInvocations["methodName"])
-                                        print([x["type"] for x in newClAux.getInstance_variable()])
+                                        #print("NOT IN CLASSE "+ metInvocations["methodName"])
+                                        #print([x["type"] for x in newClAux.getInstance_variable()])
                                         if "RestTemplate"  not in [x["type"] for x in newClAux.getInstance_variable()]:
                                             instance_variable = {
                                             "annotations" : [],
@@ -535,9 +599,9 @@ main()
                                             }
                                             newCl.addInstance_Variable(instance_variable)
                                             newCl.addInstance_Variable(url)
-                                        print(metInvocations["methodName"])
+                                        #print(metInvocations["methodName"])
                                         mymethod = copy.deepcopy(classeDep.findMyMethod(metInvocations["methodName"]))
-                                        print(mymethod.getBody())
+                                        #print(mymethod.getBody())
                                         pk = classeDep.primaryKeyVariableType(Clusters[index])
                                         body = mymethod.getBody()
                                         newBody = body[-1].replace("}"," ")
@@ -559,7 +623,7 @@ main()
 '''                                        
 '''
 if metInvocations["methodName"]not in [x.getName() for x in classDepend.getMyMethods()]:
-                                        print("NOT IN CLASSE "+ metInvocations["methodName"])
+                                        #print("NOT IN CLASSE "+ metInvocations["methodName"])
                                         if "RestTemplate" not in [x["type"] for x in classDepend.getInstance_variable()]:
                                             instance_variable = {
                                             "annotations" : [],
@@ -575,9 +639,9 @@ if metInvocations["methodName"]not in [x.getName() for x in classDepend.getMyMet
                                             }
                                             classDepend.addInstance_Variable(instance_variable)
                                             classDepend.addInstance_Variable(url)
-                                        print(metInvocations["methodName"])
+                                        #print(metInvocations["methodName"])
                                         mymethod = copy.deepcopy(classeDep.findMyMethod(metInvocations["methodName"]))
-                                        print(mymethod.getBody())
+                                        #print(mymethod.getBody())
                                         pk = classeDep.primaryKeyVariableType(Clusters[index])
                                         body = mymethod.getBody()
                                         newBody = body[-1].replace("}"," ")

@@ -42,9 +42,9 @@ class Database:
     def find_logic_schema(ast,Clusters):
 
         for cluster in Clusters:
-            print(cluster.getPathToDirectory())
+            #print(cluster.getPathToDirectory())
             #if  not re.search(r'\d+$',cluster.getPathToDirectory()): # verifica se é um cluster original
-            #    print("dddd")
+            #    #print("dddd")
             #    continue  
             #  clusterCopy = copy.deepcopy(cluster) # REMEMBER ISTO É UMA COPIA LOGO O QUE É ESCRITO É REFERENTE A OUTRO OBJECTO
             for k,v in reversed(sorted(cluster.getClasses().items())): 
@@ -70,14 +70,14 @@ class Database:
                                 break
                         
                         elif "OneToOne" in  variable_annotations:
-                            print("ONETONE")
+                            #print("ONETONE")
                             classes_to_add = Database.handle_ManyToOne_Relationship(v,variable["type"],variable,cluster,Clusters)
                             for cl in classes_to_add:
                              
                                 cluster.addNewClasses(cl)
                         
                         elif any(re.match("^@ManyToOne",line) for line in variable_annotations):
-                            print("MANYTOONE")
+                            #print("MANYTOONE")
                             classes_to_add = Database.handle_ManyToOne_Relationship(v,variable["type"],variable,cluster,Clusters)
                            
                             for cl in classes_to_add:
@@ -91,7 +91,8 @@ class Database:
 
     @staticmethod
     def handle_OneToMany_Relationship(classe1, typeOfN,variable,cluster,Clusters,param):
-        print("inside of oneToMany")
+        #print("inside of oneToMany")
+        print(classe1.getFull_Name())
         
         classes_to_add_cluster = []
 
@@ -122,18 +123,34 @@ class Database:
                 classDepend = copy.deepcopy(Clusters[index].getClasses()[dependency])
 
                 name_depend = "DTO." + classDepend.getFull_Name().split(".")[-1]
-                
+                #print(name_depend)
+                #print(classDepend.getInstance_variable())
                 classDepend.setFull_Name(name_depend)
                 classDepend.setShort_Name(classDepend.getShort_Name())
                 #apagar anotaçoes da classe
                 classDepend.setAnnotation([])
                 # apagar anotaçoes das variaveis
-                for instance_variable in  list(classDepend.getInstance_variable()):
-                    print(instance_variable)
+                for instance_variable in  list(classDepend.getInstance_variable()):  
                     if "add" in  instance_variable:
-                    
-                        print("true1")
                         classDepend.getInstance_variable().remove(instance_variable) 
+                    #print(instance_variable["variable"]) 
+                    ##print("INSTANCE VARIABLE "  +  str(instance_variable["identifier"]))
+                    if "identifier" in instance_variable and  len(instance_variable["identifier"]) > 0:
+                        for dep in classDepend.getDependencies():
+                            if re.search("\."+ instance_variable["identifier"][1] +'$',dep):
+                                #print("DTO need db")
+                                i = Utils.find_Cluster_with_Name_Class(dep, Clusters)
+                                dragClasse = copy.deepcopy(Clusters[i].getClasses()[dep])
+                                name_dependAux = "DTO." + dragClasse.getFull_Name().split(".")[-1]
+                                dragClasse.setFull_Name(name_dependAux)
+                                dragClasse.setShort_Name(dragClasse.getShort_Name())
+                                dragClasse.setAnnotation([])
+                                for instance_variableAux in list(dragClasse.getInstance_variable()):
+                                    if "add" in  instance_variable:
+                                        dragClasse.getInstance_variable().remove(instance_variable) 
+                                    instance_variableAux["annotations"] = []
+
+                                classDepend.addClassDrag(dragClasse)
                     
                     instance_variable["annotations"] = []
 
@@ -161,10 +178,11 @@ class Database:
                 classRequest = Database.createClass_callInterface(interface,classe1.getShort_Name(),typeOfN,index)
                 classRequest.addMyInterfaces(interface)
                
-                classe1.addClassDrag(interface)
-                classe1.addClassDrag(classRequest)
+                classe1.addClassGlue(interface)
+                classe1.addClassGlue(classRequest)
                 classes_to_add_cluster.append(classRequest)
-                interface.create(cluster.getPathToDirectory() + "/Request")
+                classes_to_add_cluster.append(interface)
+                #interface.create(cluster.getPathToDirectory() + "/Request")
                 
                  
                 '''
@@ -175,8 +193,8 @@ class Database:
                 variable["annotations"] = ["@Transient"]
                 classe1.addInstance_Variable({"annotations" : ["@Transient"],
                                                 "modifier" : "private", 
-                                                "type" : interface.getName(),
-                                                "variable" : interface.getName().lower() + " = new " + classRequest.getShort_Name() + "();",
+                                                "type" : interface.getFull_Name(),
+                                                "variable" : interface.getFull_Name().lower() + " = new " + classRequest.getShort_Name() + "();",
                                                 "add" : True})
 
 
@@ -207,22 +225,25 @@ class Database:
                 # procurar o cluster a que pertence a classe que nao necessita de modificações
                 indexOfcluster = Utils.find_Cluster_with_Name_Class(dependency,Clusters)
                 # é necessario criar um controller,service e ligar ao repository
-                print("index of cluster " + str(indexOfcluster))
-                print(dependency)
+                #print("index of cluster " + str(indexOfcluster))
+                print("index of clustaer" + str(indexOfcluster))
                 repositoryClass,repositoryClassName = Utils.find_repositoryClass(dependency ,Clusters[indexOfcluster])    
 
                 classController = ControllerClass.create(copy.deepcopy(methods),classe1.getShort_Name(),typeOfN,param)
-                classController.create(Clusters[indexOfcluster].getPathToDirectory())
+                #classController.create(Clusters[indexOfcluster].getPathToDirectory())
+                Clusters[indexOfcluster].addNewClasses(classController)
 
                 classService = ServiceClass.create(copy.deepcopy(methods),repositoryClassName.split(".")[-1],classe1.getShort_Name(),typeOfN,param)
-                classService.create(Clusters[indexOfcluster].getPathToDirectory())
+                #classService.create(Clusters[indexOfcluster].getPathToDirectory())
+                Clusters[indexOfcluster].addNewClasses(classService)
+
                 ###########################################################TRUNCAR AQUI
 
                 '''
                 STEP 8 : ADICIONAR AO REPOSITORY OS METODOS   
                 '''
-                print(repositoryClass.getFull_Name())
-                print(repositoryClass)
+                #print(repositoryClass.getFull_Name())
+                #print(repositoryClass)
                 for met in classService.getMyMethods():
                     met.setBody([])
                     repositoryClass.addMyMethods(met)
@@ -252,7 +273,7 @@ class Database:
         # apagar os metodos relacionados com a variavel em questao 
         # marcar esses metodos como deleted para depois serem copiados para a classe nova
         # criar os metodos na classe que pertence ao seu dominio, invertendo a pesquisa 
-        print("ok")
+        #print("ok")
 
 
     @staticmethod 
@@ -264,7 +285,15 @@ class Database:
             Step 1: VERIFICAR SE PERTENCEM AO MESMO CLUSTER
         '''     
         dependencies = classe1.getDependencies()
-        print(str(dependencies))
+        #print("INSIDE MANY TO MANY")
+        #print(classe1.getFull_Name())
+        #print(typeOfN)
+        #print(str(dependencies))
+        #print("******************") 
+        #cluster.printName()
+        #print(cluster.getPathToDirectory())
+        #print("******************") 
+        
 
         repositoryClass,repositoryClassName = Utils.find_repositoryClass(classe1.getFull_Name(),cluster)
         for dependency in dependencies:
@@ -273,45 +302,76 @@ class Database:
             ''' 
             if(re.search("\."+typeOfN+'$',dependency)):
                 isJoin=True
-                print("match")
+                #print("match")
                 '''
                 STEP 3: CASO NAO PERTENCAM, PROCURAR AS CLASSES REPOSITORY E CRIAR UM NOVO CLUSTER COM MODELS E REPOSITORYS
                 ''' 
                 indexOfcluster = Utils.find_Cluster_with_Name_Class(dependency,Clusters)
-                
-                repositoryClassD,repositoryClassNameD = Utils.find_repositoryClass(dependency ,Clusters[indexOfcluster])
+                #print(indexOfcluster)
+                #print("IS A MS EXTRA: " + str(Clusters[indexOfcluster].getIsExtra()))
+                if Clusters[indexOfcluster].getIsExtra():
+                    Clusters[indexOfcluster].setClass(classe1)
+                    Clusters[indexOfcluster].setClass(repositoryClass)
 
-                nameOfMicroservice = "E" + typeOfN + classe1.getShort_Name()
-                pathToMicroservice = createDirectory.createFolderForMicroservice(Settings.PROJECT_PATH_MS,nameOfMicroservice)
-                clus = Cluster(pathToMicroservice)
-                clus.setClass(repositoryClassD)
-                clus.setClass(repositoryClass)
-                clus.setClass(classe1)
-                clus.setClass(Clusters[indexOfcluster].getClasses()[dependency])
+                    if  classe1.getFull_Name() in Clusters[indexOfcluster].getClasses()[dependency].getDependencies():
+                         Clusters[indexOfcluster].getClasses()[dependency].getDependencies().remove(classe1.getFull_Name())
+                    for cla in classe1.getClassGlue():
+                        if cla.getFull_Name() in [x.getFull_Name() for x in cluster.getNewClasses()]:
+                            cluster.removeNewClasses(cla)
+                        Clusters[indexOfcluster].addNewClasses(cla)
+                    
 
-                for cla in classe1.getClassDrag():
-                    clus.setClass(cla)
+                else: 
+                    repositoryClassD,repositoryClassNameD = Utils.find_repositoryClass(dependency ,Clusters[indexOfcluster])
 
-                
+                    nameOfMicroservice = "E" + typeOfN + classe1.getShort_Name()
+                    pathToMicroservice = createDirectory.createFolderForMicroservice(Settings.PROJECT_PATH_MS,nameOfMicroservice)
+                    clus = Cluster(pathToMicroservice,True)
+                    clus.setClass(repositoryClassD)
+                    clus.setClass(repositoryClass)
+                    clus.setClass(classe1)
+                    clus.setClass(Clusters[indexOfcluster].getClasses()[dependency])
+
+                    if  classe1.getFull_Name() in clus.getClasses()[dependency].getDependencies():
+                        clus.getClasses()[dependency].getDependencies().remove(classe1.getFull_Name())
+
+
+                    #print(repositoryClassD.getFull_Name())
+                    #print(repositoryClass.getFull_Name())
+                    #print(classe1.getFull_Name())
+                    #print(Clusters[indexOfcluster].getClasses()[dependency].getFull_Name())
+
+                    for cla in classe1.getClassGlue():
+                        if cla.getFull_Name() in [x.getFull_Name() for x in cluster.getNewClasses()]:
+                            cluster.removeNewClasses(cla)
+                        clus.addNewClasses(cla)
+
+
+
+                    Clusters.append(clus)
+
+                    
+                    Clusters[indexOfcluster].deleteClasse(repositoryClassNameD)
+                    Clusters[indexOfcluster].deleteClasse(dependency)
+                    for cl in Clusters[indexOfcluster].getClasses().values():
+                        if dependency in cl.getImports() and dependency not in cl.getDependencies():
+                            cl.addDependencie(dependency)
+                        if repositoryClassNameD in cl.getImports() and repositoryClassNameD not in cl.getDependencies():
+                            cl.addDependencie(repositoryClassNameD)    
+
                 dependencies.remove(dependency)
-
-                Clusters.append(clus)
-
                 cluster.deleteClasse(repositoryClassName)
                 cluster.deleteClasse(classe1.getFull_Name())
-                Clusters[indexOfcluster].deleteClasse(repositoryClassNameD)
-                Clusters[indexOfcluster].deleteClasse(dependency)
+                
+                
                 for cl in cluster.getClasses().values():
-                    if classe1.getFull_Name() in cl.getImports():
+                    if classe1.getFull_Name() in cl.getImports() and classe1.getFull_Name() not in cl.getDependencies():
                         cl.addDependencie(classe1.getFull_Name())
-                    if repositoryClassName in cl.getImports():
+                    if repositoryClassName in cl.getImports() and repositoryClassName not in cl.getDependencies():
                         cl.addDependencie(repositoryClassName)     
                 
-                for cl in Clusters[indexOfcluster].getClasses().values():
-                    if dependency in cl.getImports():
-                        cl.addDependencie(dependency)
-                    if repositoryClassNameD in cl.getImports():
-                        cl.addDependencie(repositoryClassNameD)
+                
+                        
         return isJoin        
     
     @staticmethod
@@ -329,7 +389,7 @@ class Database:
             Step 1: VERIFICAR SE PERTENCEM AO MESMO CLUSTER
         '''     
         dependencies = classeN.getDependencies()
-        print(dependencies)
+        #print(dependencies)
 
         for dependency in dependencies:
             '''
@@ -354,7 +414,7 @@ class Database:
                                                 "type" : pk_of_1[0],
                                                 "variable" : var})
                 classes_to_add_cluster = Database.handle_OneToMany_Relationship(classeN,typeof1,variable,cluster,Clusters,aux)
-        print("ok2")
+        #print("ok2")
         return classes_to_add_cluster
 
         
@@ -450,7 +510,7 @@ class Database:
     def createClass_callInterface(interface,typeOf1,typeOfN,endpoint):
 
 
-        name =  interface.getName() + "Impl" 
+        name =  interface.getFull_Name() + "Impl" 
         c = Class("Request.Impl." +name,name)
 
         instance_variables = [{
@@ -494,7 +554,7 @@ class Database:
             
 
         c.setInstance_variables(instance_variables)
-        c.setImplements([interface.getName()])
+        c.setImplements([interface.getFull_Name()])
         c.setImports(["org.springframework.web.client.RestTemplate","org.springframework.beans.factory.annotation.Autowired"])
 
         return c
