@@ -14,7 +14,7 @@ class MyInterface:
         self.name = name
         self.methods = methods
 
-    def getName(self):
+    def getFull_Name(self):
         return self.name 
 
     def getMethods(self):
@@ -22,7 +22,7 @@ class MyInterface:
 
 
     def create(self, pathToCreateFile):
-        print(pathToCreateFile)
+        #print(pathToCreateFile)
        
         try:
            os.mkdir(pathToCreateFile)
