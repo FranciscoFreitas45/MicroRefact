@@ -69,11 +69,11 @@ class ControllerClass:
 
     def createClass_Controller(interface):
 
-        name =interface.getName() + "Controller"
+        name =interface.getFull_Name() + "Controller"
 
         controller = Class("NEWInstance." + name,name)
         #service = typeOfN +typeOf1
-        variable = interface.getName()
+        variable = interface.getFull_Name()
         
         instance_variables = [{
             "annotations" : [],
@@ -124,20 +124,53 @@ class ControllerClass:
         
         return controller
 
+    def addMethod_to_Controller(controller,method):
+
+        body = []
+        annotations = list()
+        method_name = method["name"]
+        route = "/%s" % (method_name)
+        method_returnType = method["returnDataType"][0]
+        method_parameters = copy.deepcopy(method["parametersDataType"])
+        variable = controller.getInstance_variable()[0]["type"]            
+        for mett in  method_parameters:
+            mett["type"] = "@RequestParam(name = \"%s\") "%(mett["variable"]) + mett["type"]     
+
+        if method_returnType == "void": 
+            annotations.append("@PutMapping")
+            callService = "{\n" + variable.lower() +"."+method_name + "("
+                    
+        else:
+            annotations.append("@GetMapping")
+            callService = "{\n  return " + variable.lower() +"."+method_name + "("
+
+        if len(method_parameters) > 0:    
+            for param in method_parameters[:-1]:
+                callService = callService + "%s," %(param["variable"])
+            callService = callService + "%s" %(method_parameters[-1]["variable"])        
+        callService = callService + ");\n}"
+
+        body.append(callService)
+            
+        m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+        controller.addMyMethods(m)        
+
+
+
 
     @staticmethod
 
     def createVARrequestController(classe,variable,method,targetClassName,cluster,ADDNEWCLASSE=True):
         
-        print(")))) " +str(method))
-        print(variable)
-        print(cluster.printInformation())
-        instance_variables = [{
+        #print(")))) " +str(method))
+        #print(variable)
+        print("targetclasse " + targetClassName)
+        instance_variables = {
             "annotations" : [],
             "modifier" : "private",
             "type" : variable,
             "variable" : variable.lower()
-            }]
+            }
         controller = classe
         
         if ADDNEWCLASSE:
@@ -149,7 +182,7 @@ class ControllerClass:
             anotations = ["@AllArgsConstructor","@RestController","@CrossOrigin"]
             imports = ["org.springframework.web.bind.annotation.*","lombok.AllArgsConstructor"]
 
-            controller.setInstance_variables(instance_variables)
+            controller.setInstance_variables([instance_variables])
             controller.setAnnotation(anotations)
             controller.setImports(imports)
             
@@ -177,6 +210,7 @@ class ControllerClass:
         if method[1] != None:
             method_parameters.insert(0,{"type": "@PathVariable(name = \"id\") " + method[1][0] ,
                                         "variable" : "id" })
+            route = route + "/{id}"                            
             repo = Utils.find_repositoryClass(targetClassName,cluster)
             inst= {
                 "annotations" : [],
@@ -193,7 +227,7 @@ class ControllerClass:
             else:
                  callService = "{\n return " + repo[0].getShort_Name().lower() +"."+method_name + "("
         elif ADDNEWCLASSE:
-            controller.addInstance_Variable(instance_variable)
+            controller.addInstance_Variable(instance_variables)
 
 
         if len(method_parameters) > 0:    
@@ -225,23 +259,3 @@ class ControllerClass:
             repo[0].addMyMethods(met)
         return controller , repo    
 
-
-
-
-def add_Method_to_Controller(controllerClass,variable,method,targetClassName,cluster):
-    
-    instance_variables = {
-        "annotations" : [],
-        "modifier" : "private",
-        "type" : variable,
-        "variable" : variable.lower()
-        }
-
-    #controllerClass.addInstance_Variable(instance_variables) 
-
-    body = []
-    annotations = list()
-    method_name = method[0].getName()
-    route = "/%s" % (method_name)
-    method_returnType = method[0].getReturnType()
-    method_parameters = copy.deepcopy(method[0].getParameters())   

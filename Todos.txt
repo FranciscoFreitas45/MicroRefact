@@ -1,5 +1,5 @@
 hierarquia ao nivel dos micro-serviços
-drag classes ?
+drag classes ? --> done
 classes main
 pom xml
 testes
@@ -26,7 +26,7 @@ classes do packge NEW  --> indicação do package
                         --> returns --> done
                     
 
-classes do packge newInstance --> falta uma classe para responder a pedidos
+classes do packge newInstance --> falta uma classe para responder a pedidos --> done
 
 
 classes orginais  --> package
@@ -38,3 +38,13 @@ classe do package request --> package
 
 maven 
 application properties e pom.xml                            
+
+
+
+
+
+
+JUSTIFICAÇÃO PARA REPLICAR A CLASSE DA HIERARUIA
+
+
+É uma classe que nao terá grandes alteraçoes ao longo do tempo e as alteraçoes a ser feitas podem nao ser necessarias para todos os micro-serviços pois cada um evolui independetemente

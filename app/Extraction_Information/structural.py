@@ -4,6 +4,7 @@ import json
 from Entities.MyMethod import MyMethod
 from Entities.Class import Class
 from Entities.Cluster import Cluster
+import copy
 
 
 
@@ -30,11 +31,13 @@ def extract_Info_AST(Clusters):
         with open(temp_json_location) as json_file: # ler a AST
             ast = json.load(json_file) # load da AST
 
+            extends_to_add = []
+
             merge_of_clusters = [] # guardar a info dos merges do clusters  Array com um tuplo (cluster1 , cluster2)
             for i, cluster in  enumerate (Clusters):
                 
                 
-                for classe in cluster.getClasses().values():
+                for i, classe in reversed(sorted(cluster.getClasses().items())):
 
                     '''
                         Parte de extração de info para a classe
@@ -68,15 +71,25 @@ def extract_Info_AST(Clusters):
                         for extend in extendedTypes: # iterar sob os extends
                             if extend in cl.getClasses():
                                 if extend not in cluster.getClasses(): # caso a class do extend nao pertence ao cluster
-                                    print("NOT IN " +extend) 
-                                    print(classe.getFull_Name())   
-                            
-                                    merge_of_clusters.append((i,clusterIndex))
+                                    #print("NOT IN " +extend) 
+                                    #print(classe.getFull_Name())   
+                                    # TESTE1 COPIAR A CLASSE PARA O CLUSTER
+                                    extends_to_add.append((clusterIndex,extend,cluster))    
+                                    #extendCopy = copy.deepcopy(cl.getClasses()[extend])
+                                    #cluster.getClasses()[extend] = extendCopy
+                                        
+                                    #merge_of_clusters.append((i,clusterIndex))
                            
             
             if len(merge_of_clusters) > 0:
                 raise Exception ("Bad code division ")
                
+
+            for indexC,extend,cluster in extends_to_add:
+                extendCopy = copy.deepcopy(Clusters[indexC].getClasses()[extend])
+                extendCopy.setIsOriginal(False)
+                cluster.getClasses()[extend] = extendCopy      
+
 
         return ast
 

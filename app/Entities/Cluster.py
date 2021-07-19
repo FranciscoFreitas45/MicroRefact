@@ -2,13 +2,16 @@ from Entities.Class import Class
 
 import Utils as Utils
 
+from Entities.MyInterface import MyInterface
+
 
 
 class Cluster:
-    def __init__(self,pathToDirectory):
+    def __init__(self,pathToDirectory,extra=False):
         self.classes = dict()
         self.newClasses = list()
         self.pathToDirectory = pathToDirectory
+        self.extra = extra
 
 
     def getClasses(self):
@@ -18,7 +21,10 @@ class Cluster:
         return self.pathToDirectory       
 
     def setClass(self,Class):
-        self.classes[Class.getFull_Name()] = Class
+        if isinstance(Class,MyInterface):
+            self.newClasses.append(Class)
+        else:
+            self.classes[Class.getFull_Name()] = Class
 
     def getNewClasses(self):
         return self.newClasses
@@ -29,8 +35,17 @@ class Cluster:
     def addNewClasses(self,classe):
         self.newClasses.append(classe)
 
+    def removeNewClasses(self,classe):
+        self.newClasses.remove(classe)    
+
     def deleteClasse(self,classeName):
-        self.classes.pop(classeName)   
+        self.classes.pop(classeName)
+
+    def getIsExtra(self):
+        return self.extra        
+
+    def printName(self):
+        print([x for  x in self.classes ])
 
     def printInformation(self):
 
@@ -48,5 +63,10 @@ class Cluster:
             puml.write("Class %s {\n}\n"%(self.pathToDirectory.split("/")[-1] + "." +classe.getFull_Name().split(".")[-1])) 
         for classe in self.newClasses:
             puml.write("Class %s {\n}\n"%(self.pathToDirectory.split("/")[-1] + "."+ "/".join(classe.getFull_Name().split("."))))
-            classe.create(self.pathToDirectory) 
-            
+            classe.create(self.pathToDirectory)
+
+            if not isinstance(classe,MyInterface):
+                for dragClass in classe.getClassDrag():
+                    if not isinstance(dragClass, MyInterface):
+                        puml.write("Class %s {\n}\n"%(self.pathToDirectory.split("/")[-1] + "."+ "/".join(dragClass.getFull_Name().split("."))))           
+                        dragClass.create(self.pathToDirectory)

@@ -22,7 +22,10 @@ class Class:
         self.isInterface = False
         self.myInterfaces = list()
         self.myMethods = list()
+        self.classGlue = list()
         self.classDrag = list()
+        self.isOriginal = True
+        
        
        
 
@@ -118,6 +121,9 @@ class Class:
 
     def setIsInterface(self,isInterface):
         self.isInterface = isInterface    
+    
+    def getIsInterface(self):
+        return self.isInterface
 
     def getMyMethods(self):
         return self.myMethods
@@ -132,14 +138,27 @@ class Class:
         self.myMethods.remove(method)
       
 
+    def getClassGlue(self):
+        return self.classGlue
+
+    def addClassGlue(self,classe):
+        self.classGlue.append(classe)
+
     def getClassDrag(self):
         return self.classDrag
 
     def addClassDrag(self,classe):
         self.classDrag.append(classe)
     
-    def primaryKeyVariableType (self,cluster):
+    def getIsOriginal(self):
+        return self.isOriginal
+    
+    def setIsOriginal(self, value):
+        self.isOriginal = value
 
+    
+    def primaryKeyVariableType (self,cluster):
+        print(self.full_name)
         if any(re.match("^@PrimaryKeyJoinColumn",line) for line in self.annotations):
             print("kkkkk")
             return cluster.getClasses()[self.extends[1]].primaryKeyVariableType(cluster)
@@ -226,14 +245,18 @@ class Class:
             f.write("public class %s " %(self.short_name))
         
         if len(self.extends) > 0:
-            f.write("extends %s " %(self.extends[0]))   
+            if len(self.extends) == 1:
+                f.write("extends %s " %(self.extends[0]))
+            else:
+                f.write("extends %s " %(self.extends[1]))
+
 
         if len(self.implements) > 0:
             f.write("implements ")
             for implement in self.implements[:-1]:
                 f.write("%s,"%(implement))
             f.write("%s"%(self.implements[-1]))              
-        f.write("{\n\n")     
+        f.write("{\n\n")  
                 
         for var in self.instance_variables:
             for anot in var["annotations"]:
