@@ -1,4 +1,5 @@
 import os
+from shutil import copyfile
 
 
 from Settings  import Settings
@@ -16,16 +17,18 @@ def createFolderForProject ():
     
     return pathToProject
     
-def createFolderForMicroservice (nameOfProject, nameOfMicroservice):
+def createFolderForMicroservice (nameOfProject, nameOfMicroservice,OriginalPathOfProject):
 
 
-    pathToMicroservice = nameOfProject + "/" + nameOfMicroservice
+    pathToMicroservice = nameOfProject + "/" + nameOfMicroservice + "/src/main/java"
 
     try:
-        os.mkdir(pathToMicroservice)
+        os.makedirs(pathToMicroservice)
     except OSError:
         print ("Creation of the directory %s failed" % pathToMicroservice)
     else:
         print ("Successfully created the directory %s " % pathToMicroservice)
+        copyfile(OriginalPathOfProject + "/pom.xml", nameOfProject + "/" + nameOfMicroservice + "/pom.xml")
+
 
     return pathToMicroservice

@@ -105,18 +105,20 @@ def find_Instance_Variable_Dependency(ast):
     
     for cluster in Clusters:
         for i,classe in cluster.getClasses().items(): # iterar sobre as classes para encontrar as variaveis de instancia 
-            #print(classe.getFull_Name())
+            print("CLASSE EM ANALISE " + classe.getFull_Name())
             if "@Entity" in classe.getAnnotations():
                 continue
             instanceVariable = classe.getInstance_variable() # get das variaveis de instancia da classes
             new_Interfaces = []
             for variable in instanceVariable: # iterar sobre as variaveis de instancia 
-                typeAux =  variable["type"] # get do tipo da variavel de instancia 
+                typeAux =  variable["type"] # get do tipo da variavel de instancia
+                print("DEPENDENCIAS DA CLASSE EM ANALISE " + str(classe.getDependencies())) 
                 for dependencie in classe.getDependencies(): # iterar sobre as classes que a classe em questao depende
-                    #print(typeAux)
+                    print("######## " + typeAux)
                     if(re.search(re.escape(typeAux)+'$',dependencie)): # verificar se o tipo da variavel de instancia é do tipo de uma classe de que depende
                     
                         methodsInvocations=findMethodsInvocationsToInterface(classe,dependencie) # procura o nome dos metodos invocados da variavel                   if(len(methodsInvocations)>0):
+                        print("METODOS INVOCADOS PELA A CLASSE EM ANALISE" + str(methodsInvocations))
                         methods = []
                         classDependent = ast[dependencie] # get da info da classe que depende
                         
@@ -138,12 +140,16 @@ def find_Instance_Variable_Dependency(ast):
                                                 if  name_depend  not in  [x.getFull_Name() for x in cluster.getNewClasses()]:
                                                     classDepend.setFull_Name(name_depend)
                                                     classDepend.setShort_Name(classDepend.getShort_Name())
-                                                    classDepend.setInstance_variables(ast[dependency]["instance_variables"])
+                                                    inst = copy.deepcopy(ast[dependency]["instance_variables"])
+                                                    for var in inst:
+                                                        var["annotations"] = []
+
+                                                    classDepend.setInstance_variables(inst)
                                                     #print("--"+classDepend.getInstance_variable())
                                                     #apagar anotaçoes da classe
                                                     classDepend.setAnnotation([])
                                                     # apagar anotaçoes das variaveis
-                                                    for instance_variable in list(classDepend.getInstance_variable()):
+                                                    for instance_variable in classDepend.getInstance_variable():
                                                         if "add" in  instance_variable:
                                                             #print("true3")
                                                             classDepend.getInstance_variable().remove(instance_variable)                                                         
@@ -165,7 +171,7 @@ def find_Instance_Variable_Dependency(ast):
                                                                         instance_variableAux["annotations"] = []
 
                                                                     classDepend.addClassDrag(dragClasse)
-                                                        instance_variable["annotations"] = []                                                   
+                                                                                                      
                                                     #apagar os metodos que nao sao gets
                                                     myMethods = list()
                                                     for meth in ast[dependency]["myMethods"].values():
@@ -200,14 +206,29 @@ def find_Instance_Variable_Dependency(ast):
                                     
                                     
                         
-                        
-                        i1 = MyInterface("public",Utils.lastWordOfString(dependencie),methods) # cria a interface a ser implementada com os metodos invocados do objeto externo
-                        i1.create(cluster.getPathToDirectory() + "/Interface")
-                        new_Interfaces.append(i1)
-                        index = Utils.find_Cluster_with_Name_Class(dependencie,Clusters)
-                        call = createCallInterface(i1,str(index))
-                        cluster.addNewClasses(call)
-                        classe.addMyInterfaces(i1)
+                        print("METODOS PARA ADICIONAR " + str(methods))
+                        #verificar se ja existe uma interface deste tipo
+                        name = "Interface." +Utils.lastWordOfString(dependencie)
+                        if name in [x.getFull_Name() for x in cluster.getNewClasses()]:
+                            print("JA EXISTE UMA INTERFACE COM ESTE TIPO")
+                            for inter in cluster.getNewClasses():
+                                if name == inter.getFull_Name():
+                                    print("ok")
+                                    inter.addMethods(methods)
+
+                                if name + "Impl" == inter.getFull_Name():
+                                    print("OK CONTROLLER")
+                                    inter.add_Methods_to_Class(methods)
+                        else:
+
+                            i1 = MyInterface("public",name,methods) # cria a interface a ser implementada com os metodos invocados do objeto externo
+                            #i1.create(cluster.getPathToDirectory())
+                            new_Interfaces.append(i1)
+                            index = Utils.find_Cluster_with_Name_Class(dependencie,Clusters)
+                            call = createCallInterface(i1,str(index))
+                            cluster.addNewClasses(call)
+                            cluster.addNewClasses(i1)
+                            classe.addMyInterfaces(i1)
                         exists =False
                         for newClass in Clusters[index].getNewClasses():
                             if re.search("NEWInstance."+Utils.lastWordOfString(dependencie)+ "Controller"+'$',newClass.getFull_Name()):
@@ -225,9 +246,9 @@ def find_Instance_Variable_Dependency(ast):
 
 
                         if not exists:        
-                            controller = ControllerClass.createClass_Controller(i1)
+                            controller = ControllerClass.createClass_Controller(i1,Clusters[index].getSubDirectories())
                             Clusters[index].addNewClasses(controller)
-                        
+                        break    
                        
                         
                                                 
@@ -336,7 +357,7 @@ def find_methods_var_dependency(ast):
                                         if m[0].getName() not in [ x.getName() for x in classes.getMyMethods()]:
                                             #adicionar so a função
                                             print("INDEX " + str(index))
-                                            ControllerClass().createVARrequestController(classes,lastWordClass, m,metInvocations["targetClassName"],Clusters[index],False)  
+                                            ControllerClass().createVARrequestController(classes,lastWordClass, m,metInvocations["targetClassName"],Clusters[index],"",False)  
                                 if exist:
                                     controller,repo = ControllerClass.createVARrequestController(lastWordClass, lastWordClass, m,metInvocations["targetClassName"],Clusters[index])
                                     Clusters[index].addNewClasses(controller)
@@ -398,6 +419,7 @@ def add_Method_To_Class(orgClasse,classe,metInvocations,index):
 
 def read_json_clusters(path_to_clusters, pathOfProject):
     
+    Settings.ORIGINAL_PROJECT_PATH = pathOfProject
     with open(path_to_clusters) as json_file: # ler a proposta de micro-serviços
         data = json.load(json_file) # load o json
 
@@ -417,8 +439,8 @@ def read_json_clusters(path_to_clusters, pathOfProject):
         for cluster in clusterList:# iterar sobre cada cluster
 
             if len(cluster)!=0:
-                pathToMicroservice = createDirectory.createFolderForMicroservice(pathToProject,str(numberOfMicroService))
-                
+                pathToMicroservice = createDirectory.createFolderForMicroservice(pathToProject,str(numberOfMicroService),pathOfProject)
+
                 clus = Cluster(pathToMicroservice)
                 
                 clusterClasses = cluster.split(',') # dividir o cluster por classes
@@ -428,16 +450,40 @@ def read_json_clusters(path_to_clusters, pathOfProject):
                     x = Classe.split(".")
 
                     classShortName =  x[-1]
-                    #print(Classe)
+                    print(Classe)
                     c=Class(Classe,classShortName)
 
                     clus.setClass(c)
                     Classes[Classe]= c
 
-                Clusters.append(clus)    
+                Clusters.append(clus)
+
+                #comparar nome das classes para identificar a sub directory pai
+
+                class0 = re.sub('\'','', clusterClasses[0])
+                class1 = re.sub('\'','', clusterClasses[1])
+                print(class0)
+                print(class1)
+                
+                count = -1
+                checkpoint = -1
+                for i, v  in enumerate(class0):
+                    if v == ".":
+                        checkpoint = count
+                    if i+1 > len(class0)  or i+1 > len(class1) :
+                        break;      
+                    if v == class1[i]:
+                        count = count +1 
+                    else:
+                        break;    
+                    
+                print(checkpoint)
+                clus.setSubDirectories(class0[0:count+1])
+                
+                    
 
                 numberOfMicroService =numberOfMicroService +1    
-    return data
+    return data, 
 
 
 
@@ -465,7 +511,7 @@ def find_Cluster(Class):
 
 def createCallInterface(interface,endpoint):
 
-        name = interface.getFull_Name() + "Impl" 
+        name = interface.getFull_Name().split(".")[-1] + "Impl"
         c = Class("Interface." + name,name)
         url = "\"http://"+endpoint+"\""
 
@@ -498,10 +544,10 @@ def createCallInterface(interface,endpoint):
                 request =request + "    .queryParam(\"%s\",%s);\n"%(method_parameters[-1]["variable"],method_parameters[-1]["variable"])
 
             if method_returnType == "void": # sigifica que é um post ou put)
-                request = request + "\n  restTemplate.put(builder.toUriString(), null)\n"
+                request = request + "\n  restTemplate.put(builder.toUriString(), null);\n}"
                 body.append(request)
             else:                         
-                request =request + "  %s aux = restTemplate.getForObject(builder.toUriString(), %s.class)\n"%(method_returnType,method_returnType)
+                request =request + "  %s aux = restTemplate.getForObject(builder.toUriString(), %s.class);\n"%(method_returnType,method_returnType)
                 body.append(request)
                 returnStatement = " return aux;\n}"
                 body.append(returnStatement)        
@@ -511,7 +557,7 @@ def createCallInterface(interface,endpoint):
             
         c.setImports(["org.springframework.web.client.RestTemplate","org.springframework.web.util.UriComponentsBuilder","org.springframework.beans.factory.annotation.Autowired"])    
         c.setInstance_variables(instance_variables)
-        c.setImplements([interface.getFull_Name()])
+        c.setImplements([interface.getFull_Name().split(".")[-1]])
 
         return c
 
@@ -537,6 +583,26 @@ def main():
 
     clustersInfo = read_json_clusters(args.clusters,args.projectPath)
 
+    subDir = Clusters[0].getSubDirectories()
+    print("--------------- " + subDir)
+
+    for x in Clusters[:-1]:
+        count=-1
+        for ii, v in enumerate(x.getSubDirectories()):
+            if ii+1 > len(x.getSubDirectories())  or ii+1 > len(subDir):
+                break;      
+            if v == subDir[ii]:
+                count = count +1 
+            else:
+                break
+        subDir = x.getSubDirectories()[0:count+1]
+        print(subDir)            
+                        
+    for x in Clusters:
+        x.setSubDirectories(subDir)
+
+
+
     ast=structural.extract_Info_AST(Clusters)
     structural.find_implements(ast,Clusters,Classes)
 
@@ -554,9 +620,10 @@ def main():
     for x in Clusters:
         f.write("package %s <<Folder>> {\n"%(x.getPathToDirectory().split("/")[-1]))
         ##print(x.#printInformation())
+        x.write_Main()
         x.write_classes(f)
         f.write("}\n")
-        
+       
         #x.write_Interfaces()
 
     #Clusters[10].getClasses()["com.ats.hrmgt.service.CommonFunctionService"].myInformation()
@@ -569,6 +636,8 @@ def main():
     ##print(len(Clusters))
     f.write("@enduml\n")
     f.close()
+
+    #writeMain
     
     
 main()           

@@ -122,7 +122,7 @@ class Database:
                 index = Utils.find_Cluster_with_Name_Class(dependency,Clusters)
                 classDepend = copy.deepcopy(Clusters[index].getClasses()[dependency])
 
-                name_depend = "DTO." + classDepend.getFull_Name().split(".")[-1]
+                name_depend = cluster.getSubDirectories() +"DTO." + classDepend.getFull_Name().split(".")[-1]
                 #print(name_depend)
                 #print(classDepend.getInstance_variable())
                 classDepend.setFull_Name(name_depend)
@@ -141,7 +141,7 @@ class Database:
                                 #print("DTO need db")
                                 i = Utils.find_Cluster_with_Name_Class(dep, Clusters)
                                 dragClasse = copy.deepcopy(Clusters[i].getClasses()[dep])
-                                name_dependAux = "DTO." + dragClasse.getFull_Name().split(".")[-1]
+                                name_dependAux = cluster.getSubDirectories()+ "DTO." + dragClasse.getFull_Name().split(".")[-1]
                                 dragClasse.setFull_Name(name_dependAux)
                                 dragClasse.setShort_Name(dragClasse.getShort_Name())
                                 dragClasse.setAnnotation([])
@@ -173,9 +173,9 @@ class Database:
                 STEP 5: CRIAR INTERFACE E ClASSE QUE FAZ AS CALLS 
                 ''' 
                 
-                interface=Database.createInterface(methodsAux,typeOfN,param)
+                interface=Database.createInterface(methodsAux,typeOfN,param, [name_depend],cluster.getSubDirectories())
 
-                classRequest = Database.createClass_callInterface(interface,classe1.getShort_Name(),typeOfN,index)
+                classRequest = Database.createClass_callInterface(interface,classe1.getShort_Name(),typeOfN,index,[name_depend,interface.getFull_Name()],cluster.getSubDirectories())
                 classRequest.addMyInterfaces(interface)
                
                 classe1.addClassGlue(interface)
@@ -193,19 +193,23 @@ class Database:
                 variable["annotations"] = ["@Transient"]
                 classe1.addInstance_Variable({"annotations" : ["@Transient"],
                                                 "modifier" : "private", 
-                                                "type" : interface.getFull_Name(),
-                                                "variable" : interface.getFull_Name().lower() + " = new " + classRequest.getShort_Name() + "();",
+                                                "type" : interface.getShort_Name(),
+                                                "variable" : interface.getShort_Name().lower() + " = new " + classRequest.getShort_Name() + "();",
                                                 "add" : True})
 
+                # adicionar novoos imports
+                classe1.addImports(interface.getFull_Name())
+                classe1.addImports(classRequest.getFull_Name())
+                classe1.addImports(name_depend)
 
 
                 for met in methods:
                     for myMet in classe1.getMyMethods():
                         if met["name"] == myMet.getName():
                             if (met["returnDataType"][0] =="void"):
-                                body = "{\n %s.%s("%(classRequest.getShort_Name().lower(),met["name"])
+                                body = "{\n %s.%s("%(interface.getShort_Name().lower(),met["name"])
                             else:    
-                                body = "{\n  this.%s = %s.%s("%(variable["variable"],classRequest.getShort_Name().lower(),met["name"])
+                                body = "{\n  this.%s = %s.%s("%(variable["variable"],interface.getShort_Name().lower(),met["name"])
                             
                             for parameter in met["parametersDataType"]:
                                 body = body + "%s,"%(parameter["variable"])
@@ -213,7 +217,8 @@ class Database:
 
                             if (met["returnDataType"][0] !="void"):
                                 body = body + "return this.%s;\n}"%(variable["variable"])     
-
+                            else:
+                                body = body + "}\n"
 
                             myMet.setBody([body])
                
@@ -229,11 +234,11 @@ class Database:
                 print("index of clustaer" + str(indexOfcluster))
                 repositoryClass,repositoryClassName = Utils.find_repositoryClass(dependency ,Clusters[indexOfcluster])    
 
-                classController = ControllerClass.create(copy.deepcopy(methods),classe1.getShort_Name(),typeOfN,param)
+                classController = ControllerClass.create(copy.deepcopy(methods),dependency,classe1.getShort_Name(),typeOfN,param,Clusters[indexOfcluster].getSubDirectories())
                 #classController.create(Clusters[indexOfcluster].getPathToDirectory())
                 Clusters[indexOfcluster].addNewClasses(classController)
 
-                classService = ServiceClass.create(copy.deepcopy(methods),repositoryClassName.split(".")[-1],classe1.getShort_Name(),typeOfN,param)
+                classService = ServiceClass.create(copy.deepcopy(methods),repositoryClassName,dependency,classe1.getShort_Name(),typeOfN,param,Clusters[indexOfcluster].getSubDirectories())
                 #classService.create(Clusters[indexOfcluster].getPathToDirectory())
                 Clusters[indexOfcluster].addNewClasses(classService)
 
@@ -245,8 +250,9 @@ class Database:
                 #print(repositoryClass.getFull_Name())
                 #print(repositoryClass)
                 for met in classService.getMyMethods():
-                    met.setBody([])
-                    repositoryClass.addMyMethods(met)
+                    copy_met = copy.deepcopy(met)
+                    copy_met.setBody([])
+                    repositoryClass.addMyMethods(copy_met)
 
                 #repositoryClass.create(Clusters[indexOfcluster].getPathToDirectory())
 
@@ -325,7 +331,7 @@ class Database:
                     repositoryClassD,repositoryClassNameD = Utils.find_repositoryClass(dependency ,Clusters[indexOfcluster])
 
                     nameOfMicroservice = "E" + typeOfN + classe1.getShort_Name()
-                    pathToMicroservice = createDirectory.createFolderForMicroservice(Settings.PROJECT_PATH_MS,nameOfMicroservice)
+                    pathToMicroservice = createDirectory.createFolderForMicroservice(Settings.PROJECT_PATH_MS,nameOfMicroservice,Settings.ORIGINAL_PROJECT_PATH)
                     clus = Cluster(pathToMicroservice,True)
                     clus.setClass(repositoryClassD)
                     clus.setClass(repositoryClass)
@@ -405,11 +411,11 @@ class Database:
                     aux = (pk_of_1[0],var)
                 else:
                     var = pk_of_1[1]
-                    aux = (pk_of_1[0],pk_of_1[0])
+                    aux = (pk_of_1[0],pk_of_1[1])
 
                 
                 classeN.addInstance_Variable({#"annotations" :[re.sub("Join","",variable["annotations"][1])],
-                                                "annotations" : ["@Column(name = " + var+")"],
+                                                "annotations" : ["@Column(name = \"" + var+"\")"],
                                                 "modifier" : "private", 
                                                 "type" : pk_of_1[0],
                                                 "variable" : var})
@@ -484,7 +490,7 @@ class Database:
     @params PK : parametro que é PK da classe1 
     '''    
     @staticmethod
-    def createInterface(methods,typeof,pk):
+    def createInterface(methods,typeof,pk,imports,subDir):
 
 
         methods_to_write = []
@@ -503,21 +509,21 @@ class Database:
             methods_to_write.append(method)
 
         name = typeof + "Request"
-        interface = MyInterface("public",name,methods_to_write)
+        interface = MyInterface("public",subDir +"Request." +name,methods_to_write,imports)
 
         return interface
 
-    def createClass_callInterface(interface,typeOf1,typeOfN,endpoint):
+    def createClass_callInterface(interface,typeOf1,typeOfN,endpoint,imports,subDir):
 
 
-        name =  interface.getFull_Name() + "Impl" 
-        c = Class("Request.Impl." +name,name)
+        name =  interface.getFull_Name().split(".")[-1] + "Impl" 
+        c = Class(subDir + "Request.Impl." +name,name)
 
         instance_variables = [{
-            "annotations" : ["@Autowired"],
+            "annotations" : [],
             "modifier" : "private",
             "type" : "RestTemplate",
-            "variable" : "restTemplate"
+            "variable" : "restTemplate = new RestTemplate();"
         }]
         methods = interface.getMethods()
       
@@ -529,12 +535,12 @@ class Database:
             body = []
             request = ""
             if (method_returnType == "void"): # sigifica que é um post ou put
-                request = "{\n restTemplate.put(\'http://%s/%s/{id}/%s/%s\',%s,%s);" %(endpoint,typeOf1,typeOfN,method_name,method_parameters[0]["variable"],method_parameters[1]["variable"])
+                request = "{\n restTemplate.put(\"http://%s/%s/{id}/%s/%s\",%s,%s);" %(endpoint,typeOf1,typeOfN,method_name,method_parameters[0]["variable"],method_parameters[1]["variable"])
                 returnStatement = " return ;\n}"
                 body.append(request)
                 body.append(returnStatement)
             else:  
-                request = "{\n "+method_returnType + " aux = restTemplate.getForObject(\'http://%s/%s/{id}/%s/%s"% (endpoint,typeOf1,typeOfN,method_name)
+                request = "{\n "+method_returnType + " aux = restTemplate.getForObject(\"http://%s/%s/{id}/%s/%s"% (endpoint,typeOf1,typeOfN,method_name)
                
                 if len (method_parameters) > 1:
                     request = request + "?"    
@@ -542,7 +548,7 @@ class Database:
                         request = request + "\'%s\'=%s&" %(param["variable"],param["variable"])                
                     request = request + "\'%s\'=%s\'," %(method_parameters[-1]["variable"],method_parameters[-1]["variable"])
                 
-                request = request + "\',%s.class,%s);" %(method_returnType,method_parameters[-1]["variable"])
+                request = request + "\",%s.class,%s);" %(method_returnType,method_parameters[-1]["variable"])
                 body.append(request)
                 returnStatement = "return aux;\n}"
                 body.append(returnStatement)        
@@ -554,8 +560,8 @@ class Database:
             
 
         c.setInstance_variables(instance_variables)
-        c.setImplements([interface.getFull_Name()])
-        c.setImports(["org.springframework.web.client.RestTemplate","org.springframework.beans.factory.annotation.Autowired"])
+        c.setImplements([ interface.getFull_Name().split(".")[-1]])
+        c.setImports(["org.springframework.web.client.RestTemplate","org.springframework.beans.factory.annotation.Autowired",imports[0],imports[1]])
 
         return c
 

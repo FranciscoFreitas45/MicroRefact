@@ -6,16 +6,18 @@ class ServiceClass:
     
     @staticmethod
     
-    def create(methods,repositoryClass,typeOf1,typeOfN,pk):
+    def create(methods,repo,domainClass,typeOf1,typeOfN,pk,subDir):
         
-        name =  typeOfN + typeOf1 + "Service"
-        service = Class("NEW." +name,name)
+        repositoryClass = repo.split(".")[-1]
 
-        anotations = ["@AllArgsConstructor","@Service"]
-        imports = ["lombok.AllArgsConstructor","org.springframework.stereotype.Service"]
+        name =  typeOfN + typeOf1 + "Service"
+        service = Class(subDir +"NEW." +name,name)
+
+        anotations = ["@Service"]
+        imports = ["org.springframework.stereotype.Service","org.springframework.beans.factory.annotation.Autowired",repo,domainClass]
 
         instance_variables = [{
-            "annotations" : [],
+            "annotations" : ["@Autowired"],
             "modifier" : "private",
             "type" : repositoryClass,
             "variable" : repositoryClass.lower()
@@ -42,8 +44,12 @@ class ServiceClass:
             callRepo = callRepo + "%s);\n}" %(method_parameters[-1]["variable"])    
             
             body.append(callRepo)
+            print("1234678")
+            print(body)
             m = MyMethod(method_name,method_returnType,method_parameters,body)
+            print(m.getBody())
             service.addMyMethods(m)
+           
 
 
         
