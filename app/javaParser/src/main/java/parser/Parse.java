@@ -5,6 +5,7 @@ import com.github.javaparser.ast.ImportDeclaration;
 import com.github.javaparser.ast.body.*;
 import com.github.javaparser.ast.expr.MarkerAnnotationExpr;
 import com.github.javaparser.ast.expr.MethodCallExpr;
+import com.github.javaparser.ast.stmt.ThrowStmt;
 import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.resolution.UnsolvedSymbolException;
 import com.github.javaparser.resolution.types.ResolvedReferenceType;
@@ -27,12 +28,12 @@ public class Parse {
 
     public Map<String, MyClassDTO> completeParse(List<CompilationUnit> compilationUnits) {
         Map<String, MyClass> classes = extractClasses(compilationUnits);
-        System.out.println("Parsed classes");
-        for (MyClass classe : classes.values()) {
+        //System.out.println("Parsed classes");
+        //for (MyClass classe : classes.values()) {
             //System.out.println(classe); MyClass{qualifiedName='pl.edu.wat.wcy.pz.restaurantServer.security.WebSecurityConfiguration'}
 
-            System.out.println(classe.getQualifiedName());
-        }
+            //System.out.println(classe.getQualifiedName());
+        //}
         populateClassesWithMethodDeclarations(classes);
         return parseClasses(classes);
     }
@@ -97,7 +98,7 @@ public class Parse {
             MyClass myClass = myClasses.get(className);
 
             if (myClass == null) {
-                System.out.println("[Class Not Found] " + className);
+                //System.out.println("[Class Not Found] " + className);
                 continue;
             }
 
@@ -157,13 +158,18 @@ public class Parse {
             visitor.accept(new FieldDeclarationVisitor(),instance_variables);
 
             visitor.accept(new MethodDeclarationVisitor(),method_declarations);
+            System.out.println("CONSTRUTOREESSS");
+            System.out.println(visitor.getConstructors());
 
-            System.out.println("[Parsing class] " + myClass.getSimpleName());
+           // System.out.println("[Parsing class] " + myClass.getSimpleName());
 
             myClass.setAnnotations(visitor.getAnnotations());
             myClass.setVariables( variables);
             myClass.setMethodInvocations(methodCallInvocations);
             myClass.setInstance_variables(instance_variables);
+
+
+
 
 
         }

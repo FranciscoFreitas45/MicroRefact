@@ -32,6 +32,8 @@ public class MyClassDTO {
     @Expose
     private String qualifiedName;
     @Expose
+    private List<String> constructor;
+    @Expose
     private Integer begin;
     @Expose
     private Integer end;
@@ -62,6 +64,7 @@ public class MyClassDTO {
 
     public MyClassDTO(MyClass myClass, Set<String> validClasses) {
         this.validClasses = validClasses;
+        this.constructor = myClass.getConstructor().stream().map(x->x.toString()).collect(Collectors.toList());
         this.qualifiedName = myClass.getQualifiedName();
         this.begin = myClass.getBegin();
         this.end = myClass.getEnd();
@@ -216,12 +219,12 @@ public class MyClassDTO {
     }
 
     public Map<String,MyMethodDTO> extractMethodInfo(Map<String,MyMethod> methods){
-        System.out.println("*************" +this.qualifiedName + "************");
+        //System.out.println("*************" +this.qualifiedName + "************");
         Map<String,MyMethodDTO> methodInfo = new HashMap<>();
 
 
         for( MyMethod mm : methods.values()) {
-            System.out.println(mm.getName());
+            List<String> exception = mm.getVisitor().getThrownExceptions().stream().map(x -> x.toString()).collect(Collectors.toList());
 
             List<MethodCallExpr> methodCallInvocations = new ArrayList<>();
             mm.getVisitor().accept(new MethodCallExprVisitor(), methodCallInvocations);
@@ -240,7 +243,7 @@ public class MyClassDTO {
                     identifier.add(n.toString());
                 }
             }
-            System.out.println("---" +mm.getVisitor().getType().getChildNodes());
+           // System.out.println("---" +mm.getVisitor().getType().getChildNodes());
             returnDataType.add(mm.getVisitor().getTypeAsString());
             String name = mm.getName();
 
@@ -249,7 +252,7 @@ public class MyClassDTO {
                 List<VariableDeclarator> variables = new ArrayList<>();
                 mm.getVisitor().accept(new VariableDeclaratorVisitor(), variables);
                 List<VariableOFMethodDTO> vdtos = new ArrayList<>();
-                System.out.println(variables);
+                //System.out.println(variables);
                 for (VariableDeclarator v : variables) {
                     VariableOFMethodDTO vdto;
                     if(v.getChildNodes().get(0).getChildNodes().size() > 1){
@@ -271,10 +274,10 @@ public class MyClassDTO {
                 MyMethodDTO mdto;
                 List<String> annotations = mm.getVisitor().getAnnotations().stream().map(x -> x.toString()).collect(Collectors.toList());
                 if(mm.getVisitor().getBody().isPresent()){
-                    mdto = new MyMethodDTO(name, r.get().begin.line, r.get().end.line, returnDataType,identifier, parametersDataType, vdtos, methodInvocationDTOS,annotations,mm.getVisitor().getBody().get().toString());
+                    mdto = new MyMethodDTO(name, r.get().begin.line, r.get().end.line, returnDataType,identifier, parametersDataType, vdtos, methodInvocationDTOS,annotations,mm.getVisitor().getBody().get().toString(),exception);
                 }
                 else
-                 mdto = new MyMethodDTO(name, r.get().begin.line, r.get().end.line, returnDataType,identifier, parametersDataType, vdtos, methodInvocationDTOS,annotations);
+                 mdto = new MyMethodDTO(name, r.get().begin.line, r.get().end.line, returnDataType,identifier, parametersDataType, vdtos, methodInvocationDTOS,annotations,exception);
                 methodInfo.put(mm.getName(), mdto);
 
         }
