@@ -19,7 +19,8 @@ def create_MyMethod(method_dict):
     parametersDataType = method_dict["parametersDataType"]
     body = method_dict["body"].split("\n")
     annotations = method_dict["annotations"]
-    method = MyMethod(name,returnType,parametersDataType,body,annotations)
+    exceptions = method_dict["exception"]
+    method = MyMethod(name,returnType,parametersDataType,exceptions,body,annotations)
     
     return method
 
@@ -42,7 +43,8 @@ def extract_Info_AST(Clusters):
                     '''
                         Parte de extração de info para a classe
 
-                    '''     
+                    '''
+                    classe.setConstructor(ast[classe.getFull_Name()]["constructor"])     
                     classe.setBegin(ast[classe.getFull_Name()]["begin"])
                     classe.setEnd(ast[classe.getFull_Name()]["end"])
                     classe.setIsInterface(ast[classe.getFull_Name()]["isInterface"])
@@ -53,7 +55,6 @@ def extract_Info_AST(Clusters):
                     classe.setExtends(ast[classe.getFull_Name()]["extendedTypes"]) 
                     classe.setImports(ast[classe.getFull_Name()]["imports"])
                     classe.setMethodsInvocations(ast[classe.getFull_Name()]["methodInvocations"])
-
                     for meth in ast[classe.getFull_Name()]["myMethods"].values():
                         method = create_MyMethod(meth)
                         classe.addMyMethods(method)
@@ -86,6 +87,7 @@ def extract_Info_AST(Clusters):
                
 
             for indexC,extend,cluster in extends_to_add:
+                print( "%s    %s     %s " %(indexC,extend,cluster.getPathToDirectory()))
                 extendCopy = copy.deepcopy(Clusters[indexC].getClasses()[extend])
                 extendCopy.setIsOriginal(False)
                 cluster.getClasses()[extend] = extendCopy      

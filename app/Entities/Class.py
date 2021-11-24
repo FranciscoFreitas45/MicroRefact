@@ -2,11 +2,15 @@ import os
 from shutil import copyfile
 import re
 import Utils as Utils
+from Entities.MyMethod import MyMethod
+
 
 
 class Class:
-    def __init__(self,full_name,short_name,begin=0,end=0,annotations = [],dependencies = [],methods = [],instance_variables=[], implements = [],extends = [], imports = []): #pathToDirectory):
+    def __init__(self,full_name,short_name,constructor=[],begin=0,end=0,annotations = [],dependencies = [],methods = [],instance_variables=[], implements = [],extends = [], imports = []): #pathToDirectory):
         self.full_name = full_name
+        self.constructor = constructor
+        self.package = ".".join(full_name.split(".")[:-1])
         self.begin = begin
         self.end = end
         self.short_name = short_name
@@ -34,6 +38,13 @@ class Class:
 
     def setFull_Name(self,full_name):
         self.full_name = full_name
+        self.package = ".".join(full_name.split(".")[:-1])
+
+    def getConstructor(self):
+        return self.constructor
+
+    def setConstructor(self,constructor):
+        self.constructor = constructor 
 
     def setBegin(self,begin):
         self.begin = begin
@@ -113,6 +124,9 @@ class Class:
     def setImports(self,imports):
         self.imports = imports 
 
+    def addImports(self,impor):
+        self.imports.append(impor)    
+
     def getMethodsInvocations(self):
         return self.methodsInvocations
     
@@ -161,12 +175,22 @@ class Class:
         print(self.full_name)
         if any(re.match("^@PrimaryKeyJoinColumn",line) for line in self.annotations):
             print("kkkkk")
-            return cluster.getClasses()[self.extends[1]].primaryKeyVariableType(cluster)
+            print(self.extends)
+            print(cluster.getPathToDirectory())
+            print(cluster.getClasses())
+            if "." in  self.extends[0]:
+                return cluster.getClasses()[self.extends[0]].primaryKeyVariableType(cluster)
+            else:
+                return cluster.getClasses()[self.extends[1]].primaryKeyVariableType(cluster)
 
         for variable in self.instance_variables:
             anotations = variable["annotations"]
             if "@Id" in  anotations:
-                return variable["type"] , variable["variable"]    
+                return variable["type"] , variable["variable"]
+        
+        for extend in self.extends:
+            if "." in extend:
+                return cluster.getClasses()[extend].primaryKeyVariableType(cluster)  
         return None
 
     def findMyMethod(self,name):
@@ -233,6 +257,7 @@ class Class:
 
         f = open(pathToCreateFile + "/" +"/".join(self.full_name.split(".")) +".java", "w")
 
+        f.write("package %s;\n "%(self.package))
         if len(self.imports) > 0 :
             for imp in self.imports:
                 f.write("import " + imp + ";\n" )
@@ -243,19 +268,27 @@ class Class:
             f.write("public interface %s " %(self.short_name))
         else:    
             f.write("public class %s " %(self.short_name))
-        
+        ext = []
         if len(self.extends) > 0:
-            if len(self.extends) == 1:
-                f.write("extends %s " %(self.extends[0]))
-            else:
-                f.write("extends %s " %(self.extends[1]))
+            for extend in self.extends:
+                if '.' not in extend:
+                    ext.append(extend)
+            if len(ext)>0:
+                f.write("extends ")
+                for ex in ext[:-1]:
+                    f.write("%s, "%(ex))
+                f.write("%s"%(ext[-1]))
 
-
+        imp = []    
         if len(self.implements) > 0:
-            f.write("implements ")
-            for implement in self.implements[:-1]:
-                f.write("%s,"%(implement))
-            f.write("%s"%(self.implements[-1]))              
+            for implements in self.implements:
+                if '.' not in implements:
+                    imp.append(implements)
+            if len(imp) > 0:
+                f.write("implements ")
+                for implement in imp[:-1]:
+                    f.write("%s,"%(implement))
+                f.write("%s"%(imp[-1]))              
         f.write("{\n\n")  
                 
         for var in self.instance_variables:
@@ -263,12 +296,53 @@ class Class:
                 f.write(anot + "\n")
             f.write(" %s %s %s;\n\n" %(var["modifier"],var["type"],var["variable"]))
 
+        for const in self.constructor:
+            f.write(const)
+
         for met in self.myMethods:
-            f.write("\n" +met.create() + "\n")
+            f.write("\n" +met.create())
+            if self.isInterface:
+                f.write(";")
+            f.write("\n")        
         f.write("\n}")    
         f.close()
 
-       
+    def add_Methods_to_Class(self,methods):
+
+        print("#######")
+        for method in methods:
+            exist = False
+            for o_mets in self.myMethods:
+                if method["name"] == o_mets.getName() and method["parametersDataType"] == o_mets.getParameters():
+                    exist = True
+            
+            if not exist:
+                method_name = method["name"]
+                method_returnType = method["returnDataType"][0]
+                method_parameters = method["parametersDataType"]
+                body = []
+                request = ""
+                request = "{\n  UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(url.concat(\"/%s\"))\n"%(method_name) 
+        
+                if len (method_parameters) > 0:
+                    for param in method_parameters[:-1]:
+                        request =request + "    .queryParam(\"%s\",%s)\n"%(param["variable"],param["variable"])
+                    request =request + "    .queryParam(\"%s\",%s);\n"%(method_parameters[-1]["variable"],method_parameters[-1]["variable"])
+
+                if method_returnType == "void": # sigifica que é um post ou put)
+                    request = request + "\n  restTemplate.put(builder.toUriString(), null);\n}"
+                    body.append(request)
+                else:                         
+                    request =request + "  %s aux = restTemplate.getForObject(builder.toUriString(), %s.class);\n"%(method_returnType,method_returnType)
+                    body.append(request)
+                    returnStatement = " return aux;\n}"
+                    body.append(returnStatement)        
+            
+                m = MyMethod(method_name,method_returnType,method_parameters,[],body)
+                self.myMethods.append(m)            
+                   
+
+
 
     def myInformation(self):
         print(self.full_name)

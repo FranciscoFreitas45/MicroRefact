@@ -8,22 +8,22 @@ import Utils as Utils
 class ControllerClass:
     
     @staticmethod  
-    def create(methods,typeOf1,typeOfN,pk):
+    def create(methods,domainClass,typeOf1,typeOfN,pk,subDir):
 
         name =typeOfN + typeOf1 + "Controller"
 
-        controller = Class("NEW." +name,name)
+        controller = Class( subDir +"NEW." +name,name)
         service = typeOfN +typeOf1
 
         instance_variables = [{
-            "annotations" : [],
+            "annotations" : ["@Autowired"],
             "modifier" : "private",
             "type" : service+"Service",
             "variable" : (service + "Service").lower()
         }]
 
-        anotations = ["@AllArgsConstructor","@RestController","@CrossOrigin"]
-        imports = ["lombok.AllArgsConstructor","org.springframework.web.bind.annotation.*"]
+        anotations = ["@RestController","@CrossOrigin"]
+        imports = ["org.springframework.web.bind.annotation.*", "org.springframework.beans.factory.annotation.Autowired",domainClass]
 
         controller.setInstance_variables(instance_variables)
         controller.setAnnotation(anotations)
@@ -59,7 +59,7 @@ class ControllerClass:
 
             body.append(callService)
 
-            m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+            m = MyMethod(method_name,method_returnType,method_parameters,[],body,annotations,route)
             controller.addMyMethods(m)
         
         return controller
@@ -67,13 +67,13 @@ class ControllerClass:
 
     @staticmethod
 
-    def createClass_Controller(interface):
+    def createClass_Controller(interface,subDir):
 
-        name =interface.getFull_Name() + "Controller"
+        name =interface.getFull_Name().split(".")[-1]  + "Controller"
 
-        controller = Class("NEWInstance." + name,name)
+        controller = Class(subDir +"NEWInstance." + name,name)
         #service = typeOfN +typeOf1
-        variable = interface.getFull_Name()
+        variable = interface.getFull_Name().split(".")[-1]
         
         instance_variables = [{
             "annotations" : [],
@@ -83,8 +83,8 @@ class ControllerClass:
         }]
         
 
-        anotations = ["@AllArgsConstructor","@RestController","@CrossOrigin"]
-        imports = ["org.springframework.web.bind.annotation.*","lombok.AllArgsConstructor"]
+        anotations = ["@RestController","@CrossOrigin"]
+        imports = ["org.springframework.web.bind.annotation.*"]
 
         controller.setInstance_variables(instance_variables)
         controller.setAnnotation(anotations)
@@ -119,7 +119,7 @@ class ControllerClass:
 
             body.append(callService)
             
-            m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+            m = MyMethod(method_name,method_returnType,method_parameters,[],body,annotations,route)
             controller.addMyMethods(m)
         
         return controller
@@ -152,7 +152,7 @@ class ControllerClass:
 
         body.append(callService)
             
-        m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+        m = MyMethod(method_name,method_returnType,method_parameters,[],body,annotations,route)
         controller.addMyMethods(m)        
 
 
@@ -160,9 +160,9 @@ class ControllerClass:
 
     @staticmethod
 
-    def createVARrequestController(classe,variable,method,targetClassName,cluster,ADDNEWCLASSE=True):
+    def createVARrequestController(classe,variable,method,targetClassName,cluster,subDir,ADDNEWCLASSE=True):
         
-        #print(")))) " +str(method))
+        print(")))) " +str(method))
         #print(variable)
         print("targetclasse " + targetClassName)
         instance_variables = {
@@ -175,12 +175,12 @@ class ControllerClass:
         
         if ADDNEWCLASSE:
             name = classe + "Controller"
-            controller = Class("NEWInstance." + name,name)
+            controller = Class(subDir +"NEWInstance." + name,name)
 
             
 
-            anotations = ["@AllArgsConstructor","@RestController","@CrossOrigin"]
-            imports = ["org.springframework.web.bind.annotation.*","lombok.AllArgsConstructor"]
+            anotations = ["@RestController","@CrossOrigin"]
+            imports = ["org.springframework.web.bind.annotation.*"]
 
             controller.setInstance_variables([instance_variables])
             controller.setAnnotation(anotations)
@@ -210,7 +210,8 @@ class ControllerClass:
         if method[1] != None:
             method_parameters.insert(0,{"type": "@PathVariable(name = \"id\") " + method[1][0] ,
                                         "variable" : "id" })
-            route = route + "/{id}"                            
+            route = route + "/{id}"
+            print(" fffff " + targetClassName)                            
             repo = Utils.find_repositoryClass(targetClassName,cluster)
             inst= {
                 "annotations" : [],
@@ -239,7 +240,7 @@ class ControllerClass:
 
         body.append(callService)
             
-        m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+        m = MyMethod(method_name,method_returnType,method_parameters,[],body,annotations,route)
         controller.addMyMethods(m)
 
         if repo!= None: # criar metodo na repository class
@@ -255,7 +256,7 @@ class ControllerClass:
                     "variable" : meth["variable"]
 
                 }) 
-            met = MyMethod(method_name, method_returnType, parameters)
+            met = MyMethod(method_name, method_returnType, parameters,[])
             repo[0].addMyMethods(met)
         return controller , repo    
 

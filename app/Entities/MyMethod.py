@@ -1,14 +1,16 @@
 
 class MyMethod:
 
-    def __init__(self,name,returnType,parameters,body=[],anotations =[],route = ""):
+    def __init__(self,name,returnType,parameters,exceptions, body=[],anotations =[],route = "",modifier="public"):
         self.name = name
         self.annotations = anotations
         self.route = route
-        self.modifier = "public"
+        self.modifier = modifier
         self.returnType = returnType
         self.parameters = parameters
-        self.body = body 
+        self.body = body
+        self.exceptions = exceptions
+ 
  
     def getName(self):
         return self.name
@@ -62,6 +64,9 @@ class MyMethod:
             parameters = parameters +")"
  
         method = method + parameters 
+        
+        if len(self.exceptions) > 0 :
+            method = method + " throws %s"%(self.exceptions[0])
 
         for statement in self.body:
             method = method + statement + "\n"
