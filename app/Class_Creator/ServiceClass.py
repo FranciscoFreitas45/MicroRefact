@@ -46,7 +46,7 @@ class ServiceClass:
             body.append(callRepo)
             print("1234678")
             print(body)
-            m = MyMethod(method_name,method_returnType,method_parameters,body)
+            m = MyMethod(method_name,method_returnType,method_parameters,[],body)
             print(m.getBody())
             service.addMyMethods(m)
            

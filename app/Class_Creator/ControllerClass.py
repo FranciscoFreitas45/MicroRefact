@@ -59,7 +59,7 @@ class ControllerClass:
 
             body.append(callService)
 
-            m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+            m = MyMethod(method_name,method_returnType,method_parameters,[],body,annotations,route)
             controller.addMyMethods(m)
         
         return controller
@@ -119,7 +119,7 @@ class ControllerClass:
 
             body.append(callService)
             
-            m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+            m = MyMethod(method_name,method_returnType,method_parameters,[],body,annotations,route)
             controller.addMyMethods(m)
         
         return controller
@@ -152,7 +152,7 @@ class ControllerClass:
 
         body.append(callService)
             
-        m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+        m = MyMethod(method_name,method_returnType,method_parameters,[],body,annotations,route)
         controller.addMyMethods(m)        
 
 
@@ -162,7 +162,7 @@ class ControllerClass:
 
     def createVARrequestController(classe,variable,method,targetClassName,cluster,subDir,ADDNEWCLASSE=True):
         
-        #print(")))) " +str(method))
+        print(")))) " +str(method))
         #print(variable)
         print("targetclasse " + targetClassName)
         instance_variables = {
@@ -210,7 +210,8 @@ class ControllerClass:
         if method[1] != None:
             method_parameters.insert(0,{"type": "@PathVariable(name = \"id\") " + method[1][0] ,
                                         "variable" : "id" })
-            route = route + "/{id}"                            
+            route = route + "/{id}"
+            print(" fffff " + targetClassName)                            
             repo = Utils.find_repositoryClass(targetClassName,cluster)
             inst= {
                 "annotations" : [],
@@ -239,7 +240,7 @@ class ControllerClass:
 
         body.append(callService)
             
-        m = MyMethod(method_name,method_returnType,method_parameters,body,annotations,route)
+        m = MyMethod(method_name,method_returnType,method_parameters,[],body,annotations,route)
         controller.addMyMethods(m)
 
         if repo!= None: # criar metodo na repository class
@@ -255,7 +256,7 @@ class ControllerClass:
                     "variable" : meth["variable"]
 
                 }) 
-            met = MyMethod(method_name, method_returnType, parameters)
+            met = MyMethod(method_name, method_returnType, parameters,[])
             repo[0].addMyMethods(met)
         return controller , repo    
 

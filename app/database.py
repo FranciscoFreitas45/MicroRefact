@@ -30,9 +30,12 @@ from Class_Creator.ControllerClass import ControllerClass
 from Settings import Settings
 import copy
 import createProjectDirectory as createDirectory
+import random
+import string
 
 
 
+relations_bet_entites_dif_ms = 0 
 
 class Database:
 
@@ -40,7 +43,9 @@ class Database:
 
     @staticmethod
     def find_logic_schema(ast,Clusters):
-
+        numEntities = 0
+        global relations_bet_entites_dif_ms
+        relations_bet_entites_dif_ms = 0  
         for cluster in Clusters:
             #print(cluster.getPathToDirectory())
             #if  not re.search(r'\d+$',cluster.getPathToDirectory()): # verifica se é um cluster original
@@ -49,40 +54,45 @@ class Database:
             #  clusterCopy = copy.deepcopy(cluster) # REMEMBER ISTO É UMA COPIA LOGO O QUE É ESCRITO É REFERENTE A OUTRO OBJECTO
             for k,v in reversed(sorted(cluster.getClasses().items())): 
                 classe_annotations =v.getAnnotations()
-                if "@Entity" in classe_annotations:
+                if any(re.match("^@Entity",line) for line in classe_annotations):
+                #if "@Entity" in classe_annotations:
+                    numEntities = numEntities + 1
                     instance_variables = ast[k]["instance_variables"]
                     for variable in instance_variables:
                         variable_annotations = variable["annotations"]
                         
                         #if "@OneToMany" in variable_annotations:
                         if any(re.match("^@OneToMany",line) for line in variable_annotations):
+                            print("OneTOMANY")
 
                             param=v.primaryKeyVariableType(cluster)
-                            classes_to_add = Database.handle_OneToMany_Relationship(v,variable["identifier"][1],variable,cluster,Clusters,param)
+                            classes_to_add = Database.handle_OneToMany_Relationship(v,variable["identifier"][1],variable,cluster,Clusters,param,False)
                            
                             for cl in classes_to_add:
                              
                                 cluster.addNewClasses(cl)
                         
                         elif  any(re.match("^@ManyToMany",line) for line in variable_annotations):
+                            print("MANYTOMANY")
                             isJoin = Database.handle_ManyToMany_Relationship(v,variable["identifier"][1],variable,cluster,Clusters)
                             if isJoin:
                                 break
                         
-                        elif "OneToOne" in  variable_annotations:
-                            #print("ONETONE")
+                        elif any(re.match("^@OneToOne",line) for line in variable_annotations):
+                            print("ONETONE")
                             classes_to_add = Database.handle_ManyToOne_Relationship(v,variable["type"],variable,cluster,Clusters)
                             for cl in classes_to_add:
                              
                                 cluster.addNewClasses(cl)
                         
                         elif any(re.match("^@ManyToOne",line) for line in variable_annotations):
-                            #print("MANYTOONE")
+                            print("MANYTOONE")
                             classes_to_add = Database.handle_ManyToOne_Relationship(v,variable["type"],variable,cluster,Clusters)
                            
                             for cl in classes_to_add:
                              
                                 cluster.addNewClasses(cl)
+        return numEntities,relations_bet_entites_dif_ms                        
                         
                            
         
@@ -90,7 +100,7 @@ class Database:
 
 
     @staticmethod
-    def handle_OneToMany_Relationship(classe1, typeOfN,variable,cluster,Clusters,param):
+    def handle_OneToMany_Relationship(classe1, typeOfN,variable,cluster,Clusters,param,MANY_TO_ONE):
         #print("inside of oneToMany")
         print(classe1.getFull_Name())
         
@@ -110,6 +120,9 @@ class Database:
                 '''
                 STEP 3: CASO NAO PERTENCAM , PROCURAR QUAIS OS METODOS DA ENTIDADE QUE UTILIZAM A VARIAVEL (deverão ser os gets e sets)
                 ''' 
+                global relations_bet_entites_dif_ms
+                relations_bet_entites_dif_ms = relations_bet_entites_dif_ms +1
+                print("#################################### " +classe1.getFull_Name() + " ########  "+ dependency ) 
                 methods = []
                 methods = Database.find_usages_methods(classe1.getMethods(),typeOfN,completeType)
 
@@ -121,7 +134,7 @@ class Database:
                 '''
                 index = Utils.find_Cluster_with_Name_Class(dependency,Clusters)
                 classDepend = copy.deepcopy(Clusters[index].getClasses()[dependency])
-
+                print(cluster.getIsExtra())
                 name_depend = cluster.getSubDirectories() +"DTO." + classDepend.getFull_Name().split(".")[-1]
                 #print(name_depend)
                 #print(classDepend.getInstance_variable())
@@ -205,9 +218,12 @@ class Database:
 
                 for met in methods:
                     for myMet in classe1.getMyMethods():
+                        body = "{\n"
                         if met["name"] == myMet.getName():
                             if (met["returnDataType"][0] =="void"):
-                                body = "{\n %s.%s("%(interface.getShort_Name().lower(),met["name"])
+                                if MANY_TO_ONE:
+                                    body = body + "this.%s = %s.%s() ;\n"%(param[1],met["parametersDataType"][0]["variable"],"get"+met["parametersDataType"][0]["variable"].capitalize())
+                                body = body + "%s.%s("%(interface.getShort_Name().lower(),met["name"])
                             else:    
                                 body = "{\n  this.%s = %s.%s("%(variable["variable"],interface.getShort_Name().lower(),met["name"])
                             
@@ -217,8 +233,12 @@ class Database:
 
                             if (met["returnDataType"][0] !="void"):
                                 body = body + "return this.%s;\n}"%(variable["variable"])     
-                            else:
-                                body = body + "}\n"
+                            
+                            elif re.search("^set",met["name"]):
+                                for parameter in met["parametersDataType"]:
+                                    body = body + " this.%s = %s;\n"%(parameter["variable"],parameter["variable"])
+                            
+                            body = body + "}\n"
 
                             myMet.setBody([body])
                
@@ -292,8 +312,8 @@ class Database:
         '''     
         dependencies = classe1.getDependencies()
         #print("INSIDE MANY TO MANY")
-        #print(classe1.getFull_Name())
-        #print(typeOfN)
+        print(classe1.getFull_Name())
+        print(typeOfN)
         #print(str(dependencies))
         #print("******************") 
         #cluster.printName()
@@ -301,17 +321,23 @@ class Database:
         #print("******************") 
         
 
-        repositoryClass,repositoryClassName = Utils.find_repositoryClass(classe1.getFull_Name(),cluster)
+        #repositoryClass,repositoryClassName = Utils.find_repositoryClass(classe1.getFull_Name(),cluster)
         for dependency in dependencies:
+            
             '''
             STEP 2: CASO PERTENÇAM NAO FAZER NADA, A RELAÇÃO PODE CONTINUAR  A EXISTIR PORQUE A BASE DE DADOS DO MICRO-SERVIÇO TEM AS DUAS ENTIDADES
             ''' 
             if(re.search("\."+typeOfN+'$',dependency)):
+                repositoryClass,repositoryClassName = Utils.find_repositoryClass(classe1.getFull_Name(),cluster)
                 isJoin=True
                 #print("match")
                 '''
                 STEP 3: CASO NAO PERTENCAM, PROCURAR AS CLASSES REPOSITORY E CRIAR UM NOVO CLUSTER COM MODELS E REPOSITORYS
-                ''' 
+                '''
+                global relations_bet_entites_dif_ms
+                relations_bet_entites_dif_ms = relations_bet_entites_dif_ms +1
+                
+                print("#################################### " +classe1.getFull_Name() + " ########  "+ dependency ) 
                 indexOfcluster = Utils.find_Cluster_with_Name_Class(dependency,Clusters)
                 #print(indexOfcluster)
                 #print("IS A MS EXTRA: " + str(Clusters[indexOfcluster].getIsExtra()))
@@ -353,6 +379,7 @@ class Database:
                         clus.addNewClasses(cla)
 
 
+                    clus.setSubDirectories(Clusters[indexOfcluster].getSubDirectories())
 
                     Clusters.append(clus)
 
@@ -402,16 +429,20 @@ class Database:
             STEP 2: CASO PERTENÇAM NAO FAZER NADA, A RELAÇÃO PODE CONTINUAR  A EXISTIR PORQUE A BASE DE DADOS DO MICRO-SERVIÇO TEM AS DUAS ENTIDADES
             ''' 
             if(re.search("\."+typeof1+'$',dependency)):
+                #global relations_bet_entites_dif_ms 
+                #relations_bet_entites_dif_ms = relations_bet_entites_dif_ms +1
+
+                #print("#################################### " +classeN.getFull_Name() + " ########  "+ dependency )
                 indexOfcluster = Utils.find_Cluster_with_Name_Class(dependency,Clusters)
                 pk_of_1 = Clusters[indexOfcluster].getClasses()[dependency].primaryKeyVariableType(Clusters[indexOfcluster])
                 print("---------" +  str(pk_of_1))
                 
-                if(pk_of_1[1] == variable["variable"]):
-                    var = pk_of_1[1] + "v2"
-                    aux = (pk_of_1[0],var)
-                else:
-                    var = pk_of_1[1]
-                    aux = (pk_of_1[0],pk_of_1[1])
+                #if(pk_of_1[1] == variable["variable"]):
+                var = pk_of_1[1] +  ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(4))
+                aux = (pk_of_1[0],var)
+                #else:
+                #    var = pk_of_1[1]
+                #    aux = (pk_of_1[0],pk_of_1[1])
 
                 
                 classeN.addInstance_Variable({#"annotations" :[re.sub("Join","",variable["annotations"][1])],
@@ -419,7 +450,7 @@ class Database:
                                                 "modifier" : "private", 
                                                 "type" : pk_of_1[0],
                                                 "variable" : var})
-                classes_to_add_cluster = Database.handle_OneToMany_Relationship(classeN,typeof1,variable,cluster,Clusters,aux)
+                classes_to_add_cluster = Database.handle_OneToMany_Relationship(classeN,typeof1,variable,cluster,Clusters,aux,True)
         #print("ok2")
         return classes_to_add_cluster
 
@@ -555,7 +586,7 @@ class Database:
 
             
 
-            m = MyMethod(method_name,method_returnType,method_parameters,body)
+            m = MyMethod(method_name,method_returnType,method_parameters,[],body)
             c.addMyMethods(m)
             
 

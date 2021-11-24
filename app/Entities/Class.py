@@ -7,8 +7,9 @@ from Entities.MyMethod import MyMethod
 
 
 class Class:
-    def __init__(self,full_name,short_name,begin=0,end=0,annotations = [],dependencies = [],methods = [],instance_variables=[], implements = [],extends = [], imports = []): #pathToDirectory):
+    def __init__(self,full_name,short_name,constructor=[],begin=0,end=0,annotations = [],dependencies = [],methods = [],instance_variables=[], implements = [],extends = [], imports = []): #pathToDirectory):
         self.full_name = full_name
+        self.constructor = constructor
         self.package = ".".join(full_name.split(".")[:-1])
         self.begin = begin
         self.end = end
@@ -39,6 +40,11 @@ class Class:
         self.full_name = full_name
         self.package = ".".join(full_name.split(".")[:-1])
 
+    def getConstructor(self):
+        return self.constructor
+
+    def setConstructor(self,constructor):
+        self.constructor = constructor 
 
     def setBegin(self,begin):
         self.begin = begin
@@ -169,12 +175,22 @@ class Class:
         print(self.full_name)
         if any(re.match("^@PrimaryKeyJoinColumn",line) for line in self.annotations):
             print("kkkkk")
-            return cluster.getClasses()[self.extends[1]].primaryKeyVariableType(cluster)
+            print(self.extends)
+            print(cluster.getPathToDirectory())
+            print(cluster.getClasses())
+            if "." in  self.extends[0]:
+                return cluster.getClasses()[self.extends[0]].primaryKeyVariableType(cluster)
+            else:
+                return cluster.getClasses()[self.extends[1]].primaryKeyVariableType(cluster)
 
         for variable in self.instance_variables:
             anotations = variable["annotations"]
             if "@Id" in  anotations:
-                return variable["type"] , variable["variable"]    
+                return variable["type"] , variable["variable"]
+        
+        for extend in self.extends:
+            if "." in extend:
+                return cluster.getClasses()[extend].primaryKeyVariableType(cluster)  
         return None
 
     def findMyMethod(self,name):
@@ -280,6 +296,9 @@ class Class:
                 f.write(anot + "\n")
             f.write(" %s %s %s;\n\n" %(var["modifier"],var["type"],var["variable"]))
 
+        for const in self.constructor:
+            f.write(const)
+
         for met in self.myMethods:
             f.write("\n" +met.create())
             if self.isInterface:
@@ -319,7 +338,7 @@ class Class:
                     returnStatement = " return aux;\n}"
                     body.append(returnStatement)        
             
-                m = MyMethod(method_name,method_returnType,method_parameters,body)
+                m = MyMethod(method_name,method_returnType,method_parameters,[],body)
                 self.myMethods.append(m)            
                    
 

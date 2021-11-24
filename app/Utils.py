@@ -50,7 +50,8 @@ def find_repositoryClass(nameOfClasse,Cluster):
     for classe in classes.values():
         print("..... " + classe.getFull_Name())
         for extend in classe.getExtends():
-            if nameOfClasse in classe.getImports() and (re.search("^JpaRepository<"+typeof,extend) or re.search("^PagingAndSortingRepository<"+typeof,extend) or re.search("^CrudRepository<"+typeof,extend) or re.search("^Repository<"+typeof,extend) ):
+            '''nameOfClasse in classe.getImports() and '''
+            if (re.search("^JpaRepository<"+typeof,extend) or re.search("^PagingAndSortingRepository<"+typeof,extend) or re.search("^CrudRepository<"+typeof,extend) or re.search("^Repository<"+typeof,extend) ):
         #if nameOfClasse in classe.getImports() and ("@Repository" in classe.getAnnotations() or ("org.springframework.data.jpa.repository.JpaRepository" in classe.getImports() or 
         #    "org.springframework.data.repository.PagingAndSortingRepository" in classe.getImports())):    
                 return classe, classe.getFull_Name()

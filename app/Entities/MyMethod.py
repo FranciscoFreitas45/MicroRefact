@@ -1,14 +1,16 @@
 
 class MyMethod:
 
-    def __init__(self,name,returnType,parameters,body=[],anotations =[],route = "",modifier="public"):
+    def __init__(self,name,returnType,parameters,exceptions, body=[],anotations =[],route = "",modifier="public"):
         self.name = name
         self.annotations = anotations
         self.route = route
         self.modifier = modifier
         self.returnType = returnType
         self.parameters = parameters
-        self.body = body 
+        self.body = body
+        self.exceptions = exceptions
+ 
  
     def getName(self):
         return self.name
@@ -39,8 +41,6 @@ class MyMethod:
 
         
     def create(self):
-        if self.name == "getReservations":
-            print("dddddddddddddddd " + str(self.body))
         method = ""
         if  len(self.annotations) > 0:
             for anot in self.annotations:
@@ -64,6 +64,9 @@ class MyMethod:
             parameters = parameters +")"
  
         method = method + parameters 
+        
+        if len(self.exceptions) > 0 :
+            method = method + " throws %s"%(self.exceptions[0])
 
         for statement in self.body:
             method = method + statement + "\n"

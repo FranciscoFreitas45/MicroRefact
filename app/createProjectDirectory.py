@@ -28,7 +28,8 @@ def createFolderForMicroservice (nameOfProject, nameOfMicroservice,OriginalPathO
         print ("Creation of the directory %s failed" % pathToMicroservice)
     else:
         print ("Successfully created the directory %s " % pathToMicroservice)
-        copyfile(OriginalPathOfProject + "/pom.xml", nameOfProject + "/" + nameOfMicroservice + "/pom.xml")
-
-
+        try:
+            copyfile(OriginalPathOfProject + "/pom.xml", nameOfProject + "/" + nameOfMicroservice + "/pom.xml")
+        except OSError:
+            print ("Creation of the directory %s failed" % pathToMicroservice)
     return pathToMicroservice

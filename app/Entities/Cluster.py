@@ -91,10 +91,10 @@ class Cluster:
         imports = ["org.springframework.boot.SpringApplication","org.springframework.context.annotation.Bean","org.springframework.boot.autoconfigure.SpringBootApplication","org.springframework.web.client.RestTemplate"]
         c.setAnnotation(["@SpringBootApplication"])
         
-        m = MyMethod("restTemplate", "RestTemplate", [],["{\n "," return new RestTemplate();\n","  }\n"],["@Bean"])
+        m = MyMethod("restTemplate", "RestTemplate", [],[],["{\n "," return new RestTemplate();\n","  }\n"],["@Bean"])
         c.addMyMethods(m)
 
-        main = MyMethod("main", "void", [{"type": "String[]","variable":"args"}],["{\n","SpringApplication.run(Main.class,args);\n","   }\n"],[],"","public static")
+        main = MyMethod("main", "void", [{"type": "String[]","variable":"args"}],[],["{\n","SpringApplication.run(Main.class,args);\n","   }\n"],[],"","public static")
         c.addMyMethods(main)
         
 
@@ -104,9 +104,9 @@ class Cluster:
                 imports.append(classe.getFull_Name())
                 imports.append(classe.getFull_Name() + "Impl")
 
-                body = ["{\n","return  new %s() "%(classe.getShort_Name() + "Impl"),"    }\n"]
+                body = ["{\n","return  new %s(); "%(classe.getShort_Name() + "Impl"),"    }\n"]
                 
-                c.addMyMethods(MyMethod(classe.getShort_Name().lower(), classe.getShort_Name(),[],body,["@Bean"]))
+                c.addMyMethods(MyMethod(classe.getShort_Name().lower(), classe.getShort_Name(),[],[],body,["@Bean"]))
 
         
         c.setImports(imports)
