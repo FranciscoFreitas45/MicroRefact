@@ -4,6 +4,7 @@ import com.github.javaparser.Range;
 import com.github.javaparser.ast.ImportDeclaration;
 import com.github.javaparser.ast.NodeList;
 import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration;
+import com.github.javaparser.ast.body.ConstructorDeclaration;
 import com.github.javaparser.ast.body.FieldDeclaration;
 import com.github.javaparser.ast.body.VariableDeclarator;
 import com.github.javaparser.ast.expr.AnnotationExpr;
@@ -18,6 +19,7 @@ import java.util.stream.Collectors;
 
 public class MyClass {
     private String simpleName;
+    private List<ConstructorDeclaration> constructor;
     private Integer begin;
     private Integer end;
     private String qualifiedName;
@@ -48,6 +50,7 @@ public class MyClass {
     }
 
     public MyClass(ClassOrInterfaceDeclaration visitor, NodeList<ImportDeclaration> imports, Range range) {
+        this.constructor = visitor.getConstructors();
         this.methods = new HashMap<>();
         this.operations = new HashSet<>();
         this.implementedTypes = visitor.getImplementedTypes().stream().map(x-> x.toString()).collect(Collectors.toSet());
@@ -60,7 +63,7 @@ public class MyClass {
         this.imports=imports;
         this.begin = range.begin.line;
         this.end = range.end.line;
-        System.out.println(visitor.getImplementedTypes());
+        //System.out.println(visitor.getImplementedTypes());
 
 
     }
@@ -204,6 +207,14 @@ public class MyClass {
 
     public void setImports(NodeList<ImportDeclaration> imports) {
         this.imports = imports;
+    }
+
+    public List<ConstructorDeclaration> getConstructor() {
+        return constructor;
+    }
+
+    public void setConstructor(List<ConstructorDeclaration> constructor) {
+        this.constructor = constructor;
     }
 
     @Override

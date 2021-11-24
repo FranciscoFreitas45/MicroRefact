@@ -28,11 +28,13 @@ public class MyMethodDTO {
     private String  body;
     @Expose
     private List<MethodInvocationDTO> methodInvocations;
+    @Expose
+    private List<String> exception;
 
 
 
 
-    public MyMethodDTO(String name, int lineBegin, int lineEnd,List<String> returnDataType,List<String> identifier,List<VariableOFMethodDTO> parameterDataType,List<VariableOFMethodDTO> variables ,List<MethodInvocationDTO> methodInvocations,List<String> annotations,String body) {
+    public MyMethodDTO(String name, int lineBegin, int lineEnd,List<String> returnDataType,List<String> identifier,List<VariableOFMethodDTO> parameterDataType,List<VariableOFMethodDTO> variables ,List<MethodInvocationDTO> methodInvocations,List<String> annotations,String body,List<String> exception) {
         this.name = name;
         this.lineBegin = lineBegin;
         this.lineEnd = lineEnd;
@@ -43,8 +45,9 @@ public class MyMethodDTO {
         this.methodInvocations =methodInvocations;
         this.body = body;
         this.annotations = annotations;
+        this.exception = exception;
     }
-    public MyMethodDTO(String name, int lineBegin, int lineEnd,List<String> returnDataType,List<String> identifier,List<VariableOFMethodDTO> parameterDataType,List<VariableOFMethodDTO> variables ,List<MethodInvocationDTO> methodInvocations,List<String> annotations) {
+    public MyMethodDTO(String name, int lineBegin, int lineEnd,List<String> returnDataType,List<String> identifier,List<VariableOFMethodDTO> parameterDataType,List<VariableOFMethodDTO> variables ,List<MethodInvocationDTO> methodInvocations,List<String> annotations, List<String> exception) {
         this.name = name;
         this.lineBegin = lineBegin;
         this.lineEnd = lineEnd;
@@ -55,6 +58,7 @@ public class MyMethodDTO {
         this.methodInvocations =methodInvocations;
         this.body = "";
         this.annotations = annotations;
+        this.exception = exception;
     }
 
 
