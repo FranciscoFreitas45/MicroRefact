@@ -188,6 +188,16 @@ class Class:
             if "@Id" in  anotations:
                 return variable["type"] , variable["variable"]
         
+        for mymethod in self.myMethods:
+             if "@Id" in mymethod.getAnnotations():
+                print(mymethod.getName())
+                print(mymethod.getBody())
+                for variable in self.instance_variables:
+                    for bb in mymethod.getBody():
+                        if re.search("return this." + variable["variable"],bb) or re.search("return " + variable["variable"],bb) :
+                            print("ENCONTROU E É " + variable["variable"] )
+                            return variable["type"] , variable["variable"]
+
         for extend in self.extends:
             if "." in extend:
                 return cluster.getClasses()[extend].primaryKeyVariableType(cluster)  

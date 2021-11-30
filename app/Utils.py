@@ -49,14 +49,34 @@ def find_repositoryClass(nameOfClasse,Cluster):
     #print("INSIDE OF UTILS")
     for classe in classes.values():
         print("..... " + classe.getFull_Name())
+        print(classe.getExtends())
         for extend in classe.getExtends():
             '''nameOfClasse in classe.getImports() and '''
-            if (re.search("^JpaRepository<"+typeof,extend) or re.search("^PagingAndSortingRepository<"+typeof,extend) or re.search("^CrudRepository<"+typeof,extend) or re.search("^Repository<"+typeof,extend) ):
-        #if nameOfClasse in classe.getImports() and ("@Repository" in classe.getAnnotations() or ("org.springframework.data.jpa.repository.JpaRepository" in classe.getImports() or 
-        #    "org.springframework.data.repository.PagingAndSortingRepository" in classe.getImports())):    
+            if (re.search("^JpaRepository<"+typeof,extend) or 
+                re.search("^PagingAndSortingRepository<"+typeof,extend) or 
+                re.search("^CrudRepository<"+typeof,extend) or 
+                re.search("^Repository<"+typeof,extend)):
                 return classe, classe.getFull_Name()
+            elif re.search("<"+typeof,extend): #   BaseRepository<Attention, String>  ou GenericDao<Article,
+                    if find_repositoryClassExtraWork(extend.split("<")[0],Cluster):
+                        return classe, classe.getFull_Name()
+                     
+        if  nameOfClasse in classe.getImports() and any(re.match("^@Repository",line) for line in classe.getAnnotations()) :  
+            return classe, classe.getFull_Name()
 
     return ""
+
+def find_repositoryClassExtraWork(nameOfClasse,Cluster): # o nome da classe nao está completo. É só o nome pela qual chamamos a class Ex : BaseRepository
+    classes = Cluster.getClasses()
+    for classe in classes.values():
+        if re.search("\."+nameOfClasse + "$",classe.getFull_Name()):
+            for extend in classe.getExtends():
+
+                if re.search("^JpaSpecificationExecutor<",extend) or re.search("^JpaRepository<",extend) :
+                    return True
+            
+    return False
+
 
 
 def execute_parser(project_path):
