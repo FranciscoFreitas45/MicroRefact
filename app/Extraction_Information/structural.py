@@ -5,6 +5,7 @@ from Entities.MyMethod import MyMethod
 from Entities.Class import Class
 from Entities.Cluster import Cluster
 import copy
+import re
 
 
 
@@ -60,12 +61,13 @@ def extract_Info_AST(Clusters):
                         classe.addMyMethods(method)
                     
 
-                       
+                    extendedTypes = ast[classe.getFull_Name()]["extendedTypes"] # get dos extends 
+   
 
                     '''
                         Parte do Extend
                         
-                    '''
+                    
                     extendedTypes = ast[classe.getFull_Name()]["extendedTypes"] # get dos extends 
 
                     for  clusterIndex,cl in enumerate(Clusters):
@@ -80,20 +82,59 @@ def extract_Info_AST(Clusters):
                                     #cluster.getClasses()[extend] = extendCopy
                                         
                                     #merge_of_clusters.append((i,clusterIndex))
-                           
+                    '''
+                    extends_to_add = extends_to_add +  find_extends(ast,classe,cluster,classe,extendedTypes,Clusters)
+                    print("EXTENDSSSS TO ADD " +str(extends_to_add))
+
             
             if len(merge_of_clusters) > 0:
                 raise Exception ("Bad code division ")
                
 
-            for indexC,extend,cluster in extends_to_add:
-                print( "%s    %s     %s " %(indexC,extend,cluster.getPathToDirectory()))
+            for indexC,extend,cluster,classe  in extends_to_add:
+                print( "%s    %s     %s    %s" %(indexC,extend,cluster.getPathToDirectory(),classe.getFull_Name()))
                 extendCopy = copy.deepcopy(Clusters[indexC].getClasses()[extend])
                 extendCopy.setIsOriginal(False)
-                cluster.getClasses()[extend] = extendCopy      
+                cluster.getClasses()[extend] = extendCopy
+                # os extendes sao glues especiais tem que entrar no dict em vez do new classes
+                classe.addClassGlue(extendCopy)
+
+
 
 
         return ast
+
+def find_extends(ast,classe,cluster_of_Class,triggered_class,list_of_extends,Clusters):
+    
+    extends_to_add = []
+
+    for  clusterIndex,cl in enumerate(Clusters):
+        for extend in list_of_extends: # iterar sob os extends
+            extended = extend   
+            if "<" in extend:
+                
+                ext = extend.split("<")[0]
+                for imp in ast[classe.getFull_Name()]["imports"]:
+                      if(re.search("\." + ext +'$',imp)):
+                          extended = imp
+                          break
+                   
+            if extended in cl.getClasses():
+                if extended not in cluster_of_Class.getClasses(): # caso a class do extend nao pertence ao cluster
+                    #print("NOT IN " +extend) 
+                    #print(classe.getFull_Name())   
+                    # TESTE1 COPIAR A CLASSE PARA O CLUSTER
+
+                    extends_to_add.append((clusterIndex,extended,cluster_of_Class,triggered_class))
+
+                    classE = Clusters[clusterIndex].getClasses()[extended]
+                    listE = ast[classE.getFull_Name()]["extendedTypes"]
+                    extends_to_add =  extends_to_add + find_extends(ast,classE,cluster_of_Class,triggered_class,listE,Clusters)
+    
+    return extends_to_add                  
+
+
+
 
 
 def find_implements(ast,Clusters,Classes):
@@ -116,6 +157,7 @@ def find_implements(ast,Clusters,Classes):
         for c in addToCluster:
             cluster.setClass(c)                     
 
+        
         
                 
 

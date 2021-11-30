@@ -1,0 +1,121 @@
+Project,#Classes,#Proposal MicroService,Result,#Microservices generated,#Classes after refactoring,Have Tests?,Results of Tests,Note,%NEW CLASSES,Entities,Relationships,Dependencies
+/home/fracisco/Desktop/MicroRefact/scrumtracker__scrumtracker2017,44,6,0,7,163,No,,,"270,454545454545",5,5,97
+/home/fracisco/Desktop/MicroRefact/asledziewski__restaurantServer ,38,7,0,8,138,No,,,"263,157894736842",7,5,37
+/home/fracisco/Desktop/MicroRefact/st52542__eshopSemPrace,59,7,0,8,197,Yes,Same resutl in both versions,,"233,898305084746",9,9,32
+/home/fracisco/Desktop/MicroRefact/BarCzerw__inTeams,57,5,0,6,188,Yes,Same resutl in both versions,,"229,824561403509",6,8,52
+/home/fracisco/Desktop/MicroRefact/navinsharma25__Hotel-Booking-Management-System,43,8,0,8,140,Yes,Same resutl in both versions,,"225,581395348837",,,
+/home/fracisco/Desktop/MicroRefact/EUSurvey__EUSURVEY,356,11,0,11,1133,Yes,Same resutl in both versions,,"218,258426966292",87,0,6949
+/home/fracisco/Desktop/MicroRefact/lionsdamajectim__Champink,35,5,0,5,104,No,,,"197,142857142857",11,18,39
+/home/fracisco/Desktop/MicroRefact/mozammel__mNet,148,16,0,16,438,Yes,Same resutl in both versions,,"195,945945945946",20,38,78
+/home/fracisco/Desktop/MicroRefact/ariv98__Online-medicine-shopping-ecommerce,69,8,0,8,204,Yes,Same resutl in both versions,,"195,652173913043",7,8,6
+/home/fracisco/Desktop/MicroRefact/paulosanchezh__IwRepository,50,6,0,8,144,No,,,188,19,11,32
+/home/fracisco/Desktop/MicroRefact/SLCricketLeaderBoard__SLCricketLeaderBoard_BackEnd,140,14,0,14,385,No,,,175,26,24,220
+/home/fracisco/Desktop/MicroRefact/MenkeTechnologies__puffride,41,9,0,9,103,No,,,"151,219512195122",9,11,1
+/home/fracisco/Desktop/MicroRefact/CocayUNAM__ProyectoUNAM,112,9,0,9,279,No,,,"149,107142857143",19,12,184
+/home/fracisco/Desktop/MicroRefact/cym1102__nginxWebUI,127,12,0,12,315,No,,,"148,031496062992",0,0,269
+/home/fracisco/Desktop/MicroRefact/Khrustal__coursework-backend,34,4,0,5,83,No,,,"144,117647058824",7,5,16
+/home/fracisco/Desktop/MicroRefact/yu-gotcha__time-attack-web,32,4,0,4,78,No,,,"143,75",7,8,5
+/home/fracisco/Desktop/MicroRefact/bau03__E-Ticaret-Backend-Springboot,97,10,0,11,236,No,,,"143,298969072165",14,13,123
+/home/fracisco/Desktop/MicroRefact/dp2-g56__Dp2-L02,245,12,0,12,585,Yes,Same resutl in both versions,,"138,775510204082",43,0,1119
+/home/fracisco/Desktop/MicroRefact/kai8406__cmop,237,13,0,13,557,No,,,"135,021097046414",40,0,1096
+/home/fracisco/Desktop/MicroRefact/wn150509__OA_system,237,12,0,13,535,No,,,"125,738396624473",47,33,510
+/home/fracisco/Desktop/MicroRefact/Prasad108__TutesMessanger,109,11,0,11,238,No,,,"118,348623853211",20,0,208
+/home/fracisco/Desktop/MicroRefact/bbaibb1009__wxcrm,95,12,0,12,206,No,,,"116,842105263158",21,0,165
+/home/fracisco/Desktop/MicroRefact/XMFBee__AuthPlatform1,281,22,0,22,609,No,,,"116,725978647687",0,0,1258
+/home/fracisco/Desktop/MicroRefact/Eliathen__sharelibrary,182,13,0,14,393,Yes,Same resutl in both versions,,"115,934065934066",13,20,53
+/home/fracisco/Desktop/MicroRefact/namndph10091__VINFAST,45,5,0,5,97,No,,,"115,555555555556",6,4,12
+/home/fracisco/Desktop/MicroRefact/samyumaddikunta__Online_Movie_Ticket_System,36,5,0,5,76,No,,,"111,111111111111",11,0,14
+/home/fracisco/Desktop/MicroRefact/Lavanya-Annadi__PetAdapt,40,5,0,5,84,No,,,110,9,7,18
+/home/fracisco/Desktop/MicroRefact/justinbaby__my-paper,463,19,0,19,971,No,,,"109,719222462203",52,0,771
+/home/fracisco/Desktop/MicroRefact/suyeq__steamMall,120,12,0,12,245,No,,,"104,166666666667",0,0,138
+/home/fracisco/Desktop/MicroRefact/AI-2020-2021-LAB1__stock-exchange-app-backend,119,9,0,9,242,Yes,Same resutl in both versions,,"103,361344537815",10,7,29
+/home/fracisco/Desktop/MicroRefact/Fzshuai__FzshuaiBlog,56,7,0,8,113,No,,,"101,785714285714",7,7,38
+/home/fracisco/Desktop/MicroRefact/immime__shop-2,292,17,0,17,588,No,,,"101,369863013699",28,0,1114
+/home/fracisco/Desktop/MicroRefact/restockDAW__restockBackend,48,6,0,6,92,No,,,"91,6666666666667",13,0,43
+/home/fracisco/Desktop/MicroRefact/SliferDMC__Backup-GRI-Frontend,48,6,0,7,91,No,,,"89,5833333333333",16,9,39
+/home/fracisco/Desktop/MicroRefact/dtdhehe__ptu-life,66,10,0,10,125,No,,,"89,3939393939394",8,0,103
+/home/fracisco/Desktop/MicroRefact/tangdu__smh2,112,11,0,11,212,No,,,"89,2857142857143",17,0,90
+/home/fracisco/Desktop/MicroRefact/shangtech__WeiXinPlatform,88,8,0,8,165,No,,,"87,5",21,0,84
+/home/fracisco/Desktop/MicroRefact/offway__athena,196,18,0,18,357,No,,,"82,1428571428571",37,0,165
+/home/fracisco/Desktop/MicroRefact/NiuPiFiveTeam__HotelManageSystem,224,16,0,16,407,Yes,Same resutl in both versions,,"81,6964285714286",25,0,238
+/home/fracisco/Desktop/MicroRefact/bao17634__Warehouse-system,76,11,0,11,134,No,,,"76,3157894736842",10,0,101
+/home/fracisco/Desktop/MicroRefact/altsora__SocialNetwork,119,9,0,10,206,Yes,Same resutl in both versions,,"73,109243697479",15,8,75
+/home/fracisco/Desktop/MicroRefact/benceburom__smart-kitchen,85,7,0,9,147,Yes,Same resutl in both versions,,"72,9411764705882",9,14,15
+/home/fracisco/Desktop/MicroRefact/eduardosukeda__vendas-api,47,5,0,5,79,No,,,"68,0851063829787",8,5,4
+/home/fracisco/Desktop/MicroRefact/Aaryatech__HrEsayWebApiPune,586,28,0,28,975,No,,,"66,382252559727",179,0,2221
+/home/fracisco/Desktop/MicroRefact/zhangyanbo2007__youkefu,830,60,0,60,1337,No,,,"61,0843373493976",179,0,2221
+/home/fracisco/Desktop/MicroRefact/busing__circle_web,268,26,0,26,428,No,,,"59,7014925373134",0,0,399
+/home/fracisco/Desktop/MicroRefact/carlan92__Hospital_Management_System ,129,8,0,8,205,No,,,"58,9147286821705",17,18,152
+/home/fracisco/Desktop/MicroRefact/gliderwiki__glider,329,20,0,20,511,Yes,Same resutl in both versions,,"55,3191489361702",0,0,705
+/home/fracisco/Desktop/MicroRefact/MandemHarshithaReddy527__HMS,53,8,0,8,79,No,,,"49,0566037735849",7,6,0
+/home/fracisco/Desktop/MicroRefact/kkminyoung__DSC-Hackathon,45,6,0,6,67,No,,,"48,8888888888889",8,0,9
+/home/fracisco/Desktop/MicroRefact/YangLeeThomson__mwebsvr,174,13,0,13,258,Yes,Same resutl in both versions,,"48,2758620689655",20,0,128
+/home/fracisco/Desktop/MicroRefact/Jtagirova__Weflors,54,7,0,7,80,No,,,"48,1481481481482",11,0,25
+/home/fracisco/Desktop/MicroRefact/galimsarov__java-thesis-project,73,7,0,7,108,No,,,"47,9452054794521",8,0,18
+/home/fracisco/Desktop/MicroRefact/jaselvam__Sprint2_Forestmanagement,65,8,0,8,95,Yes,Same resutl in both versions,,"46,1538461538462",5,0,8
+/home/fracisco/Desktop/MicroRefact/OpenGeoportal__OGP2,330,18,0,18,482,No,,,"46,0606060606061",0,0,244
+/home/fracisco/Desktop/MicroRefact/Maxcj__Maxcj,177,15,0,15,256,No,,,"44,6327683615819",0,0,108
+/home/fracisco/Desktop/MicroRefact/jjxs__coolweather/daqi,402,27,0,27,573,No,,,"42,5373134328358",60,0,260
+/home/fracisco/Desktop/MicroRefact/gigarthan__sliit-procurement-system,53,7,0,7,75,No,,,"41,5094339622642",19,0,8
+/home/fracisco/Desktop/MicroRefact/isa-group__ideas-studio,115,10,0,10,160,Yes,Same resutl in both versions,,"39,1304347826087",12,0,63
+/home/fracisco/Desktop/MicroRefact/wangwang1230__te-empl,156,8,0,8,215,No,,,"37,8205128205128",24,0,277
+/home/fracisco/Desktop/MicroRefact/longyzkd__wj-web-ext-enhancer,154,12,0,12,205,No,,,"33,1168831168831",19,0,140
+/home/fracisco/Desktop/MicroRefact/SupermePower__zammc-manage,119,13,0,13,154,No,,,"29,4117647058823",17,0,102
+/home/fracisco/Desktop/MicroRefact/MarceloMansilla-zz__Veterinaria,132,10,0,10,168,Yes,Same resutl in both versions,,"27,2727272727273",13,5,36
+/home/fracisco/Desktop/MicroRefact/assertmyself__gweb-v2,365,29,0,29,464,No,,,"27,1232876712329",0,0,183
+/home/fracisco/Desktop/MicroRefact/WinwindH__CareerBridge,98,11,0,11,123,No,,,"25,5102040816327",22,0,9
+/home/fracisco/Desktop/MicroRefact/mscaldas2012__chronicApps,29,3,0,3,36,No,,,"24,1379310344828",4,2,2
+/home/fracisco/Desktop/MicroRefact/Haseoo__courier-company-system,312,11,0,12,380,Yes,Same resutl in both versions,,"21,7948717948718",16,14,115
+/home/fracisco/Desktop/MicroRefact/pratyush-sdrc__SDRC-Collect-Web,193,27,0,27,233,No,,,"20,7253886010363",18,0,444
+/home/fracisco/Desktop/MicroRefact/Fordclifford__mregister,59,6,0,7,71,No,,,"20,3389830508475",6,1,42
+/home/fracisco/Desktop/MicroRefact/Seenck__jeecg-bpm-3.8,810,23,0,23,961,Yes,Same resutl in both versions,,"18,641975308642",81,0,1946
+/home/fracisco/Desktop/MicroRefact/Haseoo__TeleLearn-Backend,229,13,0,13,309,Yes,Same resutl in both versions,,"34,9344978165939",18,16,67
+/home/fracisco/Desktop/MicroRefact/gvSIGAssociation__gvsig-web,127,7,0,7,146,No,,,"14,9606299212598",0,0,30
+/home/fracisco/Desktop/MicroRefact/xirui0920__bishe,97,12,0,12,109,Yes,Same resutl in both versions,,"12,3711340206186",8,2,8
+/home/fracisco/Desktop/MicroRefact/cruzerblade95__school-attendance-system-api,91,8,0,8,102,Yes,Same resutl in both versions,,"12,0879120879121",11,0,5
+/home/fracisco/Desktop/MicroRefact/mrabusalah__Qr-Students-Attendance,91,9,0,9,99,Yes,Same resutl in both versions,,"8,79120879120879",11,0,5
+/home/fracisco/Desktop/MicroRefact/khasang__delivery,218,16,0,16,225,Yes,Same resutl in both versions,,"3,21100917431193",9,0,13
+/home/fracisco/Desktop/MicroRefact/balagaff__eComm-master-DR,34,6,0,6,35,No,,,"2,94117647058824",7,0,14
+/home/fracisco/Desktop/MicroRefact/devopsrepo973__switchProject,501,14,0,14,497,Yes,Same resutl in both versions,*,"-0,798403193612774",14,0,182
+/home/fracisco/Desktop/MicroRefact/derekreynolds__onleave,149,13,0,13,145,Yes,Same resutl in both versions,*,"-2,68456375838926",13,4,9
+/home/fracisco/Desktop/MicroRefact/surajcm__Poseidon,113,7,0,7,106,Yes,,*,"-6,19469026548673",8,0,83
+/home/fracisco/Desktop/MicroRefact/TexnologiaLogismikou__Fiz,199,13,0,13,174,yes,,*,"-12,5628140703518",12,0,80
+/home/fracisco/Desktop/MicroRefact/kiva12138__ITBlogSiteDesignAndCode,82,6,0,6,60,No,,*,"-26,8292682926829",5,0,26
+/home/fracisco/Desktop/MicroRefact/hyperaeon__CrazyAndOptimize,1399,155,0,155,836,No,,*,"-40,2430307362402",0,0,23
+/home/fracisco/Desktop/MicroRefact/pibigstar__parsevip,90,12,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/Vino007__javaEEScaffold,45,5,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/514840279__danyuan-application,277,15,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/INCF__eeg-database,1007,29,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/jdmr__mateo,704,28,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/leluque__university-site-cms,254,15,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/HIIT__dime-server,91,7,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/wang007__live-server,238,18,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/ushahidi__SwiftRiver-API,249,12,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/softservedata__lv257,171,9,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/GraffiTab__GraffiTab-Backend,188,12,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/WilsonHu__sinsim,264,16,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/Glamdring__welshare,241,16,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/OHDSI__ArachneCentralAPI,841,19,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/momoplan__dataanalysis,195,12,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/smartcommunitylab__smartcampus.vas.corsi.web,65,8,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/racem-cherni__KinderGartenProject,209,12,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/hongqiang__shopb2b,465,23,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/398907877__AppPortal,470,22,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/xabaohui__zis,553,23,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/Russel-JX__OUC-Family,276,33,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/veerappanvs__elae.cap,224,18,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/pollishulya__agency,82,7,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/ncontrerasn__PetSuite,123,7,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/SamuelBiazotto__Desafio-Lanches-Backend,27,4,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/FabricadeSoftwareUNIVILLE__ProjCOLABAssistant,63,7,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/xxn520__yitao,112,9,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/mauricedibbets1986__qienurenappgroep2,69,5,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/siwar20__consomi_tounsi,112,14,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/xhieu2206__bankingapp,187,11,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/saeedshokoohi__tikon,553,32,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/PepperNoodles__PepperNoodles,184,13,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/flaviohlm__segue_me ,133,11,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/Himani-Bonde__BugTracker,29,5,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/LorenaAcosta__spa-restful-api,69,11,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/OlivierBrinkman__Eindopdracht_Backend,48,4,1,,,,,,-100,,,
+/home/fracisco/Desktop/MicroRefact/ihlys__musicstore,119,10,1,,,,,,-100,,,

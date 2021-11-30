@@ -74,7 +74,7 @@ class Database:
                         
                         elif  any(re.match("^@ManyToMany",line) for line in variable_annotations):
                             print("MANYTOMANY")
-                            isJoin = Database.handle_ManyToMany_Relationship(v,variable["identifier"][1],variable,cluster,Clusters)
+                            isJoin = Database.handle_ManyToMany_Relationship(ast,v,variable["identifier"][1],variable,cluster,Clusters)
                             if isJoin:
                                 break
                         
@@ -92,15 +92,61 @@ class Database:
                             for cl in classes_to_add:
                              
                                 cluster.addNewClasses(cl)
+                    
+                    #ANOTAÇOES EM METODOS
+                    mymethods = ast[k]["myMethods"]
+                    for key,mymethod in mymethods.items():
+                        method_annotations = mymethod["annotations"]
+                        
+                        if  any(re.match("^@OneToMany",line) for line in method_annotations):
+                                param=v.primaryKeyVariableType(cluster)
+                                variable = Database.find_variable(mymethod,ast[k]["instance_variables"])
+                                classes_to_add = Database.handle_OneToMany_Relationship(v,variable["identifier"][1],variable,cluster,Clusters,param,False,True,mymethod)
+        
+                                for cl in classes_to_add:
+                                    cluster.addNewClasses(cl)
+
+                        elif  any(re.match("^@ManyToMany",line) for line in method_annotations):    
+                            print(str(1235) + key)
+
+                            print("MANYTOMANY")
+                            variable = Database.find_variable(mymethod,ast[k]["instance_variables"])
+                            isJoin = Database.handle_ManyToMany_Relationship(ast,v,variable["identifier"][1],variable,cluster,Clusters)
+                            if isJoin:
+                                break
+
+                        elif any(re.match("^@OneToOne",line) for line in method_annotations):    
+                            print(str(1236) + key)
+                            variable = Database.find_variable(mymethod,ast[k]["instance_variables"])
+                            classes_to_add = Database.handle_ManyToOne_Relationship(v,variable["type"],variable,cluster,Clusters,True,mymethod)
+                            for cl in classes_to_add:
+                                cluster.addNewClasses(cl)
+                             
+                        elif any(re.match("^@ManyToOne",line) for line in method_annotations):
+                            print(str(1237) + key)
+                            variable = Database.find_variable(mymethod,ast[k]["instance_variables"])
+                            classes_to_add = Database.handle_ManyToOne_Relationship(v,variable["type"],variable,cluster,Clusters,True,mymethod)
+                            for cl in classes_to_add:
+                                cluster.addNewClasses(cl)
+
         return numEntities,relations_bet_entites_dif_ms                        
                         
-                           
+
+    @staticmethod
+    def find_variable(mymethod,instance_variables):
+        bb = mymethod["body"]
+        for variable in instance_variables:
+            if re.search("return this." + variable["variable"],bb) or re.search("return " + variable["variable"],bb) :
+                return variable
+
+        return None            
+
         
                             
 
 
     @staticmethod
-    def handle_OneToMany_Relationship(classe1, typeOfN,variable,cluster,Clusters,param,MANY_TO_ONE):
+    def handle_OneToMany_Relationship(classe1, typeOfN,variable,cluster,Clusters,param,MANY_TO_ONE,METHOD_ANNOTATION =False,mymethod=None):
         #print("inside of oneToMany")
         print(classe1.getFull_Name())
         
@@ -203,7 +249,16 @@ class Database:
                 '''
                 
                 
-                variable["annotations"] = ["@Transient"]
+                if METHOD_ANNOTATION:
+                    
+                    for m in classe1.getMyMethods():
+                        if m.getName() == mymethod["name"]:
+                            m.setAnnotations(["@Transient"])
+
+                else:
+                    variable["annotations"] = ["@Transient"]
+
+
                 classe1.addInstance_Variable({"annotations" : ["@Transient"],
                                                 "modifier" : "private", 
                                                 "type" : interface.getShort_Name(),
@@ -276,6 +331,10 @@ class Database:
 
                 #repositoryClass.create(Clusters[indexOfcluster].getPathToDirectory())
 
+                #retirar da lista de dependencias da classe
+
+                classe1.getDependencies().remove(dependency)
+
 
         return classes_to_add_cluster   
                
@@ -303,7 +362,7 @@ class Database:
 
 
     @staticmethod 
-    def handle_ManyToMany_Relationship(classe1,typeOfN,variable,cluster,Clusters):
+    def handle_ManyToMany_Relationship(ast,classe1,typeOfN,variable,cluster,Clusters):
         
         isJoin = False
         completeType = variable["type"]
@@ -363,6 +422,7 @@ class Database:
                     clus.setClass(repositoryClass)
                     clus.setClass(classe1)
                     clus.setClass(Clusters[indexOfcluster].getClasses()[dependency])
+                    print(Clusters[indexOfcluster].getClasses()[dependency].getDependencies())
 
                     if  classe1.getFull_Name() in clus.getClasses()[dependency].getDependencies():
                         clus.getClasses()[dependency].getDependencies().remove(classe1.getFull_Name())
@@ -372,11 +432,20 @@ class Database:
                     #print(repositoryClass.getFull_Name())
                     #print(classe1.getFull_Name())
                     #print(Clusters[indexOfcluster].getClasses()[dependency].getFull_Name())
-
+                   
                     for cla in classe1.getClassGlue():
+                        # sao os extends
+                        print("EXTENDS " + cla.getFull_Name()  )
+                        print(cluster.getNewClasses())
+                        if cla.getFull_Name() in cluster.getClasses():
+                            clus.setClass(cla)
+
                         if cla.getFull_Name() in [x.getFull_Name() for x in cluster.getNewClasses()]:
+                            print("delete " + str(cla) )
                             cluster.removeNewClasses(cla)
                         clus.addNewClasses(cla)
+                        
+                            
 
 
                     clus.setSubDirectories(Clusters[indexOfcluster].getSubDirectories())
@@ -387,10 +456,19 @@ class Database:
                     Clusters[indexOfcluster].deleteClasse(repositoryClassNameD)
                     Clusters[indexOfcluster].deleteClasse(dependency)
                     for cl in Clusters[indexOfcluster].getClasses().values():
-                        if dependency in cl.getImports() and dependency not in cl.getDependencies():
+                        if dependency in ast[cl.getFull_Name()]["dependencies"] and dependency not in cl.getDependencies():
                             cl.addDependencie(dependency)
-                        if repositoryClassNameD in cl.getImports() and repositoryClassNameD not in cl.getDependencies():
-                            cl.addDependencie(repositoryClassNameD)    
+                        if repositoryClassNameD in ast[cl.getFull_Name()]["dependencies"] and repositoryClassNameD not in cl.getDependencies():
+                            cl.addDependencie(repositoryClassNameD)
+                            
+                                
+                    ## adicionar dependencias a class
+
+                    for de in ast[clus.getClasses()[dependency].getFull_Name()]["dependencies"]:
+                        if de not in clus.getClasses()[dependency].getDependencies() and de != classe1.getFull_Name():
+                            clus.getClasses()[dependency].addDependencie(de)        
+
+
 
                 dependencies.remove(dependency)
                 cluster.deleteClasse(repositoryClassName)
@@ -398,17 +476,21 @@ class Database:
                 
                 
                 for cl in cluster.getClasses().values():
-                    if classe1.getFull_Name() in cl.getImports() and classe1.getFull_Name() not in cl.getDependencies():
+                    if classe1.getFull_Name() in ast[cl.getFull_Name()]["dependencies"] and classe1.getFull_Name() not in cl.getDependencies():
                         cl.addDependencie(classe1.getFull_Name())
-                    if repositoryClassName in cl.getImports() and repositoryClassName not in cl.getDependencies():
+                    if repositoryClassName in ast[cl.getFull_Name()]["dependencies"] and repositoryClassName not in cl.getDependencies():
                         cl.addDependencie(repositoryClassName)     
-                
-                
+
+                ## adicionar dependencias a class
+
+                for de in ast[classe1.getFull_Name()]["dependencies"]:
+                    if de != dependency and de not in classe1.getDependencies():
+                        classe1.addDependencie(de)          
                         
         return isJoin        
     
     @staticmethod
-    def handle_ManyToOne_Relationship(classeN,typeof1,variable,cluster,Clusters):
+    def handle_ManyToOne_Relationship(classeN,typeof1,variable,cluster,Clusters,METHOD_ANNOTATION =False,mymethod=None):
         
         print(classeN.getFull_Name())
         print(1)
@@ -422,7 +504,7 @@ class Database:
             Step 1: VERIFICAR SE PERTENCEM AO MESMO CLUSTER
         '''     
         dependencies = classeN.getDependencies()
-        #print(dependencies)
+        print(dependencies)
 
         for dependency in dependencies:
             '''
@@ -434,6 +516,7 @@ class Database:
 
                 #print("#################################### " +classeN.getFull_Name() + " ########  "+ dependency )
                 indexOfcluster = Utils.find_Cluster_with_Name_Class(dependency,Clusters)
+                print("index" + str(indexOfcluster))
                 pk_of_1 = Clusters[indexOfcluster].getClasses()[dependency].primaryKeyVariableType(Clusters[indexOfcluster])
                 print("---------" +  str(pk_of_1))
                 
@@ -450,7 +533,12 @@ class Database:
                                                 "modifier" : "private", 
                                                 "type" : pk_of_1[0],
                                                 "variable" : var})
-                classes_to_add_cluster = Database.handle_OneToMany_Relationship(classeN,typeof1,variable,cluster,Clusters,aux,True)
+                if METHOD_ANNOTATION:                                
+                    classes_to_add_cluster = Database.handle_OneToMany_Relationship(classeN,typeof1,variable,cluster,Clusters,aux,True,METHOD_ANNOTATION,mymethod)
+                
+                else:
+                    classes_to_add_cluster = Database.handle_OneToMany_Relationship(classeN,typeof1,variable,cluster,Clusters,aux,True)
+
         #print("ok2")
         return classes_to_add_cluster
 

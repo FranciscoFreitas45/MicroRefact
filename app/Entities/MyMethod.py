@@ -39,6 +39,8 @@ class MyMethod:
     def addToBody(self,body):
         self.body.append(body)    
 
+    def setAnnotations(self,annotations):
+        self.annotations  = annotations
         
     def create(self):
         method = ""
