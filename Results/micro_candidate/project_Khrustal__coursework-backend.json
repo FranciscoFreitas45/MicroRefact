@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_55_59",
+        "name": "Khrustal__coursework-backend",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "Khrustal__coursework-backend",
+        "clusterString": "{0: ['com.webapp.models.Answer', 'com.webapp.models.Word', 'com.webapp.controllers.ResultController', 'com.webapp.models.Result', 'com.webapp.controllers.WordController', 'com.webapp.repository.WordRepository', 'com.webapp.payload.request.CreateResultRequest', 'com.webapp.repository.AnswerRepository', 'com.webapp.repository.ResultRepository', 'com.webapp.payload.request.CreateWordRequest'], 1: ['com.webapp.controllers.TrainingSessionController', 'com.webapp.models.TrainingSession', 'com.webapp.repository.TrainingSessionRepository', 'com.webapp.payload.request.AddToTrainingSessionRequest', 'com.webapp.payload.request.CreateSessionRequest'], 2: ['com.webapp.models.User', 'com.webapp.repository.RoleRepository', 'com.webapp.models.Role', 'com.webapp.controllers.AuthController', 'com.webapp.repository.UserRepository', 'com.webapp.security.services.UserDetailsImpl', 'com.webapp.security.jwt.JwtUtils', 'com.webapp.payload.request.LoginRequest', 'com.webapp.payload.request.SignupRequest'], 3: ['com.webapp.security.services.UserDetailsServiceImpl', 'com.webapp.security.WebSecurityConfig', 'com.webapp.security.jwt.AuthTokenFilter', 'com.webapp.security.jwt.AuthEntryPointJwt']}",
+        "commitHash": "",
+        "Modularity": 0.49321558936443777
+    }
+]

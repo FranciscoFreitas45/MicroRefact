@@ -1,0 +1,11 @@
+[
+    {
+        "id": "05_11_11_55_27",
+        "name": "VINFAST",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "VINFAST",
+        "clusterString": "{0: ['com.example.demo.service.OrderDetailServiceIpml', 'com.example.demo.service.OrderDetailService', 'com.example.demo.Dao.OrderDetailDAO', 'com.example.demo.entity.OrderDetail', 'com.example.demo.entity.Report', 'com.example.demo.controller.OrderController', 'com.example.demo.entity.Order', 'com.example.demo.service.OrderServiceIpml', 'com.example.demo.service.OrderService', 'com.example.demo.Dao.OrderDAO'], 1: ['com.example.demo.controller.ShoppingCartController', 'com.example.demo.service.ShoppingCartService', 'com.example.demo.model.CartItem', 'com.example.demo.service.ShoppingCartServiceImpl'], 2: ['com.example.demo.entity.Product', 'com.example.demo.entity.Category', 'com.example.demo.controller.HomeController', 'com.example.demo.Dao.ProductDAO', 'com.example.demo.service.ProductServiceIpml', 'com.example.demo.service.ProductService', 'com.example.demo.controller.ProductController', 'com.example.demo.controller.CategoryController', 'com.example.demo.Dao.CategoryDAO'], 3: ['com.example.demo.entity.Users', 'com.example.demo.Dao.UserDAO', 'com.example.demo.controller.UsersController', 'com.example.demo.controller.LoginController', 'com.example.demo.service.UserServiceImpl', 'com.example.demo.controller.upfile', 'com.example.demo.service.UserService', 'com.example.demo.service.ParamService', 'com.example.demo.utils.UploadUtils', 'com.example.demo.service.CookieService'], 4: ['com.example.demo.interceptor.AuthInterceptor', 'com.example.demo.interceptor.AdminInterceptor', 'com.example.demo.service.SessionService', 'com.example.demo.InterceptorConfig']}",
+        "commitHash": "",
+        "Modularity": 0.5579455201076375
+    }
+]

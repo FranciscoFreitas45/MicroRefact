@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_21_02_34",
+        "name": "Lavanya-Annadi__PetAdapt",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "Lavanya-Annadi__PetAdapt",
+        "clusterString": "{0: ['io.swagger.api.NotFoundException', 'io.swagger.api.ApiException'], 1: ['io.swagger.repository.SessionRepository', 'io.swagger.model.Session', 'io.swagger.controller.ProviderController', 'io.swagger.controller.AddressController', 'io.swagger.model.Provider', 'io.swagger.model.Address', 'io.swagger.repository.OrderRepository', 'io.swagger.model.Order', 'io.swagger.repository.ProviderRepository', 'io.swagger.repository.AddressRepository'], 2: ['io.swagger.controller.UserController', 'io.swagger.model.User', 'io.swagger.repository.UserRepository', 'io.swagger.controller.StatisticsController', 'io.swagger.repository.StatisticsRepository', 'io.swagger.model.Statistics', 'aspects.MyAspect', 'aspects.AspectConfig'], 3: ['io.swagger.controller.HealthCareController', 'io.swagger.controller.MedicController', 'io.swagger.model.Medic', 'io.swagger.model.HealthCare', 'io.swagger.model.Pet', 'io.swagger.repository.HealthCareRepository', 'io.swagger.repository.MedicRepository', 'io.swagger.controller.PetController', 'io.swagger.repository.PetRepository'], 4: ['io.swagger.configuration.CustomInstantDeserializer', 'io.swagger.configuration.CustomInstantDeserializer.FromIntegerArguments', 'io.swagger.configuration.CustomInstantDeserializer.FromDecimalArguments']}",
+        "commitHash": "",
+        "Modularity": 0.5395240879613192
+    }
+]

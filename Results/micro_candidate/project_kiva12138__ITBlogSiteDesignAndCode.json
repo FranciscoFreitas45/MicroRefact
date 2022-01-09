@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_53_07",
+        "name": "kiva12138__ITBlogSiteDesignAndCode",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "kiva12138__ITBlogSiteDesignAndCode",
+        "clusterString": "{0: ['com.ITBlog.ITBlogSiteBackEnd.Controller.AdminController', 'com.ITBlog.ITBlogSiteBackEnd.Service.AdminService', 'com.ITBlog.ITBlogSiteBackEnd.Response.AdminResponse'], 1: ['com.ITBlog.ITBlogSiteBackEnd.Service.UserService', 'com.ITBlog.ITBlogSiteBackEnd.Controller.UserController', 'com.ITBlog.ITBlogSiteBackEnd.Response.UserResponse', 'com.ITBlog.ITBlogSiteBackEnd.Response.GetUserResponse', 'com.ITBlog.ITBlogSiteBackEnd.Entity.User', 'com.ITBlog.ITBlogSiteBackEnd.Repository.UserRepository'], 2: ['com.ITBlog.ITBlogSiteBackEnd.Service.BlogService', 'com.ITBlog.ITBlogSiteBackEnd.Response.FindBlogByIdResponse', 'com.ITBlog.ITBlogSiteBackEnd.Entity.Blog', 'com.ITBlog.ITBlogSiteBackEnd.Controller.BlogController', 'com.ITBlog.ITBlogSiteBackEnd.Repository.BlogRepository', 'com.ITBlog.ITBlogSiteBackEnd.Response.FindBlogResponse', 'com.ITBlog.ITBlogSiteBackEnd.Response.BlogResponse'], 3: ['com.ITBlog.ITBlogSiteBackEnd.Service.CommentService', 'com.ITBlog.ITBlogSiteBackEnd.Repository.CommentRepository', 'com.ITBlog.ITBlogSiteBackEnd.Entity.Comment', 'com.ITBlog.ITBlogSiteBackEnd.Response.FindCommentResponse', 'com.ITBlog.ITBlogSiteBackEnd.Controller.CommentController', 'com.ITBlog.ITBlogSiteBackEnd.Response.CommentResponse', 'com.ITBlog.ITBlogSiteBackEnd.Response.GetCommentResponse'], 4: ['com.ITBlog.Blog.Service.BlogService', 'com.ITBlog.Blog.Repository.CommentsRepository', 'com.ITBlog.Blog.Repository.BlogRepository', 'com.ITBlog.Blog.Entity.Blog', 'com.ITBlog.Blog.Controller.BlogController', 'com.ITBlog.Blog.Response.BlogResponse'], 5: ['com.ITBlog.Blog.Controller.CommentController', 'com.ITBlog.Blog.Service.CommentService', 'com.ITBlog.Blog.Repository.CommentRepository', 'com.ITBlog.Blog.Entity.Comment', 'com.ITBlog.Blog.Response.CommentResponse', 'com.ITBlog.Blog.Response.GetCommentResponse']}",
+        "commitHash": "",
+        "Modularity": 0.7369504953961477
+    }
+]

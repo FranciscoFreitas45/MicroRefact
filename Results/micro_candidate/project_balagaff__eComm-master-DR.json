@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_13_24_00",
+        "name": "balagaff__eComm-master-DR",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "balagaff__eComm-master-DR",
+        "clusterString": "{0: ['guru.springframework.services.CustomerService', 'guru.springframework.domain.Customer', 'guru.springframework.controllers.ManualOrderController', 'guru.springframework.services.CustomerServiceImpl', 'guru.springframework.repositories.CustomerRepository', 'guru.springframework.repositories.GateTransportDetailsRepository', 'guru.springframework.repositories.BulkOrderRepository', 'guru.springframework.domain.BulkOrder'], 1: ['guru.springframework.controllers.PageWrapper', 'guru.springframework.controllers.PageWrapper.PageItem'], 2: ['guru.springframework.controllers.ProductController', 'guru.springframework.domain.Product', 'guru.springframework.services.ProductService', 'guru.springframework.services.ProductServiceImpl', 'guru.springframework.repositories.ProductRepository'], 3: ['guru.springframework.services.PackageTypeService', 'guru.springframework.domain.PackageType', 'guru.springframework.services.PackageTypeServiceImpl', 'guru.springframework.repositories.PackageTypeRepository'], 4: ['guru.springframework.domain.GateTransportDetails', 'guru.springframework.services.GateTransportDetailsService', 'guru.springframework.services.GateTransportDetailsServiceImpl'], 5: ['guru.springframework.repositories.UserRepository', 'guru.springframework.domain.User', 'guru.springframework.services.UserServiceImpl', 'guru.springframework.domain.Role', 'guru.springframework.services.UserService', 'guru.springframework.controllers.LoginController', 'guru.springframework.repositories.RoleRepository']}",
+        "commitHash": "",
+        "Modularity": 0.579156871037219
+    }
+]

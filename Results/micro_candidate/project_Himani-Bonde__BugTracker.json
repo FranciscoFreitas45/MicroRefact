@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_13_14_32",
+        "name": "Himani-Bonde__BugTracker",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "Himani-Bonde__BugTracker",
+        "clusterString": "{0: ['com.app.pojos.Projects', 'com.app.dao.IProjectsDao', 'com.app.controller.ProjectsController'], 1: ['com.app.pojos.Issues', 'com.app.controller.IssuesController', 'com.app.dao.IIssuesDao'], 2: ['com.app.pojos.ProjectMapping', 'com.app.controller.ProjectMappingController', 'com.app.dao.IProjectMappingDao'], 3: ['com.app.pojos.People', 'com.app.controller.PeopleController', 'com.app.dao.IPeopleDao', 'com.app.service.MailService', 'com.app.dto.Email', 'com.app.dto.Login'], 4: ['com.app.dto.ErrorResponse', 'com.app.exc_handler.GlobalExceptionHandler', 'com.app.custom_excs.ProjectsNotFoundException', 'com.app.custom_excs.IssuesNotFoundException', 'com.app.custom_excs.PersonNotFoundException', 'com.app.custom_excs.ProjectMappingNotFoundException']}",
+        "commitHash": "",
+        "Modularity": 0.6694026536980286
+    }
+]

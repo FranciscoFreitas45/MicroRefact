@@ -1,0 +1,11 @@
+[
+    {
+        "id": "03_11_17_06_19",
+        "name": "st52542__eshopSemPrace",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "st52542__eshopSemPrace",
+        "clusterString": "{0: ['upce.semprace.eshop.Controller.AuthRestAPIs', 'upce.semprace.eshop.repository.RoleRepository', 'upce.semprace.eshop.entity.Role', 'upce.semprace.eshop.message.request.LoginForm', 'upce.semprace.eshop.message.request.SignUpForm'], 1: ['upce.semprace.eshop.repository.UzivatelRepository', 'upce.semprace.eshop.entity.Uzivatel', 'upce.semprace.eshop.Controller.NakoupenaPolozkaController', 'upce.semprace.eshop.dto.PridejZmenNakupDto', 'upce.semprace.eshop.services.CartService'], 2: ['upce.semprace.eshop.security.jwt.JwtProvider', 'upce.semprace.eshop.services.UserDetailsServiceImpl', 'upce.semprace.eshop.security.services.UserPrinciple', 'upce.semprace.eshop.security.jwt.JwtAuthTokenFilter', 'upce.semprace.eshop.security.WebSecurityConfig', 'upce.semprace.eshop.security.jwt.JwtAuthEntryPoint'], 3: ['upce.semprace.eshop.services.CartServiceImpl', 'upce.semprace.eshop.entity.Nakup', 'upce.semprace.eshop.entity.NakoupenaPolozka', 'upce.semprace.eshop.Controller.NakupController', 'upce.semprace.eshop.repository.NakupRepository', 'upce.semprace.eshop.repository.NakoupenaPolozkaRepository'], 4: ['upce.semprace.eshop.repository.ProduktRepository', 'upce.semprace.eshop.entity.Produkt', 'upce.semprace.eshop.Controller.ProduktController', 'upce.semprace.eshop.entity.Vyrobce', 'upce.semprace.eshop.Controller.VyrobceController', 'upce.semprace.eshop.repository.VyrobceRepository', 'upce.semprace.eshop.dto.PridejZmenVyrobceDto', 'upce.semprace.eshop.dto.PridejZmenProduktDto'], 5: ['upce.semprace.eshop.entity.Doprava', 'upce.semprace.eshop.repository.DopravaRepository', 'upce.semprace.eshop.Controller.DopravaController', 'upce.semprace.eshop.dto.PridejZmenDopravaDto'], 6: ['upce.semprace.eshop.entity.Platba', 'upce.semprace.eshop.repository.PlatbaRepository', 'upce.semprace.eshop.Controller.PlatbaController', 'upce.semprace.eshop.dto.PridejZmenPlatbaDto']}",
+        "commitHash": "",
+        "Modularity": 0.6542032366915034
+    }
+]

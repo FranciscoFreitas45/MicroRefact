@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_12_19",
+        "name": "SamuelBiazotto__Desafio-Lanches-Backend",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "SamuelBiazotto__Desafio-Lanches-Backend",
+        "clusterString": "{0: ['br.com.application.startUp.demo.services.IngredientsService', 'br.com.application.startUp.demo.repository.IngredientsRepository', 'br.com.application.startUp.demo.model.Ingredients', 'br.com.application.startUp.demo.endpoint.IngredientsEndPoint'], 1: ['br.com.application.startUp.demo.services.OrdersService', 'br.com.application.startUp.demo.model.Order', 'br.com.application.startUp.demo.endpoint.OrdersEndPoint', 'br.com.application.startUp.demo.repository.SandwichesOrderedRepository', 'br.com.application.startUp.demo.repository.OrdersRepository'], 2: ['br.com.application.startUp.demo.model.common.Common', 'br.com.application.startUp.demo.model.Sandwiches', 'br.com.application.startUp.demo.model.SandwichesOrdered', 'br.com.application.startUp.demo.endpoint.SandwichesEndPoint', 'br.com.application.startUp.demo.repository.SandwichesRepository'], 3: ['br.com.application.startUp.demo.model.ExtraIngredients', 'br.com.application.startUp.demo.endpoint.ExtraIngredientEndPoint', 'br.com.application.startUp.demo.repository.ExtraIngredientsRepository']}",
+        "commitHash": "",
+        "Modularity": 0.37820650917259024
+    }
+]

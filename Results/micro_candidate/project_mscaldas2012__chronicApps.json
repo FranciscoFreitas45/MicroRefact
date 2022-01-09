@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_15_18",
+        "name": "mscaldas2012__chronicApps",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "mscaldas2012__chronicApps",
+        "clusterString": "{0: ['gov.cdc.nccdphp.domain.Deployment', 'gov.cdc.nccdphp.domain.Project', 'gov.cdc.nccdphp.repositories.DeploymentRepository', 'gov.cdc.nccdphp.controllers.ProjectController', 'gov.cdc.nccdphp.repositories.ProjectRepository'], 1: ['gov.cdc.nccdphp.domain.Division', 'gov.cdc.nccdphp.controllers.DivisionController', 'gov.cdc.nccdphp.repositories.DivisionRepository', 'gov.cdc.nccdphp.formatters.DivisionFormatter', 'gov.cdc.nccdphp.bootstrap.InitializerDataLoader', 'gov.cdc.nccdphp.controllers.IndexController', 'gov.cdc.nccdphp.bootstrap.DivisionLoader'], 2: ['gov.cdc.nccdphp.domain.Manager', 'gov.cdc.nccdphp.controllers.ManagerController', 'gov.cdc.nccdphp.repositories.ManagerRepository', 'gov.cdc.nccdphp.bootstrap.ManagerLoader', 'gov.cdc.nccdphp.formatters.ManagerFormatter']}",
+        "commitHash": "",
+        "Modularity": 0.5492711142925901
+    }
+]

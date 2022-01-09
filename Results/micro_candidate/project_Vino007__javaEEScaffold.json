@@ -1,0 +1,11 @@
+[
+    {
+        "id": "03_11_16_27_41",
+        "name": "Vino007__javaEEScaffold",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "Vino007__javaEEScaffold",
+        "clusterString": "{0: ['com.vino.scaffold.shiro.repository.UserRepository', 'com.vino.scaffold.shiro.entity.User', 'com.vino.scaffold.shiro.service.UserServiceImpl', 'com.vino.scaffold.shiro.service.PasswordHelper', 'com.vino.scaffold.common.tag.SidebarRankTag', 'com.vino.scaffold.shiro.service.UserService', 'com.vino.scaffold.shiro.controller.UserController', 'com.vino.scaffold.shiro.service.UserExcelService', 'com.vino.scaffold.shiro.repository.UserRepositoryImpl', 'com.vino.scaffold.shiro.realm.UserRealm', 'com.vino.scaffold.shiro.filter.MyFormAuthenticationFilter', 'com.vino.scaffold.shiro.filter.MonitorAccessControlFilter', 'com.vino.scaffold.shiro.exception.UserDuplicateException'], 1: ['com.vino.scaffold.shiro.entity.Role', 'com.vino.scaffold.shiro.service.RoleService', 'com.vino.scaffold.shiro.service.RoleServiceImpl', 'com.vino.scaffold.shiro.controller.RoleController', 'com.vino.scaffold.shiro.repository.RoleRepository', 'com.vino.scaffold.shiro.exception.RoleDuplicateException'], 2: ['com.vino.scaffold.shiro.service.ResourceService', 'com.vino.scaffold.shiro.controller.ResourceController', 'com.vino.scaffold.utils.TreeUtils', 'com.vino.scaffold.shiro.service.ResourceServiceImpl', 'com.vino.scaffold.shiro.entity.Resource', 'com.vino.scaffold.shiro.repository.ResourceRepository', 'com.vino.scaffold.utils.Tree', 'com.vino.scaffold.utils.Servlets', 'com.vino.scaffold.shiro.exception.ResourceDuplicateException'], 3: ['com.vino.scaffold.shiro.controller.HomeController', 'com.vino.scaffold.shiro.controller.RegisterController', 'com.vino.scaffold.controller.base.BaseController', 'com.vino.scaffold.shiro.controller.LoginController'], 4: ['com.vino.scaffold.service.base.AbstractBaseServiceImpl', 'com.vino.scaffold.repository.base.BaseRepository']}",
+        "commitHash": "",
+        "Modularity": 0.3982576824759923
+    }
+]

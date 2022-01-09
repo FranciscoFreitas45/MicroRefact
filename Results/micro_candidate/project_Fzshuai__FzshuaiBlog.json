@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_14_22",
+        "name": "Fzshuai__FzshuaiBlog",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "Fzshuai__FzshuaiBlog",
+        "clusterString": "{0: ['com.fzshuai.service.impl.CommentServiceImpl', 'com.fzshuai.service.CommentService', 'com.fzshuai.dao.CommentRepository', 'com.fzshuai.po.Comment', 'com.fzshuai.controller.CommentController'], 1: ['com.fzshuai.po.Blog', 'com.fzshuai.dao.BlogRepository', 'com.fzshuai.service.BlogService', 'com.fzshuai.service.impl.BlogServiceImpl', 'com.fzshuai.service.BlogServiceImpl', 'com.fzshuai.controller.IndexController', 'com.fzshuai.controller.ArchiveShowController', 'com.fzshuai.util.MarkdownUtils', 'com.fzshuai.util.MyBeanUtils'], 2: ['com.fzshuai.dao.TagRepository', 'com.fzshuai.po.Tag', 'com.fzshuai.service.TagServiceImpl', 'com.fzshuai.web.admin.TagController', 'com.fzshuai.service.TagService', 'com.fzshuai.web.IndexController'], 3: ['com.fzshuai.po.Type', 'com.fzshuai.controller.admin.BlogController', 'com.fzshuai.web.admin.BlogController', 'com.fzshuai.dao.TypeRepository', 'com.fzshuai.service.impl.TypeServiceImpl', 'com.fzshuai.service.TypeService', 'com.fzshuai.controller.admin.TypeController', 'com.fzshuai.service.TypeServiceImpl', 'com.fzshuai.controller.TypeShowController', 'com.fzshuai.web.admin.TypeController', 'com.fzshuai.vo.BlogQuery'], 4: ['com.fzshuai.po.User', 'com.fzshuai.service.UserService', 'com.fzshuai.dao.UserRepository', 'com.fzshuai.service.impl.UserServiceImpl', 'com.fzshuai.web.admin.LoginController', 'com.fzshuai.controller.admin.LoginController', 'com.fzshuai.service.UserServiceImpl', 'com.fzshuai.util.MD5Utils'], 5: ['com.fzshuai.dao.PictureRepository', 'com.fzshuai.po.Picture', 'com.fzshuai.service.impl.PictureServiceImpl', 'com.fzshuai.service.PictureService', 'com.fzshuai.controller.admin.PictureController', 'com.fzshuai.controller.PictureShowController'], 6: ['com.fzshuai.aspect.LogAspect', 'com.fzshuai.aspect.LogAspect.RequestLog']}",
+        "commitHash": "",
+        "Modularity": 0.6676722045886498
+    }
+]

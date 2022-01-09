@@ -1,0 +1,11 @@
+[
+    {
+        "id": "05_11_13_07_02",
+        "name": "",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "",
+        "clusterString": "{0: ['kr.ac.sejong.api.service.FileService', 'kr.ac.sejong.api.repository.UploadRepository', 'kr.ac.sejong.api.domain.User', 'kr.ac.sejong.api.controller.ListController', 'kr.ac.sejong.api.controller.IndexController'], 1: ['kr.ac.sejong.api.domain.Upload', 'kr.ac.sejong.api.service.ResultService', 'kr.ac.sejong.api.domain.ResultSection', 'kr.ac.sejong.api.repository.ResultSectionRepository', 'kr.ac.sejong.api.controller.ResultController'], 2: ['kr.ac.sejong.api.service.FileUploadService', 'kr.ac.sejong.api.domain.UploadImg', 'kr.ac.sejong.api.repository.UploadImgRepository', 'kr.ac.sejong.api.controller.FileUploadController', 'kr.ac.sejong.api.service.SocketService'], 3: ['kr.ac.sejong.api.domain.UploadVid', 'kr.ac.sejong.api.repository.UploadVidRepository', 'kr.ac.sejong.api.domain.VidFrame', 'kr.ac.sejong.api.domain.FaceRecognition'], 4: ['kr.ac.sejong.api.service.UserService', 'kr.ac.sejong.api.repository.UserRepository', 'kr.ac.sejong.api.controller.UserController']}",
+        "commitHash": "",
+        "Modularity": 0.34065698670552275
+    }
+]

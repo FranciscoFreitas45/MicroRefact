@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_29_22",
+        "name": "restockDAW__restockBackend",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "restockDAW__restockBackend",
+        "clusterString": "{0: ['restock.services.OrganitzacioBusiness', 'restock.repository.UsuariRepository', 'restock.repository.OrganitzacioRepository', 'restock.entities.Usuari', 'restock.entities.Organitzacio', 'restock.controller.OrganitzacioController', 'restock.controller.LoginController', 'restock.services.UsuariBusiness', 'restock.controller.UsuariController', 'restock.dto.Login'], 1: ['restock.entities.Rol', 'restock.entities.Permisos', 'restock.entities.Menu', 'restock.repository.PermisosRepository', 'restock.services.PermisosBusiness', 'restock.controller.PermisosController'], 2: ['restock.services.BotigaBusiness', 'restock.entities.Botiga', 'restock.services.InventariBusiness', 'restock.controller.InventariController', 'restock.controller.BotigaController', 'restock.entities.Inventari', 'restock.repository.BotigaRepository', 'restock.repository.InventariRepository'], 3: ['restock.controller.ProducteController', 'restock.services.ProducteBusiness', 'restock.entities.Producte', 'restock.entities.Familia', 'restock.entities.SubFamilia', 'restock.repository.ProducteRepository', 'restock.repository.FamiliaRepository', 'restock.repository.SubfamiliaRepository'], 4: ['restock.services.ProveidorBusiness', 'restock.entities.Proveidor', 'restock.repository.ProveidorRepository', 'restock.dto.Cercador', 'restock.controller.ProveidorController'], 5: ['restock.controller.ComandaController', 'restock.services.ComandaBusiness', 'restock.entities.Comanda', 'restock.entities.DetallComanda', 'restock.dto.ComandaBotiga', 'restock.services.DetallComandaBusiness', 'restock.repository.DetallComandaRepository', 'restock.repository.ComandaRepository']}",
+        "commitHash": "",
+        "Modularity": 0.6439891532589522
+    }
+]

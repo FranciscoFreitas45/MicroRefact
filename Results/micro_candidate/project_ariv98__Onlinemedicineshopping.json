@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_20_50_48",
+        "name": "Backend - Spring Boot",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "Backend - Spring Boot",
+        "clusterString": "{0: ['ink.champ.configs.WebSecurityConfig', 'ink.champ.service.AppService', 'ink.champ.models.ChampTeam', 'ink.champ.models.ChampEvent', 'ink.champ.models.Champ', 'ink.champ.controllers.ChampController', 'ink.champ.models.ChampRole'], 1: ['ink.champ.service.RepositoryService', 'ink.champ.models.Sport', 'ink.champ.repository.SportRepository', 'ink.champ.repository.ChampTeamRepository', 'ink.champ.repository.ChampEventRepository', 'ink.champ.repository.ChampRoleRepository', 'ink.champ.repository.TeamPlayerRepository', 'ink.champ.repository.TeamRoleRepository', 'ink.champ.repository.PlayerRoleRepository'], 2: ['ink.champ.models.User', 'ink.champ.controllers.MainController', 'ink.champ.controllers.AdminController', 'ink.champ.controllers.UserController', 'ink.champ.repository.ChampRepository', 'ink.champ.repository.UserRepository'], 3: ['ink.champ.models.Team', 'ink.champ.controllers.TeamController', 'ink.champ.repository.TeamRepository', 'ink.champ.models.TeamPlayer', 'ink.champ.models.TeamRole'], 4: ['ink.champ.controllers.PlayerController', 'ink.champ.repository.PlayerRepository', 'ink.champ.models.Player', 'ink.champ.models.PlayerRole']}",
+        "commitHash": "",
+        "Modularity": 0.28442275183363924
+    }
+]

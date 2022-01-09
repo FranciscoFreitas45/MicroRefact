@@ -1,0 +1,11 @@
+[
+    {
+        "id": "03_11_16_50_03",
+        "name": "jaselvam__Sprint2_Forestmanagement",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "jaselvam__Sprint2_Forestmanagement",
+        "clusterString": "{0: ['com.sprint2.service.SchedulerService', 'com.sprint2.model.Scheduler', 'com.sprint2.controller.SchedulerController', 'com.sprint2.controller.ISchedulerController', 'com.sprint2.service.ISchedulerService'], 1: ['com.sprint2.repository.SchedulerRepository', 'com.sprint2.Application', 'com.sprint2.repository.ProductRepository', 'com.sprint2.repository.ContractRepository', 'com.sprint2.repository.LandRepository', 'com.sprint2.repository.UserRepository', 'com.sprint2.repository.OrderRepository', 'com.sprint2.repository.AdminRepository', 'com.sprint2.repository.CustomerRepository'], 2: ['com.sprint2.Exceptions.InvalidOperation', 'com.sprint2.service.OrderService', 'com.sprint2.controller.OrderController', 'com.sprint2.model.Order', 'com.sprint2.controller.IOrderController', 'com.sprint2.service.IOrderService'], 3: ['com.sprint2.service.LandService', 'com.sprint2.model.Land', 'com.sprint2.controller.LandController', 'com.sprint2.service.ILandService', 'com.sprint2.controller.ILandController'], 4: ['com.sprint2.service.AdminService', 'com.sprint2.controller.IAdminController', 'com.sprint2.model.Admin', 'com.sprint2.controller.AdminController', 'com.sprint2.service.IAdminService'], 5: ['com.sprint2.service.ProductService', 'com.sprint2.service.IProductService', 'com.sprint2.model.Product', 'com.sprint2.controller.ProductController', 'com.sprint2.controller.IProductController'], 6: ['com.sprint2.controller.IContractController', 'com.sprint2.model.Contract', 'com.sprint2.controller.ContractController', 'com.sprint2.service.ContractService', 'com.sprint2.service.IContractService'], 7: ['com.sprint2.service.ICustomerService', 'com.sprint2.model.Customer', 'com.sprint2.service.CustomerService', 'com.sprint2.controller.CustomerController', 'com.sprint2.controller.ICustomerController', 'com.sprint2.Exceptions.CustomerException'], 8: ['com.sprint2.service.UserService', 'com.sprint2.service.IUserService', 'com.sprint2.model.User', 'com.sprint2.controller.UserController', 'com.sprint2.controller.IUserController']}",
+        "commitHash": "",
+        "Modularity": 0.8010884238666199
+    }
+]
