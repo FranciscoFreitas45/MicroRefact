@@ -1,0 +1,11 @@
+[
+    {
+        "id": "03_11_20_47_59",
+        "name": "scrumtracker__scrumtracker2017",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "scrumtracker__scrumtracker2017",
+        "clusterString": "{0: ['hei2017.service.Impl.StoryServiceImpl', 'hei2017.service.StoryService', 'hei2017.dao.StoryDAO', 'hei2017.dao.TaskDAO', 'hei2017.entity.Story', 'hei2017.entity.Task', 'hei2017.controller.ApiController', 'hei2017.controller.ApiStoryController', 'hei2017.controller.ApiTaskController', 'hei2017.service.Impl.TaskServiceImpl', 'hei2017.service.TaskService'], 1: ['hei2017.dao.SprintDAO', 'hei2017.entity.Sprint', 'hei2017.controller.SprintController', 'hei2017.controller.ApiSprintController', 'hei2017.service.Impl.SprintServiceImpl', 'hei2017.service.SprintService'], 2: ['hei2017.controller.ApiUserController', 'hei2017.service.Impl.UserServiceImpl', 'hei2017.entity.User', 'hei2017.service.UserService', 'hei2017.dao.UserDAO'], 3: ['hei2017.controller.ApiProjectController', 'hei2017.controller.ProjectController', 'hei2017.service.Impl.ProjectServiceImpl', 'hei2017.entity.Project', 'hei2017.service.ProjectService', 'hei2017.controller.HomeController', 'hei2017.controller.ErrorController', 'hei2017.dao.ProjectDAO'], 4: ['hei2017.controller.ApiDebugController', 'hei2017.service.Impl.MainServiceImpl', 'hei2017.service.MainService'], 5: ['hei2017.json.JsonViews.User', 'hei2017.json.JsonViews.Basique', 'hei2017.json.JsonViews.Story', 'hei2017.json.JsonViews.Hidden', 'hei2017.json.JsonViews.Task', 'hei2017.json.JsonViews.Sprint', 'hei2017.json.JsonViews.Project']}",
+        "commitHash": "",
+        "Modularity": 0.4909613653536821
+    }
+]

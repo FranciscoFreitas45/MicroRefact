@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_30_15",
+        "name": "nhn__hands-on-labs.java.mybatis-to-jpa",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "nhn__hands-on-labs.java.mybatis-to-jpa",
+        "clusterString": "{0: ['com.nhnent.forward.mybatistojpa.service.OrderService', 'com.nhnent.forward.mybatistojpa.mapper.OrderMapper', 'com.nhnent.forward.mybatistojpa.model.Order', 'com.nhnent.forward.mybatistojpa.controller.OrderController'], 1: ['com.nhnent.forward.mybatistojpa.mapper.OrderItemMapper', 'com.nhnent.forward.mybatistojpa.model.OrderItem'], 2: ['com.nhnent.forward.mybatistojpa.controller.ItemController', 'com.nhnent.forward.mybatistojpa.service.ItemService', 'com.nhnent.forward.mybatistojpa.model.Item', 'com.nhnent.forward.mybatistojpa.mapper.ItemMapper']}",
+        "commitHash": "",
+        "Modularity": 0.4136332066486902
+    }
+]

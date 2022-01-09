@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_13_35_51",
+        "name": "samyumaddikunta__Online_Movie_Ticket_System",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "samyumaddikunta__Online_Movie_Ticket_System",
+        "clusterString": "{0: ['com.cg.sprint.dao.MoviesDao', 'com.cg.sprint.entity.Movies', 'com.cg.sprint.service.AdminService', 'com.cg.sprint.controller.AdminController', 'com.cg.sprint.service.AdminServiceInterface', 'com.cg.sprint.entity.City', 'com.cg.sprint.dao.CityDao', 'com.cg.sprint.dao.AdminDao', 'com.cg.sprint.entity.Admin'], 1: ['com.cg.sprint.service.UserService', 'com.cg.sprint.service.UserServiceInterface', 'com.cg.sprint.controller.UserController', 'com.cg.sprint.entity.Seats', 'com.cg.sprint.entity.Languages', 'com.cg.sprint.entity.Payments', 'com.cg.sprint.entity.Refund', 'com.cg.sprint.entity.Account', 'com.cg.sprint.entity.Customer', 'com.cg.sprint.dao.SeatsDao', 'com.cg.sprint.dao.PaymentDao', 'com.cg.sprint.dao.AccountDao', 'com.cg.sprint.dao.CustomerDao', 'com.cg.sprint.dao.LanguagesDao', 'com.cg.sprint.dao.RefundDao'], 2: ['com.cg.sprint.entity.Theatre', 'com.cg.sprint.dao.TheatreDao'], 3: ['com.cg.sprint.entity.Shows', 'com.cg.sprint.dao.ShowsDao'], 4: ['com.cg.sprint.exceptions.AccountNotFoundException', 'com.cg.sprint.exceptions.Exception', 'com.cg.sprint.exceptions.ErrorInfo']}",
+        "commitHash": "",
+        "Modularity": 0.3783133768772456
+    }
+]

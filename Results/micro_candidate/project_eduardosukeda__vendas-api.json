@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_49_05",
+        "name": "eduardosukeda__vendas-api",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "eduardosukeda__vendas-api",
+        "clusterString": "{0: ['com.jepescados.vendasapi.model.repository.UsuarioRepository', 'com.jepescados.vendasapi.model.entity.Usuario', 'com.jepescados.vendasapi.service.UsuarioService', 'com.jepescados.vendasapi.rest.UsuarioController', 'com.jepescados.vendasapi.rest.dto.UsuarioDto', 'com.jepescados.vendasapi.config.SecurityConfig', 'com.jepescados.vendasapi.exception.UsuarioCadastradoException'], 1: ['com.jepescados.vendasapi.model.entity.Funcionario', 'com.jepescados.vendasapi.service.FuncionarioService', 'com.jepescados.vendasapi.rest.FuncionarioController', 'com.jepescados.vendasapi.rest.dto.FuncionarioDto', 'com.jepescados.vendasapi.model.repository.FuncionarioRepository'], 2: ['com.jepescados.vendasapi.model.entity.Cliente', 'com.jepescados.vendasapi.model.entity.Endereco', 'com.jepescados.vendasapi.rest.ClienteController', 'com.jepescados.vendasapi.model.repository.ClienteRepository', 'com.jepescados.vendasapi.rest.dto.ClienteDto', 'com.jepescados.vendasapi.rest.dto.EnderecoDto', 'com.jepescados.vendasapi.rest.EnderecoController', 'com.jepescados.vendasapi.service.EnderecoService', 'com.jepescados.vendasapi.model.repository.EnderecoRepository'], 3: ['com.jepescados.vendasapi.rest.CategoriaController', 'com.jepescados.vendasapi.model.repository.CategoriaRepository', 'com.jepescados.vendasapi.model.entity.Categoria', 'com.jepescados.vendasapi.rest.form.ProdutoForm', 'com.jepescados.vendasapi.rest.ProdutoController', 'com.jepescados.vendasapi.model.entity.Produto', 'com.jepescados.vendasapi.rest.dto.ProdutoDto', 'com.jepescados.vendasapi.service.ProdutoService', 'com.jepescados.vendasapi.model.repository.ProdutoRepository', 'com.jepescados.vendasapi.model.entity.Imagem', 'com.jepescados.vendasapi.model.repository.ImagemRepository'], 4: ['com.jepescados.vendasapi.model.entity.Departamento', 'com.jepescados.vendasapi.rest.dto.DepartamentoDto', 'com.jepescados.vendasapi.service.DepartamentoService', 'com.jepescados.vendasapi.rest.DepartamentoController', 'com.jepescados.vendasapi.model.repository.DepartamentoRepository']}",
+        "commitHash": "",
+        "Modularity": 0.6704831432866845
+    }
+]

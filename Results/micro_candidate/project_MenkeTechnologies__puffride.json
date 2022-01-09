@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_13_04_45",
+        "name": "MenkeTechnologies__puffride",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "MenkeTechnologies__puffride",
+        "clusterString": "{0: ['com.puffride.demo.rest.LocationResource', 'com.puffride.demo.dao.LocationDao', 'com.puffride.demo.entity.Location', 'com.puffride.demo.repository.LocationRepository'], 1: ['com.puffride.demo.entity.Schedule', 'com.puffride.demo.rest.ScheduleResource', 'com.puffride.demo.dao.ScheduleDao', 'com.puffride.demo.rest.ScheduleFinderObj', 'com.puffride.demo.rest.LocationWrapper', 'com.puffride.demo.repository.ScheduleRepository', 'com.puffride.demo.rest.EmailObj'], 2: ['com.puffride.demo.rest.RatingResource', 'com.puffride.demo.dao.RatingDao', 'com.puffride.demo.entity.Rating', 'com.puffride.demo.repository.RatingRepository'], 3: ['com.puffride.demo.entity.Ride', 'com.puffride.demo.rest.RideResource', 'com.puffride.demo.dao.RideDao', 'com.puffride.demo.repository.RideRepository'], 4: ['com.puffride.demo.rest.DriverResource', 'com.puffride.demo.dao.DriverDao', 'com.puffride.demo.entity.Driver', 'com.puffride.demo.repository.DriverRepository'], 5: ['com.puffride.demo.entity.User', 'com.puffride.demo.dao.UserDao', 'com.puffride.demo.rest.UserResource', 'com.puffride.demo.repository.UserRepository', 'com.puffride.demo.rest.AuthObj'], 6: ['com.puffride.demo.rest.RiderResource', 'com.puffride.demo.dao.RiderDao', 'com.puffride.demo.entity.Rider', 'com.puffride.demo.repository.RiderRepository'], 7: ['com.puffride.demo.entity.Car', 'com.puffride.demo.rest.CarResource', 'com.puffride.demo.dao.CarDao', 'com.puffride.demo.repository.CarRepository'], 8: ['com.puffride.demo.entity.Phone', 'com.puffride.demo.rest.PhoneResource', 'com.puffride.demo.dao.PhoneDao', 'com.puffride.demo.repository.PhoneRepository']}",
+        "commitHash": "",
+        "Modularity": 0.6454045144676884
+    }
+]

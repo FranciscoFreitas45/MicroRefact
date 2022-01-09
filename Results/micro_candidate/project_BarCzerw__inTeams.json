@@ -1,0 +1,11 @@
+[
+    {
+        "id": "03_11_17_07_45",
+        "name": "BarCzerw__inTeams",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "BarCzerw__inTeams",
+        "clusterString": "{0: ['com.sda.inTeams.repository.CommentRepository', 'com.sda.inTeams.model.Comment.Comment', 'com.sda.inTeams.model.Task.Task', 'com.sda.inTeams.service.TaskService', 'com.sda.inTeams.service.CommentService', 'com.sda.inTeams.model.Indexable', 'com.sda.inTeams.repository.TaskRepository', 'com.sda.inTeams.controller.CommentController', 'com.sda.inTeams.model.Project.Project', 'com.sda.inTeams.service.ProjectService', 'com.sda.inTeams.repository.ProjectRepository', 'com.sda.inTeams.controller.TaskController', 'com.sda.inTeams.service.DatabaseManageable', 'com.sda.inTeams.controller.ProjectController'], 1: ['com.sda.inTeams.model.User.User', 'com.sda.inTeams.service.UserService', 'com.sda.inTeams.service.AuthorizationService', 'com.sda.inTeams.model.User.AccountRole', 'com.sda.inTeams.repository.UserRepository', 'com.sda.inTeams.controller.UserController', 'com.sda.inTeams.repository.AccountRoleRepository', 'com.sda.inTeams.controller.IndexPageController'], 2: ['com.sda.inTeams.service.DatabaseService', 'com.sda.inTeams.controller.AdminController', 'com.sda.inTeams.service.DatabaseInfo'], 3: ['com.sda.inTeams.configuration.DataInitializer', 'com.sda.inTeams.configuration.entitiesGenerator.CommentGenerator', 'com.sda.inTeams.configuration.entitiesGenerator.TaskGenerator', 'com.sda.inTeams.configuration.entitiesGenerator.UserGenerator', 'com.sda.inTeams.configuration.entitiesGenerator.TeamGenerator', 'com.sda.inTeams.configuration.StringUtilities', 'com.sda.inTeams.configuration.entitiesGenerator.ProjectGenerator'], 4: ['com.sda.inTeams.model.Team.Team', 'com.sda.inTeams.service.RegisterService', 'com.sda.inTeams.service.TeamService', 'com.sda.inTeams.repository.TeamRepository', 'com.sda.inTeams.controller.TeamController', 'com.sda.inTeams.controller.RegisterController', 'com.sda.inTeams.model.dto.RegisterTeamDTO', 'com.sda.inTeams.model.dto.RegisterUserDTO', 'com.sda.inTeams.controller.MyViewController', 'com.sda.inTeams.model.dto.RegisterDto', 'com.sda.inTeams.exception.InvalidOperation']}",
+        "commitHash": "",
+        "Modularity": 0.30307422972379117
+    }
+]

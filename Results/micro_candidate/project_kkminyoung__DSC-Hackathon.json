@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_12_34_24",
+        "name": "kkminyoung__DSC-Hackathon",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "kkminyoung__DSC-Hackathon",
+        "clusterString": "{0: ['goorum.goorum.service.MemberLikeBoardServiceImpl', 'goorum.goorum.service.MemberLikeBoardService', 'goorum.goorum.repository.MemberLikeBoardRepository', 'goorum.goorum.domain.MemberLikeBoard'], 1: ['goorum.goorum.controller.BoardController', 'goorum.goorum.repository.BoardlistRepository', 'goorum.goorum.domain.Boardlist', 'goorum.goorum.service.BoardServiceImpl', 'goorum.goorum.util.DateFormatConversion', 'goorum.goorum.service.BoardService', 'goorum.goorum.repository.BoardRepository', 'goorum.goorum.domain.Board', 'goorum.goorum.util.CurrentArticle'], 2: ['goorum.goorum.controller.MypageController', 'goorum.goorum.service.MypageService', 'goorum.goorum.domain.Mypage', 'goorum.goorum.service.MypageServiceImpl', 'goorum.goorum.repository.MypageRepository'], 3: ['goorum.goorum.domain.Article', 'goorum.goorum.repository.ReplylistRepository', 'goorum.goorum.domain.Replylist', 'goorum.goorum.service.ReplyServiceImpl', 'goorum.goorum.service.ReplyService', 'goorum.goorum.util.Conversion', 'goorum.goorum.repository.ReplyRepository', 'goorum.goorum.domain.Reply'], 4: ['goorum.goorum.service.MemberService', 'goorum.goorum.domain.Member', 'goorum.goorum.controller.MemberController', 'goorum.goorum.service.MemberServiceImpl', 'goorum.goorum.repository.MemberRepository', 'goorum.goorum.util.HashFunction'], 5: ['goorum.goorum.controller.AdminController', 'goorum.goorum.service.CategoryServiceImpl', 'goorum.goorum.service.CategoryService', 'goorum.goorum.repository.CategoryRepository', 'goorum.goorum.domain.Category']}",
+        "commitHash": "",
+        "Modularity": 0.5725303502015655
+    }
+]

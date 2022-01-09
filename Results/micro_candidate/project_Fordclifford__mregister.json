@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_13_16_08",
+        "name": "Fordclifford__mregister",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "Fordclifford__mregister",
+        "clusterString": "{0: ['com.csquard.mregister.security.CustomUserDetailsService', 'com.csquard.mregister.security.UserPrincipal', 'com.csquard.mregister.configuration.SecurityConfig', 'com.csquard.mregister.security.JwtAuthenticationFilter', 'com.csquard.mregister.security.JwtTokenProvider', 'com.csquard.mregister.configuration.SpringSecurityAuditAwareImpl', 'com.csquard.mregister.security.JwtAuthenticationEntryPoint'], 1: ['com.csquard.mregister.repository.UserRepository', 'com.csquard.mregister.model.User', 'com.csquard.mregister.controller.UserController', 'com.csquard.mregister.util.ModelMapper', 'com.csquard.mregister.repository.AgentRepository', 'com.csquard.mregister.payload.UserSummary', 'com.csquard.mregister.payload.UserProfile', 'com.csquard.mregister.payload.UserIdentityAvailability'], 2: ['com.csquard.mregister.controller.AuthController', 'com.csquard.mregister.model.Roles', 'com.csquard.mregister.repository.RoleRepository', 'com.csquard.mregister.repository.SalesRegionRepository', 'com.csquard.mregister.payload.SignUpRequest', 'com.csquard.mregister.payload.LoginRequest'], 3: ['com.csquard.mregister.model.audit.DateAudit', 'com.csquard.mregister.model.Tdr', 'com.csquard.mregister.model.SalesArea', 'com.csquard.mregister.model.SalesRegion', 'com.csquard.mregister.model.audit.UserDateAudit', 'com.csquard.mregister.controller.SalesRegionController', 'com.csquard.mregister.payload.SalesAreaResponse'], 4: ['com.csquard.mregister.model.Asm', 'com.csquard.mregister.repository.AsmRepository', 'com.csquard.mregister.controller.AsmController'], 5: ['com.csquard.mregister.service.FileStorageService', 'com.csquard.mregister.model.FileStorageProperties', 'com.csquard.mregister.controller.FileController', 'com.csquard.mregister.payload.UploadFileResponse']}",
+        "commitHash": "",
+        "Modularity": 0.5922679640455831
+    }
+]

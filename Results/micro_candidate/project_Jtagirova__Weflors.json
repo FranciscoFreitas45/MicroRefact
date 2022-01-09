@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_13_28_20",
+        "name": "Jtagirova__Weflors",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "Jtagirova__Weflors",
+        "clusterString": "{0: ['com.weflors.service.ProductDetailsServiceImpl', 'com.weflors.repository.ProductDetailsRepository', 'com.weflors.entity.ProductDetailsEntity', 'com.weflors.controller.AddProductController', 'com.weflors.entity.ProductTypesEntity', 'com.weflors.service.ProductTypeServiceImpl', 'com.weflors.repository.ProductTypeRepository', 'com.weflors.controller.ProductTypeController', 'com.weflors.controller.CheckForNull'], 1: ['com.weflors.entity.ProductEntity', 'com.weflors.controller.SalesReportController', 'com.weflors.entity.SaleEntity', 'com.weflors.service.ProductServiceImpl', 'com.weflors.service.SaleServiceImpl', 'com.weflors.repository.ProductRepository', 'com.weflors.controller.ProductSaleController', 'com.weflors.controller.ProductWriteOffController', 'com.weflors.controller.ProductListController', 'com.weflors.repository.SaleRepository', 'com.weflors.controller.ProductWriteOffReportController', 'com.weflors.util.SalesReportHelperBean'], 2: ['com.weflors.entity.ProcurementEntity', 'com.weflors.service.ProcurementServiceImpl', 'com.weflors.repository.ProcurementRepository'], 3: ['com.weflors.entity.ContragentsEntity', 'com.weflors.service.ContragentsServiceImpl', 'com.weflors.controller.ContragentsController', 'com.weflors.repository.ContragentsRepository'], 4: ['com.weflors.entity.ProductStatusEntity', 'com.weflors.service.ProductStatusServiceImpl', 'com.weflors.repository.ProductStatusRepository'], 5: ['com.weflors.service.UserDetailsServiceImpl', 'com.weflors.repository.UserRepository', 'com.weflors.repository.RoleRepository', 'com.weflors.repository.UserRoleMapRepository', 'com.weflors.entity.UserEntity', 'com.weflors.entity.UserRoleMapEntity', 'com.weflors.controller.UserRoleController', 'com.weflors.controller.RegistrationController', 'com.weflors.config.WebSecurityConfig', 'com.weflors.entity.RoleEntity'], 6: ['com.weflors.entity.ClientEntity', 'com.weflors.service.ClientServiceImpl', 'com.weflors.repository.ClientRepository', 'com.weflors.controller.ClientsController']}",
+        "commitHash": "",
+        "Modularity": 0.6821303898872125
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "id": "04_11_21_16_01",
+        "name": "MandemHarshithaReddy527__HMS",
+        "rootPath": "/home/mbrito/git/thesis-web-applications/monoliths",
+        "relativePath": "MandemHarshithaReddy527__HMS",
+        "clusterString": "{0: ['com.cg.hbm.service.IUserService', 'com.cg.hbm.entites.User', 'com.cg.hbm.service.IUserServiceImpl', 'com.cg.hbm.controller.UserController', 'com.cg.hbm.dao.IUserRepository'], 1: ['com.cg.hbm.entites.BookingDetails', 'com.cg.hbm.service.IBookingDetailsServiceImpl', 'com.cg.hbm.service.IBookingDetailsService', 'com.cg.hbm.dao.IBookingDetailsRepository', 'com.cg.hbm.controller.BookingDetailsController'], 2: ['com.cg.hbm.service.ITransactionService', 'com.cg.hbm.entites.Transactions', 'com.cg.hbm.controller.TransactionController', 'com.cg.hbm.service.ITransactionServiceImpl', 'com.cg.hbm.dao.ITransactionRepository'], 3: ['com.cg.hbm.entites.Payments', 'com.cg.hbm.service.IPaymentService', 'com.cg.hbm.controller.PaymentController', 'com.cg.hbm.service.IPaymentServiceImpl', 'com.cg.hbm.dao.IPaymentRepository'], 4: ['com.cg.hbm.entites.Hotel', 'com.cg.hbm.service.IHotelServiceImpl', 'com.cg.hbm.service.IHotelService', 'com.cg.hbm.controller.HotelController', 'com.cg.hbm.dao.IHotelRepository'], 5: ['com.cg.hbm.entites.RoomDetails', 'com.cg.hbm.service.IRoomDetailsServiceImpl', 'com.cg.hbm.service.IRoomDetailsService', 'com.cg.hbm.dao.IRoomDetailsRepository', 'com.cg.hbm.controller.RoomDetailsController'], 6: ['com.cg.hbm.util.LoginServiceImpl', 'com.cg.hbm.util.LoginService', 'com.cg.hbm.util.LoginDao', 'com.cg.hbm.controller.AdminController', 'com.cg.hbm.util.LoginDaoImpl', 'com.cg.hbm.service.IAdminServiceImpl', 'com.cg.hbm.service.IAdminService', 'com.cg.hbm.dao.IAdminRepository', 'com.cg.hbm.entites.Admin'], 7: ['com.cg.hbm.exceptions.HandlingException', 'com.cg.hbm.exceptions.ErrorMapper']}",
+        "commitHash": "",
+        "Modularity": 0.8266049330200521
+    }
+]
