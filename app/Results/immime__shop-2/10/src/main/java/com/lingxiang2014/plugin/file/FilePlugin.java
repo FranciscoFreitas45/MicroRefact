@@ -1,0 +1,106 @@
+package com.lingxiang2014.plugin.file;
+ import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import javax.servlet.ServletContext;
+import org.apache.commons.io.FileUtils;
+import org.springframework.stereotype.Component;
+import org.springframework.web.context.ServletContextAware;
+import com.lingxiang2014.FileInfo;
+import com.lingxiang2014.Setting;
+import com.lingxiang2014.plugin.StoragePlugin;
+import com.lingxiang2014.util.SettingUtils;
+@Component("filePlugin")
+public class FilePlugin extends StoragePluginimplements ServletContextAware{
+
+ private  ServletContext servletContext;
+
+
+@Override
+public String getVersion(){
+    return "1.0";
+}
+
+
+@Override
+public String getUninstallUrl(){
+    return null;
+}
+
+
+@Override
+public String getSettingUrl(){
+    return "file/setting.jhtml";
+}
+
+
+@Override
+public String getUrl(String path){
+    Setting setting = SettingUtils.get();
+    return setting.getSiteUrl() + path;
+}
+
+
+@Override
+public String getName(){
+    return "本地文件存储";
+}
+
+
+@Override
+public String getAuthor(){
+    return "SHOP++";
+}
+
+
+@Override
+public void upload(String path,File file,String contentType){
+    File destFile = new File(servletContext.getRealPath(path));
+    try {
+        FileUtils.moveFile(file, destFile);
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
+
+
+@Override
+public String getInstallUrl(){
+    return null;
+}
+
+
+public void setServletContext(ServletContext servletContext){
+    this.servletContext = servletContext;
+}
+
+
+@Override
+public List<FileInfo> browser(String path){
+    Setting setting = SettingUtils.get();
+    List<FileInfo> fileInfos = new ArrayList<FileInfo>();
+    File directory = new File(servletContext.getRealPath(path));
+    if (directory.exists() && directory.isDirectory()) {
+        for (File file : directory.listFiles()) {
+            FileInfo fileInfo = new FileInfo();
+            fileInfo.setName(file.getName());
+            fileInfo.setUrl(setting.getSiteUrl() + path + file.getName());
+            fileInfo.setIsDirectory(file.isDirectory());
+            fileInfo.setSize(file.length());
+            fileInfo.setLastModified(new Date(file.lastModified()));
+            fileInfos.add(fileInfo);
+        }
+    }
+    return fileInfos;
+}
+
+
+@Override
+public String getSiteUrl(){
+    return "http://www.shopxx.net";
+}
+
+
+}

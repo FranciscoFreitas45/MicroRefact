@@ -1,0 +1,21 @@
+version: "3"
+services:
+  hotelbooking-bookingdetails:
+    image: bookingdetails
+    ports:
+      - "8081:8081"
+    networks:
+      - hotelbooking
+    depends_on:
+      - mysqldb
+ 
+  mysqldb:
+    image: mysql:8
+    networks:
+      - hotelbooking
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE= hotelbooking
+
+networks:
+  hotelbooking:

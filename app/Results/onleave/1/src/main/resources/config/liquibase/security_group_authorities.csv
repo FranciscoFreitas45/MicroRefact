@@ -1,0 +1,11 @@
+id;security_group_id;authority;created_by
+1;1;ROLE_SYS_ADMIN;system
+2;1;ROLE_ADMIN;system
+3;1;ROLE_MANAGER;system
+4;1;ROLE_USER;system
+5;2;ROLE_ADMIN;system
+6;2;ROLE_MANAGER;system
+7;2;ROLE_USER;system
+8;3;ROLE_MANAGER;system
+9;3;ROLE_USER;system
+10;4;ROLE_USER;system

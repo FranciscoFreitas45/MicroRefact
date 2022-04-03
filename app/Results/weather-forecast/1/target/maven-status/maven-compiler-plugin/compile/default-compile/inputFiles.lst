@@ -1,0 +1,10 @@
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/domain/PlanetSpec.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/fixtures/PlanetFixtures.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/infrastructure/service/PlanetServiceSpec.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/Main.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/infrastructure/repository/PlanetJpaRepositorySpec.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/fixtures/ConfigurationFixtures.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/infrastructure/repository/PlanetRepositorySpec.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/fixtures/EntityManagerFixtures.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/ApplicationContextBaseSpec.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/1/src/main/java/com/meli/weather/domain/service/WeatherServiceSpec.java

@@ -1,0 +1,12 @@
+.top-margin-25{
+    margin-top: 25vh;
+}
+
+.top-margin-10{
+    margin-top: 10vh;
+}
+
+.vertical-centered{
+    margin-top: auto;
+    margin-bottom: auto;
+}

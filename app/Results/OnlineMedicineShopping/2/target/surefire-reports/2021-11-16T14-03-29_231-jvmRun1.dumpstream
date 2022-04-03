@@ -1,0 +1,21 @@
+# Created at 2021-11-16T14:05:51.728
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+# Created at 2021-11-16T14:05:51.791
+Unexpected IOException with stream: 2021-11-16 14:05:51.790  INFO 134878 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2021-11-16T14:05:51.792
+Unexpected IOException with stream: 2021-11-16 14:05:51.791  INFO 134878 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+
+
+# Created at 2021-11-16T14:05:51.813
+Unexpected IOException with stream: 2021-11-16 14:05:51.812  INFO 134878 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+

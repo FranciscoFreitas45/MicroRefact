@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin panel</title>
+    <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<th:block th:replace="fragments :: navigator" th:remove="tag"/>
+<main>
+    <div class="container">
+        <div class="row">
+
+            <div class="collection top-margin-10 col s6 offset-s3">
+                <a th:href="@{/admin/teams}" class="collection-item"><span class="badge"
+                                                                           th:text="${dbInfo.getTeamsCount}"></span>List
+                    of teams</a>
+                <a th:href="@{/admin/users}" class="collection-item"><span class="badge"
+                                                                           th:text="${dbInfo.getUsersCount}"></span>List
+                    of users</a>
+                <a th:href="@{/admin/projects}" class="collection-item"><span class="badge"
+                                                                              th:text="${dbInfo.getProjectsCount}"></span>List
+                    of projects</a>
+                <a th:href="@{/admin/tasks}" class="collection-item"><span class="badge"
+                                                                           th:text="${dbInfo.getTasksCount}"></span>List
+                    of tasks</a>
+                <a th:href="@{/admin/comments}" class="collection-item"><span class="badge"
+                                                                              th:text="${dbInfo.getCommentsCount}"></span>List
+                    of comment</a>
+            </div>
+        </div>
+
+    </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

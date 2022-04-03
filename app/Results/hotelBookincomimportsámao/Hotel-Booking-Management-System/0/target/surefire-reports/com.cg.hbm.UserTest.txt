@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.hbm.UserTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.497 s <<< FAILURE! - in com.cg.hbm.UserTest
+updateUser  Time elapsed: 0.046 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.cg.hbm.UserTest.updateUser(UserTest.java:99)
+
+getUser  Time elapsed: 0.026 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.cg.hbm.UserTest.getUser(UserTest.java:43)
+
+deleteUser  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.cg.hbm.UserTest.deleteUser(UserTest.java:120)
+

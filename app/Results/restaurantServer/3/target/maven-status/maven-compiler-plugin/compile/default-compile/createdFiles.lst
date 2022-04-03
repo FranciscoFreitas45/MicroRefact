@@ -1,0 +1,17 @@
+pl/edu/wat/wcy/pz/restaurantServer/entity/RTable$RTableBuilder.class
+pl/edu/wat/wcy/pz/restaurantServer/Main.class
+pl/edu/wat/wcy/pz/restaurantServer/Request/ReservationRequest.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/RTableController2.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/BillPosition.class
+pl/edu/wat/wcy/pz/restaurantServer/repository/RTableRepository.class
+pl/edu/wat/wcy/pz/restaurantServer/controller/RTableController.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Reservation.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/RTableServiceController.class
+pl/edu/wat/wcy/pz/restaurantServer/Request/BillRequest.class
+pl/edu/wat/wcy/pz/restaurantServer/Request/Impl/ReservationRequestImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/Request/Impl/BillRequestImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Dish.class
+pl/edu/wat/wcy/pz/restaurantServer/entity/RTable.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/RTableRepositoryController.class
+pl/edu/wat/wcy/pz/restaurantServer/service/RTableService.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Bill.class

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.hbm.HotelTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 7.674 s <<< FAILURE! - in com.cg.hbm.HotelTest
+deleteHotel  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.cg.hbm.HotelTest.deleteHotel(HotelTest.java:82)
+
+updateHotel  Time elapsed: 0.033 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.cg.hbm.HotelTest.updateHotel(HotelTest.java:93)
+
+getShowAllHotels  Time elapsed: 0.261 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Bangar> but was: <hotel_name>
+	at com.cg.hbm.HotelTest.getShowAllHotels(HotelTest.java:123)
+
+getHotel  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.cg.hbm.HotelTest.getHotel(HotelTest.java:40)
+

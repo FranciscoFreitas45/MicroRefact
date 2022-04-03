@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Team details</title>
+    <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<th:block th:replace="fragments :: navigator" th:remove="tag"/>
+<main>
+    <div class="container">
+        <h2>Team<a th:if="${canManageTeam}" th:href="@{'/team/edit/' + ${teamDetails.getId()}}"><i class="material-icons hoverable">edit</i></a></h2>
+        <table>
+            <tr>
+                <td>Team Id</td>
+                <td th:text="${teamDetails.getId()}"></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td th:text="${teamDetails.getName()}"></td>
+            </tr>
+            <tr>
+                <td>Team owner</td>
+                <td th:text="${teamDetails.getTeamOwner().getFirstName() + ' ' + teamDetails.getTeamOwner().getLastName()}"></td>
+            </tr>
+            <tr th:if="${canManageTeam}">
+                <td>Register link</td>
+                <td><a th:href="@{~/register/user(teamId=${teamDetails.getId()},registerCode=${teamDetails.getUniqueRegisterId()})}">Register</a></td>
+            </tr>
+        </table>
+        <h2>Members</h2>
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Remove from team</th>
+            </tr>
+            <tr th:each="member, index : ${teamMembers}">
+                <td th:text="${index.index+1}"></td>
+                <td th:text="${member.getFirstName()}"></td>
+                <td th:text="${member.getLastName()}"></td>
+                <td th:if="${canManageTeam || userId == member.getId()}"><a th:href="@{~/team/removeUser(teamId=${teamDetails.getId()},userId=${member.getId()})}">Remove</a>
+                </td>
+            </tr>
+        </table>
+        <form th:action="@{~/team/invite}" method="post">
+            <input type="number" hidden th:name="teamId" th:value="${teamDetails.getId()}">
+            <input type="text" th:name="invitationCode" placeholder="Invitation code">
+            <button class="btn waves-effect waves-light" type="submit">Invite user<i class="material-icons right">send</i></button>
+        </form>
+        <h2>Projects</h2>
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Show detailed</th>
+                <th>Remove</th>
+            </tr>
+            <tr th:each="prj, index : ${teamProjects}">
+                <td th:text="${index.index+1}"></td>
+                <td th:text="${prj.getName()}"></td>
+                <td th:text="${prj.getStatus().getTextRepresentation()}"></td>
+                <td><a th:href="@{'/project/'+${prj.getId()}}">Details</a></td>
+                <td><a th:if="${canManageTeam}" th:href="@{'/project/delete/'+${prj.getId()}}">Delete</a></td>
+            </tr>
+        </table>
+        <a th:href="@{/project/add(teamId=${teamDetails.getId()})}"><i class="material-icons hoverable" style="font-size: 50px;">add</i></a>
+    </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

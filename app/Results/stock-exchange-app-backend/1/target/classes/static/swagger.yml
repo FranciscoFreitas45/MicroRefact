@@ -1,0 +1,79 @@
+swagger: "2.0"
+info:
+  title: "Stock Exchange"
+basePath: "/v2"
+tags:
+  - name: "OAuth"
+    description: "Open Authorization"
+paths:
+  /oauth:
+    post:
+      tags:
+        - "OAuth"
+      summary: "Retrieve JWT's"
+      operationId: "retrieveToken"
+      description: "This request requires header Authorization in format: 'Basic clientId:clientSecret'. Phrase 'clientId:clientSecret' should be encoded using Base64. "
+      consumes:
+        - "application/x-www-form-urlencoded"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "scope"
+          in: "formData"
+          description: "Requested scope (Only 'any' supported)"
+          required: true
+          type: "string"
+        - name: "grant_type"
+          in: "formData"
+          description: "Grant type of request (password | refresh_token)"
+          required: true
+          type: "string"
+        - name: "username"
+          in: "formData"
+          description: "User's login (required if password grant type selected)"
+          required: false
+          type: "string"
+        - name: "password"
+          in: "formData"
+          description: "Password's login (required if password grant type selected)"
+          required: false
+          type: "string"
+        - name: "client_id"
+          in: "formData"
+          description: "Client ID (required if refresh token grant type selected)"
+          required: false
+          type: "string"
+        - name: "refresh_token"
+          in: "formData"
+          description: "Refresh token (required if refresh token grant type selected)"
+          required: false
+          type: "string"
+      responses:
+        "200":
+          description: "Successfully retrieved JWTs."
+          schema:
+            $ref: "#/definitions/Token"
+        "400":
+          description: "The request could not be understood or was missing required parameters or bad user's credentials."
+definitions:
+  Token:
+    type: "object"
+    properties:
+      access_token:
+        type: "string"
+        description: "Access token"
+      token_type:
+        type: "string"
+        description: "Type of retrieved tokens"
+      refresh_token:
+        type: "string"
+        description: "Refresh token"
+      expires_in:
+        type: "integer"
+        description: "Access token expiration in seconds"
+      scope:
+        type: "string"
+        description: "Scope of requested token"
+      jti:
+        type: "string"
+        description: "Unique JWT identifier"

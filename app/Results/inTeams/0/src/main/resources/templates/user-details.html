@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>User details</title>
+  <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<th:block th:replace="fragments :: navigator" th:remove="tag"/>
+<main>
+  <div class="container">
+    <h2>User<a th:href="@{'/user/edit/' + ${userDetails.getId()}}"><i class="material-icons hoverable">edit</i></a></h2>
+    <table>
+      <tr>
+        <td>User Id</td>
+        <td th:text="${userDetails.getId()}"></td>
+      </tr>
+      <tr>
+        <td>First name</td>
+        <td th:text="${userDetails.getFirstName()}"></td>
+      </tr>
+      <tr>
+        <td>Last name</td>
+        <td th:text="${userDetails.getLastName()}"></td>
+      </tr>
+      <tr>
+        <td>Username</td>
+        <td th:text="${userDetails.getUsername()}"></td>
+      </tr>
+      <tr>
+        <td>Inivtation id</td>
+        <td th:text="${userDetails.getUniqueInvitationId()}"></td>
+      </tr>
+    </table>
+    <h2>Teams assigned to</h2>
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Team owner</th>
+        <th>Members count</th>
+      </tr>
+      <tr th:each="team, index : ${teamsAssignedTo}">
+        <td th:text="${index.index+1}"></td>
+        <td th:text="${team.getName()}"></td>
+        <td th:text="${team.getTeamOwner().getFirstName() + ' ' + team.getTeamOwner().getLastName()}"></td>
+        <td th:text="${team.getMembers().size()}"></td>
+      </tr>
+    </table>
+    <h2>Teams owned</h2>
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Members count</th>
+      </tr>
+      <tr th:each="team, index : ${teamsOwnedBy}">
+        <td th:text="${index.index+1}"></td>
+        <td th:text="${team.getName()}"></td>
+        <td th:text="${team.getMembers().size()}"></td>
+      </tr>
+    </table>
+    <h2>Tasks responsible for</h2>
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Task description</th>
+        <th>Task status</th>
+        <th>Project</th>
+      </tr>
+      <tr th:each="task, index : ${tasksResponsibleFor}">
+        <td th:text="${index.index+1}"></td>
+        <td th:text="${task.getDescription()}"></td>
+        <td th:text="${task.getStatus().getTextRepresentation()}"></td>
+        <td th:text="${task.getProject().getName()}"></td>
+      </tr>
+    </table>
+    <h2>Comments created</h2>
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Text</th>
+        <th>Task</th>
+      </tr>
+      <tr th:each="cmnt, index : ${commentsCreated}">
+        <td th:text="${index.index+1}"></td>
+        <td th:text="${cmnt.getText()}"></td>
+        <td th:text="${cmnt.getTask().getDescription()}"></td>
+      </tr>
+    </table>
+  </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

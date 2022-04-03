@@ -1,0 +1,40 @@
+package Interface;
+public interface SystemService {
+
+   public List<DictEntity> queryDict(String dicTable,String dicCode,String dicText);
+   public Object loadAll(Object Object);
+   public Object getEntity(Object Object);
+   public Object findByQueryString(Object Object);
+   public Object getDataGridReturn(Object Object);
+   public Object getListByCriteriaQuery(Object Object);
+   public Object delete(Object Object);
+   public void addLog(String LogContent,Short operatetype,Short loglevel);
+   public void refleshTypeGroupCach();
+   public void refleshTypesCach(TSType type);
+   public Object findByProperty(Object Object);
+   public void refreshTypeGroupAndTypes();
+   public Object findHql(Object Object);
+   public Object findUniqueByProperty(Object Object);
+   public Object findForJdbc(Object Object);
+   public Object getList(Object Object);
+   public Object comTree(Object Object);
+   public Object get(Object Object);
+   public Object ComboTree(Object Object);
+   public Object deleteAllEntitie(Object Object);
+   public Object save(Object Object);
+   public Object treegrid(Object Object);
+   public Object singleResult(Object Object);
+   public Object saveOrUpdate(Object Object);
+   public Object getCountForJdbc(Object Object);
+   public Object getCountForJdbcParam(Object Object);
+   public TSTypegroup getTypeGroup(String typegroupcode,String typgroupename);
+   public TSType getType(String typecode,String typename,TSTypegroup tsTypegroup);
+   public Object uploadFile(Object Object);
+   public Object updateEntitie(Object Object);
+   public Object executeSql(Object Object);
+   public Object findListbySql(Object Object);
+   public Object viewOrDownloadFile(Object Object);
+   public Object createXml(Object Object);
+   public Object parserXml(Object Object);
+   public Object getAutoList(Object Object);
+}

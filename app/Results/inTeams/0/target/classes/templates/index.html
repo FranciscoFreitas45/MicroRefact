@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<main>
+    <div class="row">
+        <div class="col s6">
+            <h2 class="center-align">Login to your inTeams account!</h2>
+        </div>
+        <div class="col s6">
+            <h2 class="center-align">Create your own team!</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s4 offset-s1">
+            <a class="center-align" th:href="@{/login}"><i class="material-icons hoverable" style="font-size: 550px">person</i></a>
+        </div>
+        <div class="col s4 offset-s2">
+            <a class="center-align" th:href="@{/register/team}"><i class="material-icons hoverable" style="font-size: 550px">people</i></a>
+        </div>
+    </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

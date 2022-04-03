@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.hbm.RoomDetailsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 8.694 s <<< FAILURE! - in com.cg.hbm.RoomDetailsTest
+getRoomDetails  Time elapsed: 0.703 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
+	at com.cg.hbm.RoomDetailsTest.getRoomDetails(RoomDetailsTest.java:105)
+
+UpdateRoom  Time elapsed: 0.047 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.cg.hbm.RoomDetailsTest.UpdateRoom(RoomDetailsTest.java:79)
+
+deleteRoom  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.cg.hbm.RoomDetailsTest.deleteRoom(RoomDetailsTest.java:40)
+

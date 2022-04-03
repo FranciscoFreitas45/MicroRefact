@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.hbm.PaymentTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.131 s <<< FAILURE! - in com.cg.hbm.PaymentTest
+getPayments  Time elapsed: 0.366 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.cg.hbm.PaymentTest.getPayments(PaymentTest.java:44)
+
+addPayment  Time elapsed: 0.471 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.cg.hbm.PaymentTest.addPayment(PaymentTest.java:79)
+

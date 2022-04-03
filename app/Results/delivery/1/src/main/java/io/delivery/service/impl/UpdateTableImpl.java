@@ -1,0 +1,17 @@
+package io.delivery.service.impl;
+ import io.delivery.service.UpdateTable;
+import org.springframework.jdbc.core.JdbcTemplate;
+public class UpdateTableImpl implements UpdateTable{
+
+ private  JdbcTemplate jdbcTemplate;
+
+
+@Override
+public String updateTable(){
+    String query = "UPDATE users " + "SET company_name = 0 WHERE company_name<=10";
+    jdbcTemplate.execute(query);
+    return "Table was updated";
+}
+
+
+}

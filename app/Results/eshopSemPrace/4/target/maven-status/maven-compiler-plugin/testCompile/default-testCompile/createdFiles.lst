@@ -1,0 +1,7 @@
+upce/semprace/eshop/EshopApplicationTests.class
+upce/semprace/eshop/controllerTests/ProduktControllerTests.class
+upce/semprace/eshop/dataTests/VyrobceTests.class
+upce/semprace/eshop/dataFarctory/Creator.class
+upce/semprace/eshop/dataFarctory/ProduktTestDataFactory.class
+upce/semprace/eshop/dataTests/ProduktTests.class
+upce/semprace/eshop/dataFarctory/VyrobceTestDataTest.class

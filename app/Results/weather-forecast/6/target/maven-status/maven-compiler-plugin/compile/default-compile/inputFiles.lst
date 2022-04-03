@@ -1,0 +1,15 @@
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/infrastructure/repository/PlanetJpaRepository.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/domain/Location.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/Interface/WeatherForecastRepositoryImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/Main.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/domain/service/WeatherService.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/Interface/WeatherForecastRepository.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/infrastructure/service/PlanetService.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/infrastructure/model/Planet.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/NEWInstance/WeatherForecastJobInteractorController.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/domain/repository/PlanetRepository.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/infrastructure/repository/PlanetRepositoryImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/application/impl/WeatherForecastJobInteractorImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/application/WeatherForecastJobInteractor.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/domain/Planet.java
+/home/fracisco/Desktop/MicroRefact/app/Results/weather-forecast/6/src/main/java/com/meli/weather/application/inputs/ForecastTimeInput.java

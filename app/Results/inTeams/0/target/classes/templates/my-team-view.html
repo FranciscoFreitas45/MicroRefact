@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Task details</title>
+    <link rel="stylesheet" th:href="@{/css/myView.css}"/>
+</head>
+<body>
+<main>
+    <div class="mainPageContainer">
+        <div class="navigationPanel">
+            <div class="navigationItem centered textTitle32" th:text="${team.getName()}"></div>
+            <div class="navigationItem centered textTitle20">Members</div>
+            <div class="navigationItem">
+                <ul>
+                    <li th:each="member : ${teamMembers}"><a th:href="@{'/user/'+${member.getId()}}"
+                                                          th:text="${member.getFirstName()} + ' ' + ${member.getLastName()}"></a></li>
+                </ul>
+            </div>
+            <div class="navigationItem centered textTitle20">Projects</div>
+            <div class="navigationItem">
+                <ul>
+                    <li th:each="project : ${teamProjects}"><a th:href="@{'/project/'+${project.getId()}}"
+                                                          th:text="${project.getName()}"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="viewWindow">
+            View window
+        </div>
+    </div>
+</main>
+</body>
+</html>

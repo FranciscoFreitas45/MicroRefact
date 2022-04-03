@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.oms.CartControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 4.07 s <<< FAILURE! - in com.cg.oms.CartControllerIntegrationTest
+testSaveCart  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.cg.oms.Main]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+
+testUpdateCart  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.cg.oms.Main]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+
+testGetAllCart  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.cg.oms.Main]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+
+testCartById  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.cg.oms.Main]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+
+testDeleteCart  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.cg.oms.Main]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'cartController' for bean class [com.cg.oms.controller.CartController] conflicts with existing, non-compatible bean definition of same name and class [com.cg.oms.NEWInstance.CartController]
+
