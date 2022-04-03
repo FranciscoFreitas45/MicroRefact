@@ -1,0 +1,4 @@
+com.meli.weather.application.impl.$WeatherForecastJobInteractorImplDefinitionClass
+com.meli.weather.infrastructure.repository.$PlanetJpaRepository$InterceptedDefinitionClass
+com.meli.weather.infrastructure.service.$PlanetServiceDefinitionClass
+com.meli.weather.infrastructure.repository.$PlanetRepositoryImplDefinitionClass

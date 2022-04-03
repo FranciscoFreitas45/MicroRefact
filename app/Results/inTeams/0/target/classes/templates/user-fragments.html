@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <th:block th:fragment="styles">
+        <link rel="stylesheet" th:href="@{/webjars/bootstrap/5.0.1/css/bootstrap.min.css}"/>
+        <link rel="stylesheet" th:href="@{/css/page.css}"/>
+    </th:block>
+    <title>Title</title>
+</head>
+<body>
+
+<th:block th:fragment="navigator">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a th:href="@{/}">
+                    <img th:src="@{/images/logo.png}" height="25">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{/team/all}">My teams</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{/user/all}">Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{/project/all}">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{/task/all}">Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" th:href="@{/comment/all}">Comments</a>
+                        </li>
+                    </ul>
+                    <a sec:authorize="!isAuthenticated()" th:href="@{/login}">
+                        <button class="btn btn-outline-success" type="submit">Login</button>
+                    </a>
+                    <a sec:authorize="isAuthenticated()" th:href="@{/logout}">
+                        <button class="btn btn-outline-success" type="submit">Logout</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+</th:block>
+
+</body>
+</html>

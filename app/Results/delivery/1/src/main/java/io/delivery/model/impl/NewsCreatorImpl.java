@@ -1,0 +1,25 @@
+package io.delivery.model.impl;
+ import io.delivery.model.NewsCreator;
+import org.apache.log4j.Logger;
+import org.springframework.jdbc.core.JdbcTemplate;
+public class NewsCreatorImpl implements NewsCreator{
+
+ private  Logger LOG;
+
+ private  JdbcTemplate jdbcTemplate;
+
+
+public String createNews(){
+    String preQuery = "DROP TABLE IF EXISTS news";
+    String query = ("CREATE TABLE news (\n" + "    id             char(5) CONSTRAINT firstkey PRIMARY KEY,\n" + "    news     varchar(40) NOT NULL\n" + ");");
+    try {
+        jdbcTemplate.execute(preQuery);
+        jdbcTemplate.execute(query);
+    } catch (Exception e) {
+        LOG.error("something going wrong" + e);
+    }
+    return "table created";
+}
+
+
+}

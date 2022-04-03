@@ -1,0 +1,309 @@
+package com.ec.survey.tools;
+ import com.ec.survey.model.Skin;
+import com.ec.survey.model.survey.base.File;
+import edu.vt.middleware.password;
+import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.digest.DigestUtils;
+import org.json.simple.JSONObject;
+import org.owasp.esapi.ESAPI;
+import java.security.SecureRandom;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.time.format.DateTimeParseException;
+import java.time.format.ResolverStyle;
+import java.time.temporal.ChronoField;
+import java.util;
+public class Tools {
+
+ private  String CURRENT_TOS_VERSION;
+
+ private  String CURRENT_PS_VERSION;
+
+
+public String formatDate(Date date,String pattern){
+    if (date == null)
+        return null;
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
+    Instant instant;
+    if (date instanceof java.sql.Date) {
+        instant = Instant.ofEpochMilli(date.getTime());
+    } else {
+        instant = date.toInstant();
+    }
+    LocalDateTime localDateTime = instant.atZone(ZoneId.of("CET")).toLocalDateTime();
+    return localDateTime.format(formatter);
+}
+
+
+public E getFromListOrDefault(int index,List<E> list,E defaultValue){
+    if (index < 0) {
+        throw new IllegalArgumentException("index is less than 0: " + index);
+    }
+    return index <= list.size() - 1 ? list.get(index) : defaultValue;
+}
+
+
+public boolean isDoubleEqual(double x,double y){
+    final double EPSILON = 0.00001;
+    return ((x >= y - EPSILON) && (x <= y + EPSILON));
+}
+
+
+public Date parseDateString(String dateString,String pattern){
+    DateTimeFormatter formatter = new DateTimeFormatterBuilder().appendPattern(pattern).parseDefaulting(ChronoField.HOUR_OF_DAY, 0).parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0).parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0).toFormatter();
+    LocalDateTime dateTime = LocalDateTime.parse(dateString, formatter);
+    return Date.from(dateTime.atZone(ZoneId.of("CET")).toInstant());
+}
+
+
+public String repairXML(String input){
+    if (input == null || input.length() == 0)
+        return input;
+    return input.replace("–", "-");
+}
+
+
+public String getCurrentToSVersion(){
+    return CURRENT_TOS_VERSION;
+}
+
+
+public boolean isEqual(Object o1,Object o2){
+    if (o1 == null && o2 == null)
+        return true;
+    if (o1 == null && o2 instanceof Skin) {
+        return ((Skin) o2).getId() == 1;
+    }
+    if (o2 == null && o1 instanceof Skin) {
+        return ((Skin) o1).getId() == 1;
+    }
+    if (o1 == null)
+        return false;
+    if (o2 == null)
+        return false;
+    return o1.equals(o2);
+}
+
+
+public boolean isToday(Date date){
+    Calendar c = Calendar.getInstance();
+    // set the calendar to start of today
+    c.set(Calendar.HOUR_OF_DAY, 0);
+    c.set(Calendar.MINUTE, 0);
+    c.set(Calendar.SECOND, 0);
+    c.set(Calendar.MILLISECOND, 0);
+    Date today = c.getTime();
+    c.setTime(date);
+    c.set(Calendar.HOUR_OF_DAY, 0);
+    c.set(Calendar.MINUTE, 0);
+    c.set(Calendar.SECOND, 0);
+    c.set(Calendar.MILLISECOND, 0);
+    Date dateSpecified = c.getTime();
+    if (dateSpecified.before(today)) {
+        return false;
+    } else if (dateSpecified.equals(today)) {
+        return true;
+    } else if (dateSpecified.after(today)) {
+        return false;
+    }
+    return false;
+}
+
+
+public String md5hash(String input){
+    return DigestUtils.md5Hex(input);
+}
+
+
+public String filterHTML(String input){
+    // this is postponed to ticket ESURVEY-1626, please do not remove this line
+    // return ESAPI.validator().getValidSafeHTML("input", input, 10000, true);
+    return input;
+}
+
+
+public boolean isUUID(String s){
+    return s.matches("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$");
+}
+
+
+public Date getPreviousDay(Date d){
+    Calendar cal = Calendar.getInstance();
+    cal.setTime(d);
+    cal.add(Calendar.DATE, -1);
+    return cal.getTime();
+}
+
+
+public Date getFollowingDay(Date d){
+    Calendar cal = Calendar.getInstance();
+    cal.setTime(d);
+    cal.add(Calendar.DATE, 1);
+    return cal.getTime();
+}
+
+
+public String encodeForLDAP(String input){
+    return ESAPI.encoder().encodeForLDAP(input);
+}
+
+
+public boolean isPasswordWeak(String password){
+    // password must be between 8 and 16 chars long
+    LengthRule lengthRule = new LengthRule(8, 16);
+    // control allowed characters
+    CharacterCharacteristicsRule charRule = new CharacterCharacteristicsRule();
+    // require at least 1 digit in passwords
+    charRule.getRules().add(new DigitCharacterRule(1));
+    // require at least 1 non-alphanumeric char
+    charRule.getRules().add(new NonAlphanumericCharacterRule(1));
+    charRule.setNumberOfCharacteristics(2);
+    // group all rules together in a List
+    List<Rule> ruleList = new ArrayList<>();
+    ruleList.add(lengthRule);
+    ruleList.add(charRule);
+    PasswordValidator validator = new PasswordValidator(ruleList);
+    PasswordData passwordData = new PasswordData(new Password(password));
+    RuleResult result = validator.validate(passwordData);
+    return !result.isValid();
+}
+
+
+public boolean isInteger(String s,int radix){
+    if (s.isEmpty())
+        return false;
+    for (int i = 0; i < s.length(); i++) {
+        if (i == 0 && s.charAt(i) == '-') {
+            if (s.length() == 1)
+                return false;
+            else
+                continue;
+        }
+        if (Character.digit(s.charAt(i), radix) < 0)
+            return false;
+    }
+    return true;
+}
+
+
+public String encodeForJSON(String title){
+    return JSONObject.escape(title);
+}
+
+
+public String toUTF83Bytes(String input){
+    return input.replaceAll("[^\\u0019-\\uFFFF]", "\uFFFD");
+}
+
+
+public boolean isFileEqual(File o1,File o2){
+    if (o1 == null && o2 == null)
+        return true;
+    if (o1 == null && o2 != null)
+        return false;
+    if (o2 == null && o1 != null)
+        return false;
+    return o1.getUid().equals(o2.getUid());
+}
+
+
+public Map<String,String> sortByComparator(Map<String,String> unsortMap){
+    // Convert Map to List
+    List<Map.Entry<String, String>> list = new LinkedList<>(unsortMap.entrySet());
+    // Sort list with comparator, to compare the Map values
+    list.sort(Comparator.comparing(o -> (o.getValue())));
+    // Convert sorted map back to a Map
+    Map<String, String> sortedMap = new LinkedHashMap<>();
+    for (Map.Entry<String, String> entry : list) {
+        sortedMap.put(entry.getKey(), entry.getValue());
+    }
+    return sortedMap;
+}
+
+
+public Boolean containsNonUTF83Bytes(String input){
+    return input.matches(".*[^\\u0019-\\uFFFF].*");
+}
+
+
+public String getCurrentPSVersion(){
+    return CURRENT_PS_VERSION;
+}
+
+
+public String newSalt(){
+    final Random r = new SecureRandom();
+    byte[] salt = new byte[32];
+    r.nextBytes(salt);
+    return Base64.encodeBase64String(salt);
+}
+
+
+public Date addOneSecond(Date d){
+    Calendar cal = Calendar.getInstance();
+    cal.setTime(d);
+    cal.add(Calendar.SECOND, 1);
+    return cal.getTime();
+}
+
+
+public String escapeHTML(String input){
+    return ESAPI.encoder().decodeForHTML(input);
+}
+
+
+public boolean isPasswordValid(String hashedPassword,String rawPassword){
+    return hash(rawPassword).equals(hashedPassword);
+}
+
+
+public String encodeForJavaScript(String input){
+    return ESAPI.encoder().encodeForJavaScript(input);
+}
+
+
+public boolean validUniqueCode(String uniqueCode){
+    try {
+        UUID.fromString(uniqueCode);
+        return true;
+    } catch (Exception ex) {
+        return false;
+    }
+}
+
+
+public boolean isTimeString(String timeString){
+    try {
+        DateTimeFormatter strictTimeFormatter = DateTimeFormatter.ofPattern(ConversionTools.TimeFormat).withResolverStyle(ResolverStyle.STRICT);
+        strictTimeFormatter.parse(timeString);
+    } catch (DateTimeParseException | NullPointerException e) {
+        return false;
+    }
+    return true;
+}
+
+
+public boolean isEqualIgnoreEmptyString(Object o1,Object o2){
+    if (o1 == null && o2 != null && o2 instanceof String) {
+        return ((String) o2).trim().length() == 0;
+    }
+    if (o2 == null && o1 != null && o1 instanceof String) {
+        return ((String) o1).trim().length() == 0;
+    }
+    return isEqual(o1, o2);
+}
+
+
+public String hash(String input){
+    String result = DigestUtils.sha1Hex(input);
+    for (int i = 0; i < 64000; i++) {
+        result = DigestUtils.sha1Hex(result);
+    }
+    return result;
+}
+
+
+}

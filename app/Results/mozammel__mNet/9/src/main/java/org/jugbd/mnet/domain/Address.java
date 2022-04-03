@@ -1,0 +1,106 @@
+package org.jugbd.mnet.domain;
+ import org.hibernate.validator.constraints.NotEmpty;
+import org.jugbd.mnet.domain.enums.District;
+import org.jugbd.mnet.utils.StringUtils;
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+@Embeddable
+public class Address {
+
+@Size(max = 256)
+@Column(length = 256)
+@NotEmpty
+ private  String homeAddress;
+
+@Size(max = 32)
+@Column(length = 32)
+@NotEmpty
+ private  String policeStation;
+
+@Size(max = 32)
+@Column(length = 32)
+@NotEmpty
+ private  String postOffice;
+
+@NotNull
+@Column(length = 32)
+@Enumerated(EnumType.STRING)
+ private  District district;
+
+@Size(max = 32)
+@Column(length = 32)
+@NotEmpty
+ private  String division;
+
+public Address() {
+}
+public void setDivision(String division){
+    this.division = division;
+}
+
+
+public String getDivision(){
+    return division;
+}
+
+
+public void setHomeAddress(String homeAddress){
+    this.homeAddress = homeAddress;
+}
+
+
+public String getPoliceStation(){
+    return policeStation;
+}
+
+
+public String getPostOffice(){
+    return postOffice;
+}
+
+
+public void setPostOffice(String postOffice){
+    this.postOffice = postOffice;
+}
+
+
+public District getDistrict(){
+    return district;
+}
+
+
+public void setPoliceStation(String policeStation){
+    this.policeStation = policeStation;
+}
+
+
+@Override
+public String toString(){
+    StringBuilder builder = new StringBuilder();
+    if (StringUtils.isNotEmpty(homeAddress))
+        builder.append(homeAddress).append(" ");
+    if (StringUtils.isNotEmpty(policeStation))
+        builder.append(policeStation).append(" ");
+    if (StringUtils.isNotEmpty(postOffice))
+        builder.append(postOffice).append(" ");
+    builder.append(district.getName()).append(" ");
+    builder.append(division).append(" ");
+    return builder.toString();
+}
+
+
+public void setDistrict(District district){
+    this.district = district;
+}
+
+
+public String getHomeAddress(){
+    return homeAddress;
+}
+
+
+}

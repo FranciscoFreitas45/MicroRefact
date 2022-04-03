@@ -1,0 +1,31 @@
+package net.shangtech.NEWInstance;
+ import org.springframework.web.bind.annotation.*;
+@RestController
+@CrossOrigin
+public class WxMenuDaoController {
+
+ private WxMenuDao wxmenudao;
+
+
+@GetMapping
+("/find")
+public Object find(@RequestParam(name = "Object") Object Object){
+  return wxmenudao.find(Object);
+}
+
+
+@GetMapping
+("/count")
+public Object count(@RequestParam(name = "Object") Object Object){
+  return wxmenudao.count(Object);
+}
+
+
+@GetMapping
+("/update")
+public Object update(@RequestParam(name = "Object") Object Object){
+  return wxmenudao.update(Object);
+}
+
+
+}

@@ -1,0 +1,12 @@
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/Role.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/security/jwt/JwtProvider.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/security/jwt/JwtAuthTokenFilter.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/security/jwt/JwtAuthEntryPoint.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/UserPrinciple.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/JwtProviderController.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Main.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/security/WebSecurityConfiguration.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Interface/UserDetailsServiceImplImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/Reservation.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/User.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/0/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Interface/UserDetailsServiceImpl.java

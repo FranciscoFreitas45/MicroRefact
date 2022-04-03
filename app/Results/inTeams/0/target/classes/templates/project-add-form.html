@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Project adding form</title>
+    <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<th:block th:replace="fragments :: navigator" th:remove="tag"/>
+<main>
+    <div class="container">
+        <div class="row top-margin-10">
+        <form th:action="@{/project/add}" method="post" th:object="${newProject}" class="col s6 offset-s3">
+            <input type="number" hidden th:field="*{id}">
+            <input type="number" hidden th:name="ownerId" th:value="${teamId}">
+            <input type="text" th:field="*{name}" placeholder="Project name">
+            <select th:field="*{status}" class="browser-default">
+                <option th:each="stat : ${statuses}" th:text="${stat.getTextRepresentation()}" th:value="${stat}"></option>
+            </select>
+            <button class="btn waves-effect waves-light" type="submit">Submit project<i class="material-icons right">send</i></button>
+        </form>
+        </div>
+    </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

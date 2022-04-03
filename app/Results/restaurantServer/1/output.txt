@@ -1,0 +1,79 @@
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  controller
+NUMBER OF FILES  0
+Directory  NEWInstance
+NUMBER OF FILES  0
+Directory  Interface
+NUMBER OF FILES  0
+Directory  DTO
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/NEWInstance
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/Interface
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/DTO
+Total number of files 14
+Total Number of directories 10
+Total: 24
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  controller
+NUMBER OF FILES  0
+Directory  NEWInstance
+NUMBER OF FILES  0
+Directory  Interface
+NUMBER OF FILES  0
+Directory  DTO
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.UserController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.UserController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/NEWInstance
+pl.edu.wat.wcy.pz.restaurantServer.NEWInstance.UserServiceController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.NEWInstance.UserServiceController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/Interface
+pl.edu.wat.wcy.pz.restaurantServer.Interface.UserRepositoryImpl_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.Interface.UserRepositoryImpl_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.Interface.MailServiceImpl_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.Interface.MailServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/1/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/DTO
+pl.edu.wat.wcy.pz.restaurantServer.DTO.Reservation_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.Role_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.User_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.Role_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.User_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.Reservation_ESTest

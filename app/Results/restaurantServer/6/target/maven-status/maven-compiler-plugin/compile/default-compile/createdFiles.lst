@@ -1,0 +1,17 @@
+pl/edu/wat/wcy/pz/restaurantServer/form/LoginForm.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Role.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/JwtProviderImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/Main.class
+pl/edu/wat/wcy/pz/restaurantServer/email/MailService.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/MailServiceController.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/UserRepository.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/JwtProvider.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/User.class
+pl/edu/wat/wcy/pz/restaurantServer/security/WebSecurityConfiguration.class
+pl/edu/wat/wcy/pz/restaurantServer/form/SignUpForm.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Reservation.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/UserRepositoryImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/RoleRepository.class
+pl/edu/wat/wcy/pz/restaurantServer/controller/AuthController.class
+pl/edu/wat/wcy/pz/restaurantServer/form/response/JwtResponse.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/RoleRepositoryImpl.class

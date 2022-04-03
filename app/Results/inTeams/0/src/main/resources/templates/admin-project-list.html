@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<th:block th:replace="fragments :: navigator" th:remove="tag"/>
+<main>
+    <div class="container">
+        <h2>Projects</h2>
+        <table class="centered highlight">
+            <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Team</th>
+                <th>Status</th>
+                <th>Show detailed</th>
+                <th>Edit</th>
+                <th>Remove</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="prj, index : ${projectList}">
+                <td th:text="${index.index+1}"></td>
+                <td th:text="${prj.getName()}"></td>
+                <td th:text="${prj.getProjectOwner().getName()}"></td>
+                <td th:text="${prj.getStatus().getTextRepresentation()}"></td>
+                <td><a th:href="@{'/project/'+${prj.getId()}}"><i class="material-icons">zoom_in</i></a></td>
+                <td><a th:href="@{'/project/edit/'+${prj.getId()}}"><i class="material-icons">edit</i></a></td>
+                <td><a th:href="@{'/project/delete/'+${prj.getId()}}">
+                    <i class="material-icons">delete</i>
+                </a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

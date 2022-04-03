@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: upce.semprace.eshop.dataTests.UzivatelTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.754 s - in upce.semprace.eshop.dataTests.UzivatelTests

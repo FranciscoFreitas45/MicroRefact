@@ -1,0 +1,14 @@
+pl/edu/wat/wcy/pz/restaurantServer/Interface/MailService.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/User.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/UserServiceController.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Reservation.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Role.class
+pl/edu/wat/wcy/pz/restaurantServer/controller/UserController.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/UserRepositoryImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/UserDetailsServiceImplController.class
+pl/edu/wat/wcy/pz/restaurantServer/Main.class
+pl/edu/wat/wcy/pz/restaurantServer/service/UserService.class
+pl/edu/wat/wcy/pz/restaurantServer/security/service/UserPrinciple.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/UserRepository.class
+pl/edu/wat/wcy/pz/restaurantServer/security/service/UserDetailsServiceImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/MailServiceImpl.class

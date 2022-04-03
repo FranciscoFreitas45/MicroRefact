@@ -1,0 +1,12 @@
+pl/edu/wat/wcy/pz/restaurantServer/DTO/User.class
+pl/edu/wat/wcy/pz/restaurantServer/security/WebSecurityConfiguration.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Reservation.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Role.class
+pl/edu/wat/wcy/pz/restaurantServer/security/jwt/JwtAuthTokenFilter.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/UserDetailsServiceImplImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/Interface/UserDetailsServiceImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/Main.class
+pl/edu/wat/wcy/pz/restaurantServer/security/jwt/JwtAuthEntryPoint.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/UserPrinciple.class
+pl/edu/wat/wcy/pz/restaurantServer/security/jwt/JwtProvider.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/JwtProviderController.class

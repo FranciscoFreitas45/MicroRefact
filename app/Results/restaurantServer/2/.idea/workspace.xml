@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4dd20d6a-ccfc-461c-b283-74c52df20bc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../GithubExtraction/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../GithubExtraction/extraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../GithubExtraction/filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../GithubExtraction/repos_backend.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../GithubExtraction/repos_backend.txt_filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../GithubExtraction/repos_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaParser/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaParser/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaParser/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaParser/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaParser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaParser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaParser/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaParser/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaParser/symbolsolver (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaParser/symbolsolver (1).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../javaParser/symbolsolver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../javaParser/symbolsolver.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="251KRolyjZPBftcUwvui7UkFlvT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220212_0000" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dd20d6a-ccfc-461c-b283-74c52df20bc8" name="Default Changelist" comment="" />
+      <created>1644689147386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644689147386</updated>
+      <workItem from="1644689149036" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

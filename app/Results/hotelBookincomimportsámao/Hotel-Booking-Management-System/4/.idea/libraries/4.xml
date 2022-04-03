@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/evosuite-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/evosuite-standalone-runtime-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

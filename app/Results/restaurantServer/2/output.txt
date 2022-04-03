@@ -1,0 +1,3106 @@
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  Request
+NUMBER OF FILES  0
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Directory  NEW
+NUMBER OF FILES  0
+Directory  Interface
+NUMBER OF FILES  0
+Directory  DTO
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/Request
+Directory  Impl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/Request/Impl
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/NEW
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/Interface
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/DTO
+Total number of files 24
+Total Number of directories 13
+Total: 37
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  Request
+NUMBER OF FILES  0
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Directory  NEW
+NUMBER OF FILES  0
+Directory  Interface
+NUMBER OF FILES  0
+Directory  DTO
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/Request
+Directory  Impl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/Request/Impl
+pl.edu.wat.wcy.pz.restaurantServer.Request.Impl.DishRequestImpl_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.Request.Impl.DishRequestImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/NEW
+pl.edu.wat.wcy.pz.restaurantServer.NEW.BillRTableController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.NEW.BillRTableController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.NEW.BillRTableService_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.NEW.BillRTableService_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/Interface
+pl.edu.wat.wcy.pz.restaurantServer.Interface.RTableRepositoryImpl_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.Interface.RTableRepositoryImpl_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.Interface.DishServiceImpl_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.Interface.DishServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/DTO
+pl.edu.wat.wcy.pz.restaurantServer.DTO.Dish_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.Dish_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.RTable_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.Reservation_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.RTable_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.DTO.Reservation_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 4
+Total Number of directories 7
+Total: 11
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 4
+Total Number of directories 7
+Total: 11
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 4
+Total Number of directories 7
+Total: 11
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 4
+Total Number of directories 7
+Total: 11
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Total number of files 8
+Total Number of directories 7
+Total: 15
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 10
+Total Number of directories 8
+Total: 18
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 12
+Total Number of directories 8
+Total: 20
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.Bill_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+Total number of files 8
+Total Number of directories 8
+Total: 16
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests
+Directory  pl
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl
+Directory  edu
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu
+Directory  wat
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat
+Directory  wcy
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy
+Directory  pz
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz
+Directory  restaurantServer
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer
+Directory  entity
+NUMBER OF FILES  0
+Directory  controller
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/entity
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.entity.BillPosition_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/2/evosuite-tests/pl/edu/wat/wcy/pz/restaurantServer/controller
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest
+pl.edu.wat.wcy.pz.restaurantServer.controller.BillPositionController_ESTest

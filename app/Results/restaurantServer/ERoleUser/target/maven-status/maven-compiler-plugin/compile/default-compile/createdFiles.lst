@@ -1,0 +1,12 @@
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/RoleRepositoryController.class
+pl/edu/wat/wcy/pz/restaurantServer/entity/Role.class
+pl/edu/wat/wcy/pz/restaurantServer/Request/ReservationRequest.class
+pl/edu/wat/wcy/pz/restaurantServer/DTO/Reservation.class
+pl/edu/wat/wcy/pz/restaurantServer/entity/User.class
+pl/edu/wat/wcy/pz/restaurantServer/repository/RoleRepository.class
+pl/edu/wat/wcy/pz/restaurantServer/Request/Impl/ReservationRequestImpl.class
+pl/edu/wat/wcy/pz/restaurantServer/entity/User$UserBuilder.class
+pl/edu/wat/wcy/pz/restaurantServer/repository/UserRepository.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/UserRepositoryController.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/UserController.class
+pl/edu/wat/wcy/pz/restaurantServer/Main.class

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Task details</title>
+    <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<th:block th:replace="fragments :: navigator" th:remove="tag"/>
+<main>
+    <div class="container">
+        <div>
+            <h2>Task<a th:href="@{'/task/edit/' + ${taskDetails.getId()}}"><i class="material-icons hoverable">edit</i></a></h2>
+        </div>
+        <table>
+            <tr>
+                <td>Task Id</td>
+                <td th:text="${taskDetails.getId()}"></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td th:text="${taskDetails.getDescription()}"></td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td th:text="${taskDetails.getStatus().getTextRepresentation()}"></td>
+            </tr>
+            <tr>
+                <td>Member responsible</td>
+                <td th:text="${taskDetails.getUserResponsible() != null ? (taskDetails.getUserResponsible().getFirstName() + ' ' + taskDetails.getUserResponsible().getLastName()) : 'Account deleted'}"></td>
+            </tr>
+            <tr>
+                <td>Project</td>
+                <td><a th:href="@{'/project/' + ${taskDetails.getProject().getId()}}" th:text="${taskDetails.getProject().getName()}"></a></td>
+            </tr>
+        </table>
+        <h2>Comments</h2>
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Text</th>
+                <th>Creator</th>
+                <th>Edit</th>
+                <th>Remove</th>
+            </tr>
+            <tr th:each="comment, index : ${taskComments}">
+                <td th:text="${index.index+1}"></td>
+                <td th:text="${comment.getType() != null ? comment.getType().getTextRepresentation() : 'No type'}"></td>
+                <td th:text="${comment.getText()}"></td>
+                <td th:text="${comment.getCreator() != null ? (comment.getCreator().getFirstName() + ' ' + comment.getCreator().getLastName()) : 'Account deleted'}"></td>
+                <td><a th:if="${creatorId==comment.getCreator().getId() || isAdmin}" th:href="@{'/comment/edit/'+${comment.getId()}}">Edit</a></td>
+                <td><a th:if="${creatorId==comment.getCreator().getId() || isAdmin}" th:href="@{'/comment/delete/'+${comment.getId()}}">Delete</a></td>
+            </tr>
+        </table>
+        <form th:action="@{/comment/add}" method="post" th:object="${newComment}">
+            <input type="number" hidden th:field="*{id}">
+            <input type="number" hidden th:name="userId" th:value="${creatorId}">
+            <input type="number" hidden th:name="taskId" th:value="${ownerId}">
+            <input type="text" th:field="*{text}" placeholder="Your comment">
+            <select th:field="*{type}" class="browser-default">
+                <option th:each="tp : ${commentTypes}"
+                        th:text="${tp.getTextRepresentation()}"
+                        th:value="${tp}"
+                        th:selected="${newComment.getType()==tp}"></option>
+            </select>
+            <button class="btn waves-effect waves-light" type="submit">Submit comment<i class="material-icons right">send</i></button>
+        </form>
+    </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

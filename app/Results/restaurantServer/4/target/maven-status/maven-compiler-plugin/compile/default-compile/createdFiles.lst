@@ -1,0 +1,9 @@
+pl/edu/wat/wcy/pz/restaurantServer/NEW/DishBillPositionService.class
+pl/edu/wat/wcy/pz/restaurantServer/service/DishService.class
+pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/DishServiceController.class
+pl/edu/wat/wcy/pz/restaurantServer/NEW/DishBillPositionController.class
+pl/edu/wat/wcy/pz/restaurantServer/entity/Dish.class
+pl/edu/wat/wcy/pz/restaurantServer/Main.class
+pl/edu/wat/wcy/pz/restaurantServer/controller/DishController.class
+pl/edu/wat/wcy/pz/restaurantServer/repository/DishRepository.class
+pl/edu/wat/wcy/pz/restaurantServer/entity/Dish$DishBuilder.class

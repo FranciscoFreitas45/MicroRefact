@@ -1,0 +1,14 @@
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Request/ReservationRequest.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/entity/RTable.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/RTableRepositoryController.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/RTableController.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/controller/RTableController.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Request/Impl/BillRequestImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/RTableServiceController.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Request/BillRequest.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/Reservation.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/repository/RTableRepository.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Main.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/Bill.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Request/Impl/ReservationRequestImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/3/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/service/RTableService.java

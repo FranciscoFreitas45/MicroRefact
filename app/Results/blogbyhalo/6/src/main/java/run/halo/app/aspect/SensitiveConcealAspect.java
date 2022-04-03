@@ -1,0 +1,41 @@
+package run.halo.app.aspect;
+ import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+import run.halo.app.model.entity.BaseComment;
+import run.halo.app.security.context.SecurityContextHolder;
+@Aspect
+@Component
+public class SensitiveConcealAspect {
+
+
+@Pointcut("within(run.halo.app.repository..*) " + "&& @annotation(run.halo.app.annotation.SensitiveConceal)")
+public void pointCut(){
+}
+
+
+public Object sensitiveMask(Object comment){
+    if (comment instanceof BaseComment) {
+        ((BaseComment) comment).setEmail("");
+        ((BaseComment) comment).setIpAddress("");
+    }
+    return comment;
+}
+
+
+@Around("pointCut()")
+public Object mask(ProceedingJoinPoint joinPoint){
+    Object result = joinPoint.proceed();
+    if (SecurityContextHolder.getContext().isAuthenticated()) {
+        return result;
+    }
+    if (result instanceof Iterable) {
+        ((Iterable<?>) result).forEach(this::sensitiveMask);
+    }
+    return sensitiveMask(result);
+}
+
+
+}

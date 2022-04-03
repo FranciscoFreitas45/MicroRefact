@@ -1,0 +1,4 @@
+id;user_id;security_group_id;created_by
+1;1;1;system
+2;3;1;system
+3;5;3;system

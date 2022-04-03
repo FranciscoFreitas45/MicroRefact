@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User editing form</title>
+    <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<th:block th:replace="fragments :: navigator" th:remove="tag"/>
+<main>
+    <div class="container">
+        <div class="row top-margin-10">
+        <form th:action="@{/user/save}" method="post" th:object="${newUser}" class="col s6 offset-s3">
+            <input type="number" hidden th:field="*{id}">
+            <input type="text" hidden th:field="*{username}">
+            <input type="text" hidden th:field="*{password}">
+            <input type="text" hidden th:field="${isAdmin}">
+            <input type="text" hidden th:field="*{accountNonExpired}">
+            <input type="text" hidden th:field="*{accountNonLocked}">
+            <input type="text" hidden th:field="*{credentialsNonExpired}">
+            <input type="text" hidden th:field="*{enabled}">
+            <input type="text" hidden th:field="*{nonHashedPassword}">
+            <label>First name<input type="text" th:field="*{firstName}"></label>
+            <label>Last name<input type="text" th:field="*{lastName}"></label>
+            <button class="btn waves-effect waves-light" type="submit">Submit user<i class="material-icons right">send</i></button>
+        </form>
+        </div>
+    </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

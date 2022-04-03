@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: upce.semprace.eshop.EshopApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.401 s <<< FAILURE! - in upce.semprace.eshop.EshopApplicationTests
+contextLoads  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'groovyMarkupConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/groovy/template/GroovyTemplateAutoConfiguration$GroovyMarkupConfiguration.class]: Invocation of init method failed; nested exception is java.lang.reflect.InaccessibleObjectException: Unable to make jdk.internal.loader.ClassLoaders$AppClassLoader(jdk.internal.loader.ClassLoaders$PlatformClassLoader,jdk.internal.loader.URLClassPath) accessible: module java.base does not "opens jdk.internal.loader" to unnamed module @255990cc
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make jdk.internal.loader.ClassLoaders$AppClassLoader(jdk.internal.loader.ClassLoaders$PlatformClassLoader,jdk.internal.loader.URLClassPath) accessible: module java.base does not "opens jdk.internal.loader" to unnamed module @255990cc
+

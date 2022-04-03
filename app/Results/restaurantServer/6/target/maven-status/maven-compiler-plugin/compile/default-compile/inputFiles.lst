@@ -1,0 +1,16 @@
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/controller/AuthController.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/Role.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/form/LoginForm.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/email/MailService.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/User.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Interface/RoleRepositoryImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Main.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Interface/JwtProvider.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/DTO/Reservation.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Interface/UserRepositoryImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Interface/JwtProviderImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Interface/UserRepository.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/Interface/RoleRepository.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/NEWInstance/MailServiceController.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/form/SignUpForm.java
+/home/fracisco/Desktop/MicroRefact/app/Results/restaurantServer/6/src/main/java/pl/edu/wat/wcy/pz/restaurantServer/form/response/JwtResponse.java

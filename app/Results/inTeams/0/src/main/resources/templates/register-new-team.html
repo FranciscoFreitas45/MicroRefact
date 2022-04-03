@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Team register form</title>
+    <th:block th:replace="fragments :: styles" th:remove="tag"/>
+</head>
+<body>
+<main>
+    <div class="container">
+        <div class="row top-margin-10">
+            <form class="col s6 offset-s3 vertical-centered" th:action="@{/register/team}" method="post" th:object="${registerInfo}">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="team_name" type="text" class="validate" th:field="*{teamName}">
+                        <label for="team_name">Team name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate" th:field="*{firstName}">
+                        <label for="first_name">First name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate" th:field="*{lastName}">
+                        <label for="last_name">Last name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="user_name" type="text" class="validate" th:field="*{username}">
+                        <label for="user_name">Username</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="password" type="password" class="validate" th:field="*{password}">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="confirm_password" type="password" class="validate" th:field="*{confirmPassword}">
+                        <label for="confirm_password">Confirm password</label>
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit">Submit team<i class="material-icons right">send</i></button>
+            </form>
+        </div>
+    </div>
+</main>
+<th:block th:replace="fragments :: scripts" th:remove="tag"/>
+</body>
+</html>

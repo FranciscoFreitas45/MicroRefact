@@ -1,0 +1,137 @@
+package com.lingxiang2014;
+ import org.springframework.boot.SpringApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.client.RestTemplate;
+import com.lingxiang2014.Interface.MemberService;
+import com.lingxiang2014.Interface.MemberServiceImpl;
+import com.lingxiang2014.Interface.InComeService;
+import com.lingxiang2014.Interface.InComeServiceImpl;
+import com.lingxiang2014.Interface.DepositService;
+import com.lingxiang2014.Interface.DepositServiceImpl;
+import com.lingxiang2014.Interface.MemberService;
+import com.lingxiang2014.Interface.MemberServiceImpl;
+import com.lingxiang2014.Interface.MemberService;
+import com.lingxiang2014.Interface.MemberServiceImpl;
+import com.lingxiang2014.Interface.Message;
+import com.lingxiang2014.Interface.MessageImpl;
+import com.lingxiang2014.Interface.Message;
+import com.lingxiang2014.Interface.MessageImpl;
+import com.lingxiang2014.Interface.Message;
+import com.lingxiang2014.Interface.MessageImpl;
+import com.lingxiang2014.Interface.Message;
+import com.lingxiang2014.Interface.MessageImpl;
+import com.lingxiang2014.Interface.Message;
+import com.lingxiang2014.Interface.MessageImpl;
+import com.lingxiang2014.Interface.Message;
+import com.lingxiang2014.Interface.MessageImpl;
+@SpringBootApplication
+public class Main {
+
+
+@Bean
+public RestTemplate restTemplate(){
+ 
+ return new RestTemplate();
+
+  }
+
+
+
+public static void main(String[] args){
+
+SpringApplication.run(Main.class,args);
+
+   }
+
+
+
+@Bean
+public MemberService memberservice(){
+
+return  new MemberServiceImpl(); 
+    }
+
+
+
+@Bean
+public InComeService incomeservice(){
+
+return  new InComeServiceImpl(); 
+    }
+
+
+
+@Bean
+public DepositService depositservice(){
+
+return  new DepositServiceImpl(); 
+    }
+
+
+
+@Bean
+public MemberService memberservice(){
+
+return  new MemberServiceImpl(); 
+    }
+
+
+
+@Bean
+public MemberService memberservice(){
+
+return  new MemberServiceImpl(); 
+    }
+
+
+
+@Bean
+public Message message(){
+
+return  new MessageImpl(); 
+    }
+
+
+
+@Bean
+public Message message(){
+
+return  new MessageImpl(); 
+    }
+
+
+
+@Bean
+public Message message(){
+
+return  new MessageImpl(); 
+    }
+
+
+
+@Bean
+public Message message(){
+
+return  new MessageImpl(); 
+    }
+
+
+
+@Bean
+public Message message(){
+
+return  new MessageImpl(); 
+    }
+
+
+
+@Bean
+public Message message(){
+
+return  new MessageImpl(); 
+    }
+
+
+
+}

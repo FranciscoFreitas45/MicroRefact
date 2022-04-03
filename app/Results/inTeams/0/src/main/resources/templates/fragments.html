@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <th:block th:fragment="styles">
+        <link rel="stylesheet"
+              th:href="@{https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css}">
+        <link th:href="@{https://fonts.googleapis.com/icon?family=Material+Icons}" rel="stylesheet">
+        <link th:href="@{/css/style.css}" rel="stylesheet">
+    </th:block>
+    <title>Title</title>
+</head>
+<body>
+
+<th:block th:fragment="navigator">
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a th:href="@{/}" class="brand-logo vertical-aligned">
+                        <img th:src="@{/images/logo.png}" style="margin-top: 8px;" height="48">
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li sec:authorize="hasRole('ADMIN')">
+                            <a class="nav-link" th:href="@{/admin}">Admin panel</a>
+                        </li>
+                        <li sec:authorize="hasRole('USER')">
+                            <a class="nav-link" th:href="@{/team}">My teams</a>
+                        </li>
+                        <li sec:authorize="isAuthenticated()">
+                            <a class="nav-link" th:href="@{/user/myaccount}">My account</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light btn" sec:authorize="isAuthenticated()"
+                               th:href="@{/logout}">Logout</a>
+                            <a class="waves-effect waves-light btn" sec:authorize="!isAuthenticated()"
+                               th:href="@{/login}">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+</th:block>
+
+<th:block th:fragment="scripts">
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js}"></script>
+</th:block>
+</body>
+</html>

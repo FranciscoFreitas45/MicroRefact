@@ -1,0 +1,2697 @@
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 4
+Total Number of directories 5
+Total: 9
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 4
+Total Number of directories 5
+Total: 9
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 4
+Total Number of directories 5
+Total: 9
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 4
+Total Number of directories 5
+Total: 9
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 4
+Total Number of directories 5
+Total: 9
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 4
+Total Number of directories 5
+Total: 9
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 6
+Total Number of directories 5
+Total: 11
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  exceptions
+NUMBER OF FILES  0
+Directory  Request
+NUMBER OF FILES  0
+Directory  entites
+NUMBER OF FILES  0
+Directory  NEW
+NUMBER OF FILES  0
+Directory  DTO
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/exceptions
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+Total number of files 8
+Total Number of directories 5
+Total: 13
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests
+Directory  com
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com
+Directory  cg
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg
+Directory  hbm
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm
+Directory  entites
+NUMBER OF FILES  0
+Directory  service
+NUMBER OF FILES  0
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/entites
+com.cg.hbm.entites.BookingDetails_ESTest
+com.cg.hbm.entites.BookingDetails_ESTest
+Searching in :  /home/fracisco/Desktop/MicroRefact/app/Results/hotelBookincomimportsámao/Hotel-Booking-Management-System/1/evosuite-tests/com/cg/hbm/service
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest
+com.cg.hbm.service.IBookingDetailsServiceImpl_ESTest

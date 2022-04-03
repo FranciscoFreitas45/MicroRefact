@@ -1,0 +1,8 @@
+com/project/stockexchangeappbackend/scheduler/StockPriceFixingSchedulerTest.class
+com/project/stockexchangeappbackend/service/StockServiceImplTest.class
+com/project/stockexchangeappbackend/StockExchangeAppBackendApplicationTests.class
+com/project/stockexchangeappbackend/service/OrderServiceImplTest.class
+com/project/stockexchangeappbackend/scheduler/StockPriceChangeRatioSchedulerTest.class
+com/project/stockexchangeappbackend/service/UserServiceImplTest.class
+com/project/stockexchangeappbackend/service/TagServiceImplTest.class
+com/project/stockexchangeappbackend/service/StockIndexValueServiceImplTest.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.oms.RoleControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.157 s - in com.cg.oms.RoleControllerIntegrationTest

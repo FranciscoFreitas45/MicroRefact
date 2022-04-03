@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.cg.oms.UserControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.843 s <<< FAILURE! - in com.cg.oms.UserControllerIntegrationTest
+testUserById  Time elapsed: 0.089 s  <<< ERROR!
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : [{"timestamp":"2021-11-16T14:45:58.265+00:00","status":404,"error":"Not Found","message":"No message available","path":"/User//Role/getRole"}]
+	at com.cg.oms.UserControllerIntegrationTest.testUserById(UserControllerIntegrationTest.java:103)
+

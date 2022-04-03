@@ -1,0 +1,13 @@
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/Main.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/message/request/SignUpForm.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/Interface/JwtProviderImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/Interface/UzivatelRepositoryImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/Interface/RoleRepositoryImpl.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/DTO/Nakup.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/Interface/UzivatelRepository.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/DTO/Role.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/DTO/Uzivatel.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/Interface/RoleRepository.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/Interface/JwtProvider.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/message/request/LoginForm.java
+/home/fracisco/Desktop/MicroRefact/app/Results/eshopSemPrace/0/src/main/java/upce/semprace/eshop/Controller/AuthRestAPIs.java
